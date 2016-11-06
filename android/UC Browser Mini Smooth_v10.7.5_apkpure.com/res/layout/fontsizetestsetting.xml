@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/scrollView1" android:layout_width="fill_parent" android:layout_height="600.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/t_fontsize_small" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="SMALL" />
+            <EditText android:id="@id/e_fontsize_small" android:layout_width="fill_parent" android:layout_height="wrap_content" android:ems="10">
+                <requestFocus />
+            </EditText>
+        </LinearLayout>
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/t_fontsize_medium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="MEDIUM" />
+            <EditText android:id="@id/e_fontsize_medium" android:layout_width="fill_parent" android:layout_height="wrap_content" android:ems="10" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/t_fontsize_large" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="LARGE" />
+            <EditText android:id="@id/e_fontsize_large" android:layout_width="fill_parent" android:layout_height="wrap_content" android:ems="10" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

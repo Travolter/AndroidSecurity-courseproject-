@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name_dot">UC Mini</string>
+    <string name="quality_low">Thấp</string>
+    <string name="quality_normal">Cỡ chuẩn</string>
+    <string name="quality_high">Cao</string>
+    <string name="quality_super">Siêu tốt</string>
+    <string name="download_waiting_text">Đang chờ</string>
+    <string name="download_connecting_text">Đang kết nối</string>
+    <string name="download_paused_text">Tạm dừng</string>
+    <string name="download_notif_time_remaining_text">%s còn</string>
+    <string name="download_notif_complete_text">Hoàn thành</string>
+    <string name="download_notif_failed_text">Lỗi</string>
+    <string name="download_file_size_unknown">Không xác định</string>
+    <string name="saved_time">Đã lưu</string>
+    <string name="download_insufficiant_storage">Không đủ bộ nhớ</string>
+    <string name="download_error_401_msg">Link hết hạn</string>
+    <string name="download_error_5xx_msg">Lỗi hệ thống</string>
+    <string name="video_tips_slide_to_control_position_and_volume">Vuốt sang trái/vuốt sang phải để tua video. Vuốt lên/xuống để chỉnh âm lượng.</string>
+    <string name="video_download_tip">Nhấp để xem sau!</string>
+    <string name="download_preparing_text">Đang chuẩn bị</string>
+    <string name="download_retrying_text">Đang thử lại(%s)</string>
+    <string name="download_paused_network_unavailable_text">Không có kết nối mạng</string>
+    <string name="download_paused_not_enough_space_text">Không đủ bộ nhớ</string>
+    <string name="download_paused_weak_network_text">Mạng chậm</string>
+    <string name="facebook_notification_title">Facebook for UC</string>
+    <string name="upgrade_notification_guide">Bạn chưa nâng cấp sao? %s %% đã lên bản mới rồi, nâng cấp LUÔN!</string>
+    <string name="upgrade_notification_title">Bản UC mới %s</string>
+</resources>

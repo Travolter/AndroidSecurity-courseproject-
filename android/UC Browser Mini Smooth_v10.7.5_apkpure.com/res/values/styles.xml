@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="multiwindow_dialog_animation">
+        <item name="android:windowEnterAnimation">@null</item>
+        <item name="android:windowExitAnimation">@null</item>
+    </style>
+    <style name="specialRatineBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:maxHeight">12.0dip</item>
+        <item name="android:minHeight">12.0dip</item>
+    </style>
+    <style name="controlbar_button_layout">
+        <item name="android:paddingTop">3.0dip</item>
+        <item name="android:layout_width">65.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="controlbar_barlayout">
+        <item name="item_textVisibility">visible</item>
+    </style>
+    <style name="controlbar_button_text">
+        <item name="android:textSize">@dimen/controlbar_text_size</item>
+        <item name="android:textColor">@color/controlbar_text</item>
+        <item name="android:visibility">gone</item>
+    </style>
+    <style name="controlbar_button_image">
+        <item name="android:layout_width">@dimen/controlbar_button_image_width</item>
+        <item name="android:layout_height">@dimen/controlbar_button_image_height</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+    <style name="controlbar2_button_image">
+        <item name="android:layout_width">@dimen/controlbar_button_image_width</item>
+        <item name="android:layout_height">@dimen/controlbar_button_image_height</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+    <style name="maincontent_list_text">
+        <item name="android:textSize">@dimen/listitem_title_text</item>
+    </style>
+    <style name="spinner_list_text">
+        <item name="android:textSize">@dimen/listitem_title_text</item>
+        <item name="android:textColor">#ff000000</item>
+    </style>
+    <style name="page_loading">
+        <item name="android:textSize">@dimen/progressbar_text_size</item>
+        <item name="android:textColor">@color/default_text</item>
+    </style>
+    <style name="maincontent_button_text">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textColor">#ff666666</item>
+    </style>
+    <style name="fullscreen_controlbar_image">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="CustomDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="dialogAni" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/dialog_fade_in</item>
+    </style>
+    <style name="AutoCompleteTextView">
+        <item name="android:textAppearance">?android:textAppearanceLargeInverse</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:completionHintView">@android:layout/simple_dropdown_item_1line</item>
+        <item name="android:completionThreshold">2</item>
+        <item name="android:dropDownSelector">@android:drawable/list_selector_background</item>
+        <item name="android:popupBackground">@android:drawable/spinner_dropdown_background</item>
+    </style>
+    <style name="EditorActivityAnimation">
+        <item name="android:activityOpenEnterAnimation">@anim/fade_in_editor</item>
+        <item name="android:activityOpenExitAnimation">@anim/alpha_out_activity</item>
+        <item name="android:activityCloseEnterAnimation">@null</item>
+        <item name="android:activityCloseExitAnimation">@anim/fade_out_editor</item>
+        <item name="android:taskOpenEnterAnimation">@anim/fade_in_editor</item>
+        <item name="android:taskOpenExitAnimation">@anim/fade_out_editor</item>
+        <item name="android:taskCloseEnterAnimation">@anim/fade_in_editor</item>
+        <item name="android:taskCloseExitAnimation">@anim/fade_out_editor</item>
+        <item name="android:taskToFrontEnterAnimation">@anim/fade_in_editor</item>
+        <item name="android:taskToFrontExitAnimation">@anim/fade_out_editor</item>
+        <item name="android:taskToBackEnterAnimation">@anim/fade_in_editor</item>
+        <item name="android:taskToBackExitAnimation">@anim/fade_out_editor</item>
+    </style>
+    <style name="NotificationLargeIcon">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:adjustViewBounds">true</item>
+    </style>
+    <style name="NotificationTitle">
+        <item name="android:textSize">@dimen/notification_content_title_size</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="NotificationTitleSmall">
+        <item name="android:textSize">@dimen/notification_content_title_size_small</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="NotificationText">
+        <item name="android:textSize">@dimen/notification_content_text_size</item>
+        <item name="android:textColor">#ff999999</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="NotificationButton">
+        <item name="android:textSize">@dimen/notification_content_text_size</item>
+        <item name="android:textColor">@color/notification_content_title_color</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/notification_action_button_selector</item>
+    </style>
+    <style name="BrowserStart" parent="@android:style/Theme.Black.NoTitleBar.Fullscreen" />
+    <style name="Foo" parent="@android:style/Theme">
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="Editor" parent="@style/Foo">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowAnimationStyle">@style/EditorActivityAnimation</item>
+    </style>
+    <style name="BackgroundTheme">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:textCursorDrawable">@drawable/edittext_cursor_bg</item>
+    </style>
+    <style name="context_menu" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="multi_window_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@style/multiwindow_dialog_animation</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="quit_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="notice_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:backgroundDimAmount">0.3</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="bookmark_dialog_transparent" parent="@android:style/Theme.Translucent">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="dialog_transparent" parent="@android:style/Theme.Translucent">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="Transparent">
+        <item name="android:colorForeground">#ffffffff</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="Transparent2">
+        <item name="android:windowBackground">@color/transparent2</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="Transparent3" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@color/transparent2</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+</resources>

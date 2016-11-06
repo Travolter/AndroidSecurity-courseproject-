@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/websiteRelativeLayout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/address_bar_textView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.uc.browser.WebsiteSearchListView android:id="@id/address_input_list" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/add_sch_height" android:layout_marginBottom="5.0px" android:cacheColorHint="#00000000" android:divider="#ffdbdbdb" android:dividerHeight="1.0px" android:footerDividersEnabled="true" />
+    <RelativeLayout android:orientation="horizontal" android:id="@id/address_emptyinput_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="14.659973sp" android:gravity="center" android:id="@id/mostvisited_textView" android:layout_width="fill_parent" android:layout_height="41.329987dip" />
+        <com.uc.browser.homepage.view.WidgetView android:orientation="horizontal" android:id="@id/address_mostvisited_view" android:paddingTop="14.659973dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/mostvisited_textView" />
+        <RelativeLayout android:id="@id/mostvisited_blank_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:id="@id/mostvisited_blank_center_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/download_blank_center_layout_margin_top" android:layout_centerHorizontal="true">
+                <ImageView android:layout_gravity="center_horizontal" android:id="@id/mostvisited_blank_page_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:textSize="16.0sp" android:layout_gravity="center_horizontal" android:id="@id/mostvisited_blank_page_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="26.665985dip" />
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout android:orientation="horizontal" android:id="@id/address_bar_input" android:layout_width="fill_parent" android:layout_height="@dimen/add_sch_height">
+        <ImageView android:id="@id/address_bar_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:id="@id/search_engine_icon_layout" android:paddingLeft="@dimen/add_sch_engineicon_layout_paddingleft" android:paddingRight="@dimen/add_sch_engineicon_layout_paddingRight" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <ImageView android:id="@id/search_engine_icon" android:paddingTop="14.0dip" android:paddingBottom="14.0dip" android:layout_width="@dimen/address_search_icon_size" android:layout_height="fill_parent" android:scaleType="fitCenter" />
+            </RelativeLayout>
+            <com.uc.browser.UCEditText android:textColorHighlight="#ff2a77c5" android:id="@id/address_bar_editText" android:padding="0.0dip" android:nextFocusRight="@id/address_input_state" android:layout_width="0.0dip" android:layout_height="fill_parent" android:singleLine="true" android:selectAllOnFocus="true" android:layout_weight="3.6" android:inputType="textUri" />
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/clear_button" android:padding="2.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginRight="13.0dip" android:scaleType="centerInside" android:layout_weight="0.4" />
+            <TextView android:ellipsize="end" android:gravity="center" android:id="@id/address_input_state" android:focusable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:singleLine="true" android:layout_weight="1.0" />
+        </LinearLayout>
+    </RelativeLayout>
+    <ScrollView android:id="@id/search_engine_srollview" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/add_sch_height">
+        <LinearLayout android:orientation="vertical" android:id="@id/search_engine_list" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </ScrollView>
+</RelativeLayout>

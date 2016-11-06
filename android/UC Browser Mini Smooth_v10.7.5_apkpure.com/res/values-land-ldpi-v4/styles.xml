@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="controlbar_button_layout">
+        <item name="android:paddingTop">3.0px</item>
+        <item name="android:layout_width">60.0px</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="controlbar_button_text">
+        <item name="android:textSize">@dimen/controlbar_text_size</item>
+        <item name="android:textColor">@color/controlbar_text</item>
+        <item name="android:visibility">gone</item>
+    </style>
+</resources>

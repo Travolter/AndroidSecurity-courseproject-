@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/uc_popup_divider" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/uc_custom_dialog_action_button_layout" android:layout_width="fill_parent" android:layout_height="41.0dip">
+        <Button android:textSize="@dimen/uc_custom_dialog_item_text_size" android:textStyle="bold" android:ellipsize="end" android:gravity="center" android:id="@id/uc_popup_left_button" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:maxLines="2" android:layout_weight="1.0" />
+        <ImageView android:id="@id/uc_popup_btn_divider1" android:layout_width="1.0px" android:layout_height="fill_parent" />
+        <Button android:textSize="@dimen/uc_custom_dialog_item_text_size" android:textStyle="bold" android:ellipsize="end" android:gravity="center" android:id="@id/uc_popup_neutral_button" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:maxLines="2" android:layout_weight="1.0" />
+        <ImageView android:id="@id/uc_popup_btn_divider2" android:layout_width="1.0px" android:layout_height="fill_parent" />
+        <Button android:textSize="@dimen/uc_custom_dialog_item_text_size" android:textStyle="bold" android:ellipsize="end" android:gravity="center" android:id="@id/uc_popup_right_button" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:maxLines="2" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

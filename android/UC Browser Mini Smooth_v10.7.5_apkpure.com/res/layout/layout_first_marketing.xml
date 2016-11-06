@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.uc.userguide.FirstMarketingView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.uc.widget.tabbar.TabWidget android:id="@id/tw_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/ll_indicator_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="70.0dip" android:layout_alignParentBottom="true">
+        <ImageView android:id="@id/iv_first" android:background="@drawable/initdot1" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ImageView android:id="@id/iv_second" android:background="@drawable/initdot3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" />
+        <ImageView android:id="@id/iv_third" android:background="@drawable/initdot3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" />
+    </LinearLayout>
+</com.uc.userguide.FirstMarketingView>

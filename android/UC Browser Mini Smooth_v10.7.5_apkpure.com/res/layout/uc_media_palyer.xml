@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.uc.browser.mediaplayer.UcMediaPlayer android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.uc.browser.mediaplayer.UCSurfaceLayout android:id="@id/media_player_surface_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <SurfaceView android:layout_gravity="center" android:id="@id/media_player_surface_view" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </com.uc.browser.mediaplayer.UCSurfaceLayout>
+    <RelativeLayout android:id="@id/media_player_top_layout" android:background="#9911181e" android:paddingLeft="18.666992dip" android:paddingRight="13.332977dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="56.0dip">
+        <ImageView android:id="@id/media_player_exit_button" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+        <TextView android:textSize="14.666992sp" android:textColor="@color/video_player_media_name" android:ellipsize="middle" android:gravity="center|left" android:id="@id/media_player_name_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="16.0dip" android:singleLine="true" android:layout_toLeftOf="@id/media_player_electric_power_image" android:layout_toRightOf="@id/media_player_exit_button" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/media_player_electric_power_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6.666992dip" android:layout_toLeftOf="@id/media_player_clock_text" android:layout_centerVertical="true" />
+        <TextView android:textSize="12.0sp" android:textColor="#ffb2b2b2" android:id="@id/media_player_clock_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/download_toast" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="13.332977sp" android:textColor="#ff000000" android:id="@id/download_toast_head" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/media_player_slide_position_volume_layout" android:background="#990c0c0e" android:layout_width="143.33298dip" android:layout_height="66.66699dip" android:layout_centerInParent="true">
+        <LinearLayout android:orientation="vertical" android:id="@id/media_player_slide_position_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true">
+            <TextView android:textSize="29.332977sp" android:textColor="@color/video_player_media_name" android:ellipsize="middle" android:gravity="center" android:id="@id/media_player_slide_position_text" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <TextView android:textSize="13.332977sp" android:textColor="@color/video_player_media_name" android:ellipsize="middle" android:gravity="center" android:id="@id/media_player_slide_change_position_text" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/media_player_slide_volume_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/media_player_slide_volume_image" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="29.332977sp" android:textColor="@color/video_player_media_name" android:ellipsize="middle" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/media_player_slide_volume_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="13.332977dip" />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/media_player_center_view" android:layout_width="100.0dip" android:layout_height="100.0dip" android:layout_centerInParent="true">
+        <com.uc.browser.mediaplayer.RotateView android:id="@id/media_player_loading_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+        <LinearLayout android:orientation="vertical" android:id="@id/media_player_center_percent_speed_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <TextView android:textSize="24.0sp" android:textColor="#ffffffff" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/buffering_percent" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <TextView android:textSize="12.0sp" android:textColor="#ffa4a4a4" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/media_player_speed_text" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </RelativeLayout>
+    <Button android:id="@id/media_player_center_play_button" android:background="@drawable/media_player_center_play_selector" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <LinearLayout android:orientation="vertical" android:id="@id/media_player_quality_layout" android:visibility="gone" android:layout_width="160.0dip" android:layout_height="wrap_content" android:layout_marginRight="45.0dip" android:layout_above="@id/media_player_bottom_layout" android:layout_alignParentRight="true">
+        <TextView android:textSize="16.0sp" android:ellipsize="end" android:gravity="center" android:id="@id/media_player_super_quality_text" android:paddingLeft="17.332977dip" android:paddingRight="17.332977dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="46.666992dip" android:singleLine="true" />
+        <TextView android:textSize="16.0sp" android:ellipsize="end" android:gravity="center" android:id="@id/media_player_hight_quality_text" android:paddingLeft="17.332977dip" android:paddingRight="17.332977dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="46.666992dip" android:singleLine="true" />
+        <TextView android:textSize="16.0sp" android:ellipsize="end" android:gravity="center" android:id="@id/media_player_normal_quality_text" android:paddingLeft="17.332977dip" android:paddingRight="17.332977dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="46.666992dip" android:singleLine="true" />
+        <TextView android:textSize="16.0sp" android:ellipsize="end" android:gravity="center" android:id="@id/media_player_low_quality_text" android:paddingLeft="17.332977dip" android:paddingRight="17.332977dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="46.666992dip" android:singleLine="true" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/media_player_bottom_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="61.332977dip" android:layout_alignParentBottom="true">
+        <RelativeLayout android:id="@id/media_player_control_layout" android:background="#9911181e" android:paddingLeft="17.332977dip" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginTop="13.332977dip" android:layout_alignParentBottom="true">
+            <ImageView android:id="@id/media_player_play_pause_button" android:layout_width="48.0dip" android:layout_height="fill_parent" android:scaleType="center" />
+            <TextView android:textSize="12.0sp" android:textColor="#ffb2b2b2" android:gravity="center|left" android:id="@id/media_player_now_time_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/video_player_play_margin_right" android:layout_toRightOf="@id/media_player_play_pause_button" android:layout_centerVertical="true" />
+            <TextView android:textSize="12.0sp" android:textColor="#ffb2b2b2" android:gravity="center|left|top" android:id="@id/media_player_total_time_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/media_player_bottom_right_layout" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true">
+                <TextView android:textSize="16.0sp" android:textColor="@drawable/video_player_select_quality_selector" android:gravity="center|left" android:id="@id/media_player_select_quality_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="16.666992dip" />
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/media_player_control_download_divider_image" android:background="#33ffffff" android:layout_width="1.0px" android:layout_height="20.0dip" />
+                <ImageView android:id="@id/media_player_download" android:layout_width="53.332977dip" android:layout_height="fill_parent" android:scaleType="center" />
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/media_player_control_switch_divider_image" android:background="#33ffffff" android:layout_width="1.0px" android:layout_height="20.0dip" />
+                <ImageView android:id="@id/media_player_switch_button" android:layout_width="53.332977dip" android:layout_height="fill_parent" android:scaleType="center" />
+            </LinearLayout>
+        </RelativeLayout>
+        <SeekBar android:id="@id/media_player_seekbar_position" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="26.666992dip" android:layout_marginLeft="0.0dip" android:layout_marginRight="0.0dip" android:maxHeight="3.0dip" android:progressDrawable="@drawable/video_player_seekbar_progress_style" android:minHeight="3.0dip" android:thumb="@drawable/video_player_seekbar_slider" android:thumbOffset="@dimen/video_player_seekbar_thumb_offset" />
+    </RelativeLayout>
+</com.uc.browser.mediaplayer.UcMediaPlayer>

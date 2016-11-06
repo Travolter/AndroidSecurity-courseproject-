@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="first_marketing_image_margin_top">80.0dip</dimen>
+    <dimen name="first_marketing_text_margin_top">16.0dip</dimen>
+    <dimen name="feedback_submit_title_height">40.0dip</dimen>
+    <dimen name="feedback_submit_multi_edt_height">60.0dip</dimen>
+    <dimen name="feedback_submit_single_edt_height">26.0dip</dimen>
+    <dimen name="feedback_submit_submit_container_height">50.0dip</dimen>
+    <dimen name="feedback_submit_submit_btn_height">32.0dip</dimen>
+    <dimen name="facebook_screenlock_time_margin_top">20.0dip</dimen>
+    <dimen name="facebook_screenlock_time_margin_bottom">12.0dip</dimen>
+    <dimen name="multiwindow_list_max_height">595.0px</dimen>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="progressbar_height">18.0px</dimen>
+    <dimen name="dialog_content_max_height">80.0dip</dimen>
+    <dimen name="channel_padding_left">25.0px</dimen>
+    <dimen name="channel_padding_right">25.0px</dimen>
+    <dimen name="add_sch_engine_divider_width">285.0px</dimen>
+    <dimen name="mutiwindowlist_shortcuttext_padding_top">25.0px</dimen>
+    <dimen name="mutiwindowlist_maxtitletextlength">220.0px</dimen>
+    <dimen name="add_sch_enginelist_width">310.0px</dimen>
+    <dimen name="add_sch_schengine_width">48.0px</dimen>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.uc.browser.UCTitleBar android:id="@id/file_manager_layout_titlebar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <RelativeLayout android:id="@id/file_manager_bottom_layout" android:layout_width="fill_parent" android:layout_height="@dimen/download_controlbar_height" android:layout_alignParentBottom="true">
+        <ImageView android:id="@id/file_manager_layout_bottom_new_folder_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <TextView android:textSize="15.0sp" android:textColor="#ff000000" android:id="@id/no_sd_card_warning" android:background="#ffffffff" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/file_manager_bottom_layout" android:layout_below="@id/file_manager_layout_titlebar" />
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/uc_popup_divider" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <Button android:textSize="@dimen/uc_custom_dialog_item_text_size" android:textStyle="bold" android:ellipsize="end" android:gravity="center" android:id="@id/uc_popup_view_button" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="41.0dip" android:maxLines="2" />
+</LinearLayout>

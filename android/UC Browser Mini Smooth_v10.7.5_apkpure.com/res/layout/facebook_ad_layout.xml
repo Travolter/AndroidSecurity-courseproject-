@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.uc.download.view.FacebookAdLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/facebook_ad_title_layout" android:layout_width="fill_parent" android:layout_height="20.0dip" android:layout_marginTop="10.0dip">
+        <View android:id="@id/facebook_ad_title_left_divider_image" android:layout_width="fill_parent" android:layout_height="1.5px" android:layout_toLeftOf="@id/facebook_ad_recommend_text" android:layout_centerVertical="true" />
+        <View android:id="@id/facebook_ad_title_right_divider_image" android:layout_width="fill_parent" android:layout_height="1.5px" android:layout_toRightOf="@id/facebook_ad_recommend_text" android:layout_centerVertical="true" />
+        <TextView android:textSize="14.0sp" android:id="@id/facebook_ad_recommend_text" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/facebook_ad_content_layout" android:layout_width="fill_parent" android:layout_height="67.0dip">
+        <com.uc.download.view.UCImageView android:id="@id/facebook_ad_icon_image" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginLeft="10.0dip" android:scaleType="fitXY" android:layout_centerVertical="true" />
+        <View android:id="@id/facebook_ad_vertical_divider" android:paddingTop="3.0dip" android:paddingBottom="3.0dip" android:layout_width="0.5px" android:layout_height="45.0dip" android:layout_marginLeft="8.0dip" android:layout_toRightOf="@id/facebook_ad_icon_image" android:layout_centerVertical="true" />
+        <LinearLayout android:orientation="vertical" android:id="@id/facebook_ad_center_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="15.0dip" android:layout_toLeftOf="@id/facebook_ad_action_text" android:layout_toRightOf="@id/facebook_ad_vertical_divider" android:layout_centerVertical="true">
+            <TextView android:textSize="15.0sp" android:textStyle="bold" android:ellipsize="end" android:id="@id/facebook_ad_title_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:textSize="10.0sp" android:ellipsize="end" android:id="@id/facebook_ad_body_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:singleLine="true" />
+            <com.uc.download.view.UCRatingBar android:id="@id/facebook_ad_ratingbar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:stepSize="0.5" android:isIndicator="true" style="@style/specialRatineBar" />
+        </LinearLayout>
+        <TextView android:textSize="13.0sp" android:id="@id/facebook_ad_action_text" android:paddingLeft="6.0dip" android:paddingTop="6.0dip" android:paddingRight="6.0dip" android:paddingBottom="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</com.uc.download.view.FacebookAdLayout>

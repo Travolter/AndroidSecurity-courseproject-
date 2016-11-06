@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.uc.browser.ShortcutPannelLayout android:orientation="vertical" android:id="@id/short_pannel" android:paddingLeft="7.0dip" android:paddingTop="9.0dip" android:paddingRight="7.0dip" android:paddingBottom="9.0dip" android:visibility="visible" android:layout_width="217.32999dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/shortcut1" android:paddingRight="13.0dip" android:layout_width="fill_parent" android:layout_height="45.329987dip">
+        <TextView android:textSize="@dimen/menu_item_text_font_size" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/shortcut_text" android:paddingLeft="13.0dip" android:paddingRight="13.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="2" android:layout_weight="1.26" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/shortcut_switch_image" android:layout_width="0.0dip" android:layout_height="22.0dip" android:scaleType="centerInside" android:layout_weight="0.41" />
+    </LinearLayout>
+    <View android:id="@id/shortcut_devider_line1" android:layout_width="fill_parent" android:layout_height="0.666dip" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/shortcut2" android:paddingRight="13.0dip" android:layout_width="fill_parent" android:layout_height="45.329987dip">
+        <TextView android:textSize="@dimen/menu_item_text_font_size" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/shortcut_text" android:paddingLeft="13.0dip" android:paddingRight="13.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="2" android:layout_weight="1.26" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/shortcut_switch_image" android:layout_width="0.0dip" android:layout_height="22.0dip" android:scaleType="centerInside" android:layout_weight="0.41" />
+    </LinearLayout>
+    <View android:id="@id/shortcut_devider_line2" android:layout_width="217.32999dip" android:layout_height="0.666dip" />
+    <FrameLayout android:id="@id/shortcut3" android:layout_width="fill_parent" android:layout_height="45.329987dip">
+        <TextView android:textSize="@dimen/menu_item_text_font_size" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/shortcut_text" android:paddingLeft="13.0dip" android:paddingRight="13.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <View android:id="@id/shortcut_devider_line3" android:layout_width="217.32999dip" android:layout_height="0.666dip" />
+    <FrameLayout android:id="@id/shortcut4" android:layout_width="fill_parent" android:layout_height="45.329987dip">
+        <TextView android:textSize="@dimen/menu_item_text_font_size" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/shortcut_text" android:paddingLeft="13.0dip" android:paddingRight="13.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+</com.uc.browser.ShortcutPannelLayout>

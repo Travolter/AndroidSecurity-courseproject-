@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.uc.browser.media.myvideo.view.MyVideoItemView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/myvideo_thumbnail_image" android:layout_width="66.0dip" android:layout_height="49.332977dip" android:layout_marginLeft="14.0dip" android:layout_marginTop="12.0dip" android:scaleType="fitXY" />
+    <ImageView android:id="@id/myvideo_new_image" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="66.66699dip" android:layout_marginTop="6.666992dip" />
+    <RelativeLayout android:id="@id/myvideo_item_info_layout" android:layout_width="fill_parent" android:layout_height="73.33298dip" android:layout_marginLeft="14.0dip" android:layout_marginRight="14.0dip" android:layout_toRightOf="@id/myvideo_thumbnail_image" android:layout_alignParentRight="true">
+        <TextView android:textSize="14.666992sp" android:ellipsize="end" android:id="@id/myvideo_item_name_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" android:singleLine="true" />
+        <ImageView android:id="@id/myvideo_item_mins_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13.332977dip" android:layout_below="@id/myvideo_item_name_text" />
+        <TextView android:textSize="12.0sp" android:ellipsize="end" android:id="@id/myvideo_item_mins_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginTop="12.0dip" android:singleLine="true" android:layout_toRightOf="@id/myvideo_item_mins_image" android:layout_below="@id/myvideo_item_name_text" android:layout_alignParentLeft="true" />
+        <ImageView android:id="@id/myvideo_item_filesize_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="96.66699dip" android:layout_marginTop="13.332977dip" android:layout_below="@id/myvideo_item_name_text" />
+        <TextView android:textSize="12.0sp" android:ellipsize="end" android:id="@id/myvideo_item_filesize_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginTop="12.0dip" android:singleLine="true" android:layout_toRightOf="@id/myvideo_item_filesize_image" android:layout_below="@id/myvideo_item_name_text" />
+    </RelativeLayout>
+</com.uc.browser.media.myvideo.view.MyVideoItemView>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.uc.browser.guide.PinFacebookToLauncherLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/pin_facebook_to_launcher_top_divider_image" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <RelativeLayout android:id="@id/pin_facebook_to_launcher_title_layout" android:layout_width="wrap_content" android:layout_height="33.332977dip" android:layout_marginLeft="18.666992dip" android:layout_marginTop="13.332977dip" android:layout_marginRight="18.666992dip">
+        <ImageView android:id="@id/pin_facebook_to_launcher_title_icon" android:layout_width="33.332977dip" android:layout_height="33.332977dip" android:scaleType="fitXY" />
+        <TextView android:textSize="14.666992sp" android:ellipsize="end" android:id="@id/pin_facebook_to_launcher_title_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="13.332977dip" android:singleLine="true" android:layout_toRightOf="@id/pin_facebook_to_launcher_title_icon" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <TextView android:textSize="12.0sp" android:ellipsize="end" android:id="@id/pin_facebook_to_launcher_summary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="18.666992dip" android:layout_marginTop="13.332977dip" android:layout_marginRight="18.666992dip" android:maxLines="3" />
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/pin_facebook_to_launcher_button_layout" android:layout_width="wrap_content" android:layout_height="30.0dip" android:layout_marginTop="13.332977dip">
+        <TextView android:textSize="14.666992sp" android:gravity="center" android:id="@id/pin_facebook_to_launcher_nope_button" android:layout_width="133.33298dip" android:layout_height="fill_parent" />
+        <TextView android:textSize="14.666992sp" android:gravity="center" android:id="@id/pin_facebook_to_launcher_pin_button" android:layout_width="133.33298dip" android:layout_height="fill_parent" android:layout_marginLeft="13.332977dip" />
+    </LinearLayout>
+    <View android:id="@id/bottom_view" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="13.332977dip" />
+</com.uc.browser.guide.PinFacebookToLauncherLayout>

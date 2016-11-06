@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.Toolbar android:id="@id/toolbar" android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?actionBarSize" app:popupTheme="@style/ToolbarPopup" app:theme="@style/Toolbar" />
+    <FrameLayout android:id="@id/container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/llAdvertise" android:layout_below="@id/tabs" />
+    <ProgressBar android:layout_gravity="center" android:id="@id/progressBar" android:background="@drawable/progressbar_bg" android:padding="@dimen/default_margin" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" android:layout_centerInParent="true" />
+    <RelativeLayout android:orientation="vertical" android:id="@id/ProgressLayout" android:background="@color/color_progress_bar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/tabs">
+        <TextView android:textColor="@color/color_white" android:id="@id/textViewProgress" android:padding="@dimen/small_margin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Gegevens ophalen ..." android:layout_centerInParent="true" />
+        <ProgressBar android:id="@id/progressBar1" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_margin="4.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/tabs" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/toolbar">
+        <Button android:id="@id/btn_tab_graph" android:text="@string/tab_graph" style="@style/MainButton" />
+        <Button android:id="@id/btn_tab_weathermap" android:text="@string/tab_weathermap" style="@style/MainButton" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/llAdvertise" android:background="@color/color_black" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="52.0dip" android:layout_alignParentBottom="true">
+        <View android:background="@color/color_ad_divider" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/rlOverlayAdBackground" android:background="#cc000000" android:visibility="invisible" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/ivAdClose" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="16.0dip" android:src="@drawable/ic_cancel_white_48dp" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/rlOverlayAd" android:visibility="gone" android:layout_width="300.0dip" android:layout_height="250.0dip" android:layout_centerInParent="true" />
+</RelativeLayout>

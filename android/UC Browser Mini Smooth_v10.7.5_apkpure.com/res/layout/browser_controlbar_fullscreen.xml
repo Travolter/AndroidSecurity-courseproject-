@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:uc="http://schemas.android.com/apk/res/com.uc.browser">
+    <RelativeLayout android:id="@id/controlbar_fs_main_default" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="12.0dip">
+        <ImageView android:id="@id/controlbar_fs_popup" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.659973dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+        <ImageView android:id="@id/controlbar_fs_stop" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="14.0dip" android:layout_toLeftOf="@id/controlbar_fs_popup" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <com.uc.browser.BarLayout android:id="@id/controlbar_fs_main" android:paddingTop="2.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/controlbar_height" android:layout_alignParentBottom="true" />
+    <com.uc.browser.ViewWebSch android:id="@id/inputurl_layout_fullscreen" android:layout_width="fill_parent" android:layout_height="@dimen/add_sch_height" android:layout_alignParentTop="true" />
+    <com.uc.widget.UCCustomProgressBar android:id="@id/title_progress_fullscreen" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="2.5499878dip" android:layout_alignParentTop="true" />
+</RelativeLayout>

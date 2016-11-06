@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="juc_text_small">14.0sp</dimen>
+    <dimen name="juc_text_medium">16.0sp</dimen>
+    <dimen name="juc_text_large">22.0sp</dimen>
+</resources>

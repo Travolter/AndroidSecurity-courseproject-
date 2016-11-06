@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dot_padding">2.0px</dimen>
+    <dimen name="progressbar_height">18.0px</dimen>
+    <dimen name="first_marketing_image_margin_top">10.0dip</dimen>
+    <dimen name="first_marketing_text_margin_top">10.0dip</dimen>
+    <dimen name="facebook_screenlock_time_margin_top">20.0dip</dimen>
+    <dimen name="facebook_screenlock_time_margin_bottom">12.0dip</dimen>
+</resources>

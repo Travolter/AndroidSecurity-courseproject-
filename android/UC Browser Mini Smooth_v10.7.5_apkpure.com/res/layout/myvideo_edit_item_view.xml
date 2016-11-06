@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.uc.browser.media.myvideo.view.MyVideoEditItem android:orientation="horizontal" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="73.33298dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBox android:layout_gravity="center_vertical" android:id="@id/myvideo_edit_item_checkbox" android:background="@null" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:button="@null" />
+    <include android:id="@id/myvideo_edit_item_right_layout" layout="@layout/myvideo_item_view" />
+</com.uc.browser.media.myvideo.view.MyVideoEditItem>

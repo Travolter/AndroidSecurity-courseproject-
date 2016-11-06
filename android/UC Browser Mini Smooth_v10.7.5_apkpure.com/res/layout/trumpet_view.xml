@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.uc.trumpet.TrumpetView android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/bc_titlebar" android:paddingTop="2.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/titlebar_height" android:layout_alignParentTop="true">
+        <TextView android:textSize="@dimen/title_text_size" android:textStyle="bold" android:textColor="@color/title_text" android:ellipsize="middle" android:gravity="center|left|top" android:id="@id/bc_title" android:paddingLeft="4.0dip" android:paddingTop="2.0dip" android:focusable="false" android:layout_width="fill_parent" android:layout_height="@dimen/titlebar_height" android:singleLine="true" android:shadowColor="#ff000000" android:shadowDx="2.2" android:shadowDy="2.2" android:drawableLeft="@drawable/bcmsg" />
+    </RelativeLayout>
+    <com.uc.browser.BarLayout android:id="@id/bc_controlbar" android:paddingLeft="10.0dip" android:paddingTop="2.0dip" android:paddingRight="10.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/controlbar_height" android:layout_alignParentBottom="true" />
+</com.uc.trumpet.TrumpetView>

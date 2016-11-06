@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:layout_gravity="center_horizontal" android:id="@id/download_accelerate_guide_progress_bar" android:layout_width="wrap_content" android:layout_height="2.6669922dip" android:max="100" android:indeterminate="false" style="@android:style/Widget.ProgressBar.Horizontal" />
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/download_accelerate_guide_tips_layout" android:layout_width="@dimen/download_accelerate_guide_tips_layout_width" android:layout_height="wrap_content">
+        <TextView android:textSize="14.666992sp" android:gravity="center" android:id="@id/download_accelerate_guide_tip_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="13.332977dip" android:layout_marginRight="20.0dip" />
+        <TextView android:textSize="14.666992sp" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/download_accelerate_guide_ok_button" android:layout_width="133.33298dip" android:layout_height="32.0dip" android:layout_marginTop="13.332977dip" />
+        <View android:id="@id/download_accelerate_guide_bottom_view" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="13.332977dip" />
+    </LinearLayout>
+</LinearLayout>

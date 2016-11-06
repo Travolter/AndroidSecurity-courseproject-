@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name_dot">UC Mini</string>
+    <string name="quality_low">Baixa</string>
+    <string name="quality_normal">Média</string>
+    <string name="quality_high">Alta</string>
+    <string name="quality_super">Super</string>
+    <string name="download_waiting_text">Esperando</string>
+    <string name="download_connecting_text">Conectando</string>
+    <string name="download_paused_text">Pausado</string>
+    <string name="download_notif_time_remaining_text">%s Restante</string>
+    <string name="download_notif_complete_text">Completo</string>
+    <string name="download_notif_failed_text">Falhou</string>
+    <string name="download_file_size_unknown">Desconhecido</string>
+    <string name="saved_time">Salvo</string>
+    <string name="download_insufficiant_storage">Espaço insuficiente</string>
+    <string name="download_error_401_msg">Link expirado</string>
+    <string name="download_error_5xx_msg">Problema no Servidor</string>
+    <string name="video_tips_slide_to_control_position_and_volume">Deslize o dedo para esquerda/direita para controlar o progresso. Deslize para cima/baixo para controlar o volume.</string>
+    <string name="video_download_tip">Toque aqui para assistir depois!</string>
+    <string name="download_preparing_text">Preparando</string>
+    <string name="download_retrying_text">tentando novamente(%s)</string>
+    <string name="download_paused_network_unavailable_text">Rede Indisponível</string>
+    <string name="download_paused_not_enough_space_text">Espaço Insuficiente</string>
+    <string name="download_paused_weak_network_text">Conexão Lenta</string>
+    <string name="facebook_notification_title">Facebook for UC</string>
+    <string name="upgrade_notification_guide">Ainda não atualizou? %s %% dos usuários já o fizeram. Faça você também!</string>
+    <string name="upgrade_notification_title">Novo UC %s</string>
+</resources>

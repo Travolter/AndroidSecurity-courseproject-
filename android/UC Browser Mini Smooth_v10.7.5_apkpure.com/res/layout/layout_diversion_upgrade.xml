@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="17.332977sp" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/upgrade_title" android:layout_width="240.0dip" android:layout_height="wrap_content" android:layout_marginTop="22.659973dip" android:singleLine="false" />
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/upgrade_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" />
+        <TextView android:textSize="12.0sp" android:gravity="left" android:layout_gravity="center_horizontal" android:id="@id/upgrade_desc" android:layout_width="240.0dip" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:singleLine="false" />
+        <CheckBox android:textSize="12.0sp" android:layout_gravity="center_horizontal" android:id="@id/upgrade_never" android:paddingLeft="6.665985dip" android:layout_width="240.0dip" android:layout_height="wrap_content" android:layout_marginTop="17.332977dip" android:layout_centerVertical="true" />
+        <LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/upgrade_btn" android:layout_width="240.0dip" android:layout_height="wrap_content" android:layout_marginTop="25.332977dip" android:layout_marginBottom="25.332977dip">
+            <TextView android:textSize="14.659973sp" android:gravity="center" android:id="@id/upgrade_cancel" android:layout_width="93.33298dip" android:layout_height="30.666992dip" />
+            <TextView android:textSize="14.659973sp" android:gravity="center" android:id="@id/upgrade_tryit" android:layout_width="93.33298dip" android:layout_height="30.666992dip" android:layout_marginLeft="30.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

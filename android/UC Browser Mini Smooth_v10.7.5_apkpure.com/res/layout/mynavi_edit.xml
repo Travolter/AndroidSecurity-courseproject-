@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.uc.browser.homepage.view.AddWidgetLayout android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/controlbar">
+        <com.uc.browser.TitleBarTextView android:textSize="@dimen/title_text_size" android:textStyle="bold" android:textColor="@color/title_text" android:gravity="center" android:id="@id/Browser_TitleBar" android:paddingLeft="4.0dip" android:paddingTop="2.0dip" android:focusable="false" android:layout_width="fill_parent" android:layout_height="@dimen/add_sch_height" android:singleLine="true" android:shadowColor="#ff555555" android:shadowDx="1.2" android:shadowDy="1.2" />
+        <RelativeLayout android:id="@id/mynavi_edit_layout" android:paddingLeft="13.332977dip" android:paddingTop="8.666992dip" android:paddingRight="13.332977dip" android:paddingBottom="12.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="50.666992dip">
+            <com.uc.browser.UCEditText android:id="@id/mynavi_url" android:paddingLeft="11.332977dip" android:paddingTop="8.666992dip" android:paddingRight="11.332977dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="11.332977dip" android:singleLine="true" android:layout_toLeftOf="@id/mynavi_ok_button" />
+            <Button android:textSize="14.666992sp" android:gravity="center" android:id="@id/mynavi_ok_button" android:paddingTop="8.666992dip" android:paddingBottom="12.0dip" android:visibility="visible" android:layout_width="60.0dip" android:layout_height="fill_parent" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <com.uc.browser.bookmark.BookmarkTabContainer android:id="@id/container" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <com.uc.browser.BarLayout android:id="@id/controlbar" android:paddingLeft="10.0dip" android:paddingTop="2.0dip" android:paddingRight="10.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/controlbar_height" android:layout_alignParentBottom="true" />
+</com.uc.browser.homepage.view.AddWidgetLayout>

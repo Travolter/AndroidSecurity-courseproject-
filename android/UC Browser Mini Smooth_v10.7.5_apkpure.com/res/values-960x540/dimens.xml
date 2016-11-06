@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="juc_text_small">16.0dip</dimen>
+    <dimen name="juc_text_medium">18.0dip</dimen>
+    <dimen name="juc_text_large">20.0dip</dimen>
+    <dimen name="first_marketing_image_margin_top">60.0dip</dimen>
+    <dimen name="first_marketing_text_margin_top">23.0dip</dimen>
+    <dimen name="feedback_submit_title_height">53.0dip</dimen>
+    <dimen name="feedback_submit_multi_edt_height">78.0dip</dimen>
+    <dimen name="feedback_submit_single_edt_height">38.0dip</dimen>
+    <dimen name="feedback_submit_submit_container_height">63.0dip</dimen>
+    <dimen name="feedback_submit_submit_btn_height">40.0dip</dimen>
+    <dimen name="multiwindow_list_max_height">680.0px</dimen>
+</resources>

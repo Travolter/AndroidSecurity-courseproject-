@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.uc.download.view.DownloadLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/download_layout_list_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/download_facebook_container_layout">
+        <ListView android:id="@id/download_layout_listview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:cacheColorHint="@android:color/transparent" />
+        <RelativeLayout android:id="@id/download_blank_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:id="@id/download_blank_center_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/download_blank_center_layout_margin_top" android:layout_centerHorizontal="true">
+                <ImageView android:layout_gravity="center_horizontal" android:id="@id/download_blank_page_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:textSize="16.0sp" android:layout_gravity="center_horizontal" android:id="@id/download_blank_page_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="33.332977dip" />
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+    <FrameLayout android:id="@id/download_facebook_container_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/download_bottom_layout" />
+    <RelativeLayout android:id="@id/download_bottom_layout" android:layout_width="fill_parent" android:layout_height="@dimen/download_controlbar_height" android:layout_alignParentBottom="true">
+        <ImageView android:id="@id/download_layout_bottom_delete_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.666992dip" android:layout_centerVertical="true" />
+        <TextView android:textSize="12.0sp" android:id="@id/download_available_space_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</com.uc.download.view.DownloadLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TableRow>
+            <TextView android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Test IP" />
+            <Spinner android:textColor="@color/white" android:id="@id/config_switch" android:layout_width="220.0dip" android:layout_height="48.0dip" />
+        </TableRow>
+        <TableRow>
+            <TextView android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="FoxServer" />
+            <EditText android:textColor="@color/white" android:id="@id/nemo_address" android:layout_width="220.0dip" android:layout_height="wrap_content" />
+        </TableRow>
+        <TableRow>
+            <TextView android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Dispatcher" />
+            <EditText android:textColor="@color/white" android:id="@id/dispatch_address" android:layout_width="220.0dip" android:layout_height="wrap_content" />
+        </TableRow>
+        <TableRow>
+            <TextView android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Statistics URL (http)" />
+            <EditText android:textColor="@color/white" android:id="@id/http_state_address" android:layout_width="220.0dip" android:layout_height="wrap_content" />
+        </TableRow>
+        <TableRow>
+            <TextView android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Statistics URL (https)" />
+            <EditText android:textColor="@color/white" android:id="@id/https_state_address" android:layout_width="220.0dip" android:layout_height="wrap_content" />
+        </TableRow>
+        <TableRow>
+            <TextView android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Swipe-Screen Timer" />
+            <EditText android:textColor="@color/white" android:id="@id/scrollTimer" android:layout_width="220.0dip" android:layout_height="wrap_content" />
+        </TableRow>
+        <TableRow>
+            <TextView android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="webkit UA" />
+            <EditText android:textColor="@color/white" android:id="@id/webkit_ua" android:layout_width="220.0dip" android:layout_height="wrap_content" />
+        </TableRow>
+        <TableRow>
+            <TextView android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="bid" />
+            <EditText android:textColor="@color/white" android:id="@id/bid" android:layout_width="220.0dip" android:layout_height="wrap_content" />
+        </TableRow>
+        <TableRow>
+            <TextView android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="versionState" />
+            <EditText android:textColor="@color/white" android:id="@id/versionState" android:layout_width="220.0dip" android:layout_height="wrap_content" />
+        </TableRow>
+        <TableRow>
+            <TextView android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Country Code" />
+            <EditText android:textColor="@color/white" android:id="@id/country_code" android:layout_width="220.0dip" android:layout_height="wrap_content" />
+        </TableRow>
+        <TableRow>
+            <Button android:textColor="@color/white" android:id="@id/debug_submit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ok" />
+        </TableRow>
+    </TableLayout>
+</ScrollView>

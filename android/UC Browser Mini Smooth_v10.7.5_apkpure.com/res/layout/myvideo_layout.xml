@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.uc.browser.media.myvideo.view.MyVideoLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/myvideo_layout_list_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ListView android:id="@id/myvideo_layout_listview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:cacheColorHint="@android:color/transparent" />
+        <RelativeLayout android:id="@id/myvideo_blank_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:id="@id/myvideo_blank_center_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/myvideo_blank_center_layout_margin_top" android:layout_centerHorizontal="true">
+                <ImageView android:layout_gravity="center_horizontal" android:id="@id/myvideo_blank_page_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:textSize="16.0sp" android:layout_gravity="center_horizontal" android:id="@id/myvideo_blank_page_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="34.666992dip" />
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</com.uc.browser.media.myvideo.view.MyVideoLayout>

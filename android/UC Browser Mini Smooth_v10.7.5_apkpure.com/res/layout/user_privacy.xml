@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#fff1f1f2" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <WebView android:id="@id/webView1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="5.0dip" android:layout_above="@id/dividerline" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <ImageView android:orientation="vertical" android:id="@id/dividerline" android:background="@drawable/line" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:layout_above="@id/ucBottomLayout" android:layout_alignParentLeft="true" />
+    <Button android:textSize="18.0sp" android:textColor="@color/privacy_button_text" android:id="@id/uCButton1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="30.0dip" android:minWidth="160.0dip" android:minHeight="37.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <LinearLayout android:id="@id/ucBottomLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:layout_marginBottom="14.0dip" android:layout_above="@id/uCButton1" android:layout_centerHorizontal="true">
+        <CheckBox android:id="@id/uCCheckBox1" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:button="@null" />
+        <TextView android:textSize="15.0sp" android:textColor="@color/privacy_text_agree_to_join" android:ellipsize="end" android:id="@id/ucTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="9.332977dip" android:layout_marginRight="10.0dip" android:singleLine="true" />
+    </LinearLayout>
+</RelativeLayout>

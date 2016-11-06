@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="controlbar_button_layout">
+        <item name="android:paddingTop">3.0dip</item>
+        <item name="android:layout_width">90.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="controlbar_barlayout">
+        <item name="item_textVisibility">gone</item>
+    </style>
+</resources>

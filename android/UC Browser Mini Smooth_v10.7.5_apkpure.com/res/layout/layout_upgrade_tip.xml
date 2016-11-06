@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_content" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="18.0sp" android:gravity="center_horizontal" android:layout_gravity="left" android:id="@id/tv_title" android:layout_width="240.0dip" android:layout_height="wrap_content" android:layout_marginLeft="25.0dip" android:layout_marginTop="15.0dip" />
+        <TextView android:textSize="14.0sp" android:gravity="left" android:layout_gravity="center_horizontal" android:id="@id/tv_desc" android:scrollbars="vertical" android:layout_width="240.0dip" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:maxHeight="100.0dip" android:singleLine="false" />
+        <LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/ll_btn" android:layout_width="240.0dip" android:layout_height="43.0dip" android:layout_marginTop="14.0dip">
+            <TextView android:id="@id/tv_upgrade" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView android:layout_gravity="center_horizontal" android:id="@id/tv_later" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:layout_marginBottom="18.0dip" />
+    </LinearLayout>
+    <ImageView android:layout_gravity="center|right|top" android:id="@id/iv_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</FrameLayout>

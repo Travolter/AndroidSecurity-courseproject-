@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="21.332977dip" android:paddingBottom="10.666992dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.666992sp" android:textColor="#ff4e4c59" android:ellipsize="end" android:gravity="left" android:id="@id/msg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/uc_custom_dialog_item_padding" android:singleLine="true" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/uc_custom_dialog_clear_history_layout" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="42.666992dip" android:layout_marginTop="11.332977dip">
+        <CheckBox android:layout_gravity="center_vertical" android:id="@id/uc_custom_dialog_clear_history_checkbox" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/uc_custom_dialog_item_padding" android:button="@null" />
+        <TextView android:textSize="@dimen/uc_custom_dialog_item_text_size" android:textColor="#ff4e4c59" android:ellipsize="end" android:gravity="left" android:layout_gravity="center_vertical" android:id="@id/uc_custom_dialog_clear_history_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="13.332977dip" android:layout_marginRight="@dimen/uc_custom_dialog_item_padding" android:singleLine="true" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/uc_custom_dialog_tip_layout" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="42.666992dip">
+        <CheckBox android:layout_gravity="center_vertical" android:id="@id/uc_custom_dialog_tip_checkbox" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/uc_custom_dialog_item_padding" android:button="@null" />
+        <TextView android:textSize="@dimen/uc_custom_dialog_item_text_size" android:textColor="#ff4e4c59" android:ellipsize="end" android:gravity="left" android:layout_gravity="center_vertical" android:id="@id/uc_custom_dialog_tip_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="13.332977dip" android:layout_marginRight="@dimen/uc_custom_dialog_item_padding" android:singleLine="true" />
+    </LinearLayout>
+</LinearLayout>

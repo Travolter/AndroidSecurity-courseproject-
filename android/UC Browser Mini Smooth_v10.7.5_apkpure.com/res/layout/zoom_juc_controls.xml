@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingRight="28.0dip" android:paddingBottom="@dimen/zoomcontrol_padding_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/zoom_out" android:layout_width="@dimen/zoom_button_widht" android:layout_height="@dimen/zoom_button_height" android:layout_alignParentLeft="true" />
+    <ImageView android:id="@id/zoom_in" android:layout_width="@dimen/zoom_button_widht" android:layout_height="@dimen/zoom_button_height" android:layout_toRightOf="@id/zoom_out" />
+</RelativeLayout>

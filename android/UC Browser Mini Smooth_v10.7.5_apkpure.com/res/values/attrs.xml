@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="background_left" format="reference" />
+    <attr name="background_right" format="reference" />
+    <attr name="item_background_default" format="reference" />
+    <attr name="item_background_selected" format="reference" />
+    <attr name="item_background_focus" format="reference" />
+    <attr name="item_background_pressed" format="reference" />
+    <attr name="item_h_space" format="dimension" />
+    <attr name="item_height" format="dimension" />
+    <attr name="item_width" format="dimension" />
+    <attr name="item_image_height" format="dimension" />
+    <attr name="item_image_width" format="dimension" />
+    <attr name="shadow_width" format="dimension" />
+    <attr name="need_checkmark" format="boolean" />
+    <attr name="num_size" format="dimension" />
+    <attr name="num_margin_left" format="dimension" />
+    <attr name="num_margin_top" format="dimension" />
+    <attr name="image_width" format="dimension" />
+    <attr name="image_height" format="dimension" />
+    <attr name="image_src" format="reference" />
+    <attr name="background" format="reference" />
+    <attr name="item_Width" format="dimension" />
+    <attr name="item_Height" format="dimension" />
+    <attr name="item_textSize" format="dimension" />
+    <attr name="item_textColor" format="dimension" />
+    <attr name="item_bgDefault" format="reference" />
+    <attr name="item_bgFocus" format="reference" />
+    <attr name="item_bgPress" format="reference" />
+    <attr name="item_textVisibility">
+        <enum name="visible" value="0" />
+        <enum name="invisible" value="1" />
+        <enum name="gone" value="2" />
+    </attr>
+</resources>

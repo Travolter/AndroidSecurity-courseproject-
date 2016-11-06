@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="add_sch_engine_divider_width">360.0px</dimen>
+    <dimen name="first_marketing_image_margin_top">0.0dip</dimen>
+    <dimen name="first_marketing_text_margin_top">0.0dip</dimen>
+    <dimen name="multiwindow_list_max_height">130.0px</dimen>
+    <dimen name="add_sch_enginelist_width">380.0px</dimen>
+    <dimen name="add_sch_schengine_width">55.0px</dimen>
+</resources>

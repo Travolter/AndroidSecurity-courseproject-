@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/color_firstrun_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.Toolbar android:id="@id/firstRunToolbar" android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?actionBarSize" app:popupTheme="@style/ToolbarPopup" app:theme="@style/Toolbar" />
+    <android.support.v4.view.ViewPager android:id="@id/pager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/firstRunToolbar" android:layout_alignParentBottom="true"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/llDots" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:layout_alignParentBottom="true" />
+    <LinearLayout android:background="#cc303030" android:layout_width="fill_parent" android:layout_height="75.0dip" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" android:layout_alignParentStart="true" />
+    <Button android:textSize="16.0sp" android:textColor="@color/color_white" android:id="@id/btnNext" android:layout_width="110.0dip" android:layout_height="wrap_content" android:layout_margin="16.0dip" android:text="@string/firstrun_next" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" style="@style/MainButton" />
+    <Button android:textSize="16.0sp" android:id="@id/btnPrevious" android:visibility="gone" android:layout_width="110.0dip" android:layout_height="wrap_content" android:layout_margin="16.0dip" android:text="@string/firstrun_previous" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" android:layout_alignParentStart="true" style="@style/MainButton" />
+</RelativeLayout>

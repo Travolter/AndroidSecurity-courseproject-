@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.uc.browser.homepage.view.CardItemJokeNewsLayout android:orientation="vertical" android:paddingLeft="13.332977dip" android:paddingTop="14.0dip" android:paddingRight="13.332977dip" android:paddingBottom="14.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/homepage_card_item_news_title_layout" android:layout_width="fill_parent" android:layout_height="36.0dip">
+        <TextView android:textSize="14.666992sp" android:ellipsize="end" android:id="@id/homepage_card_item_news_title_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:maxLines="2" android:layout_toLeftOf="@id/homepage_card_item_news_title_image" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/homepage_card_item_news_title_image" android:layout_width="45.332977dip" android:layout_height="fill_parent" android:scaleType="centerCrop" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <TextView android:textSize="12.0sp" android:ellipsize="end" android:id="@id/homepage_card_item_news_content_text" android:layout_width="wrap_content" android:layout_height="58.666992dip" android:layout_marginTop="8.0dip" android:maxLines="4" />
+    <TextView android:textSize="10.666992sp" android:ellipsize="end" android:id="@id/homepage_card_item_news_time_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:singleLine="true" />
+</com.uc.browser.homepage.view.CardItemJokeNewsLayout>

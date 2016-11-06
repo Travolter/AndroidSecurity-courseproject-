@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/searchRelativeLayout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/search_bar_textView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.uc.browser.WebsiteSearchListView android:id="@id/search_input_list" android:nextFocusUp="@id/search_bar_editText" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="12.0px" android:layout_marginTop="38.0px" android:layout_marginRight="12.0px" android:layout_marginBottom="5.0px" android:cacheColorHint="#00000000" android:dividerHeight="1.0px" android:footerDividersEnabled="true" />
+    <RelativeLayout android:id="@id/search_bar_input" android:layout_width="fill_parent" android:layout_height="@dimen/add_sch_height">
+        <ImageView android:id="@id/address_bar_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="3.6">
+                <RelativeLayout android:id="@id/search_engine_icon_layout" android:paddingLeft="@dimen/add_sch_engineicon_layout_paddingleft" android:paddingRight="@dimen/add_sch_engineicon_layout_paddingRight" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                    <ImageView android:id="@id/search_engine_icon" android:paddingTop="10.0dip" android:paddingRight="2.0dip" android:paddingBottom="10.0dip" android:layout_width="22.0dip" android:layout_height="fill_parent" android:scaleType="fitCenter" />
+                    <ImageView android:id="@id/search_engine_downicon" android:layout_width="5.0dip" android:layout_height="fill_parent" android:scaleType="centerInside" android:layout_toRightOf="@id/search_engine_icon" />
+                </RelativeLayout>
+                <com.uc.browser.UCEditText android:textColorHighlight="#ff2a77c5" android:id="@id/search_bar_editText" android:nextFocusRight="@id/search_input_cancle" android:nextFocusDown="@id/search_input_list" android:layout_width="3.0dip" android:layout_height="fill_parent" android:layout_marginLeft="45.0dip" android:singleLine="true" android:selectAllOnFocus="true" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" />
+            </RelativeLayout>
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/clear_button" android:padding="2.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:scaleType="centerInside" android:layout_weight="0.4" />
+            <TextView android:ellipsize="end" android:gravity="center" android:id="@id/search_input_cancle" android:focusable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginRight="@dimen/add_sch_dialog_padding" android:singleLine="true" android:layout_weight="1.0" />
+        </LinearLayout>
+    </RelativeLayout>
+    <View android:id="@id/engine_list_cover" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="vertical" android:id="@id/search_engine_list" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/add_sch_enginelist_marginLeft" android:layout_marginTop="@dimen/add_sch_height">
+        <TextView android:textColor="#ffffffff" android:id="@id/search_engine_text" android:layout_width="fill_parent" android:layout_height="25.0px" android:layout_marginLeft="12.0px" android:layout_marginTop="20.0px" />
+        <ImageView android:id="@id/search_engine_divider" android:layout_width="285.0px" android:layout_height="2.0px" android:layout_marginLeft="12.0px" />
+        <RelativeLayout android:orientation="horizontal" android:id="@id/search_engine_list_icon" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.uc.browser.UCheckedTextView android:textSize="@dimen/big_listitem_text" android:textColor="#ffffffff" android:gravity="center_vertical" android:id="@android:id/text1" android:padding="3.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/list_item_height" android:drawablePadding="5.0dip" android:checkable="true" ucweb:need_checkmark="false"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:ucweb="http://schemas.android.com/apk/res/com.uc.browser.en" />

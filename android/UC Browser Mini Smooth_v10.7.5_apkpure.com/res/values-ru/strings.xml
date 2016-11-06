@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name_dot">UC Mini</string>
+    <string name="quality_low">Средн.</string>
+    <string name="quality_normal">Норм</string>
+    <string name="quality_high">Хор.</string>
+    <string name="quality_super">Отл.</string>
+    <string name="download_waiting_text">Ожидание</string>
+    <string name="download_connecting_text">Соединение</string>
+    <string name="download_paused_text">Приостановлено</string>
+    <string name="download_notif_time_remaining_text">%s осталось</string>
+    <string name="download_notif_complete_text">Завершено</string>
+    <string name="download_notif_failed_text">Ошибка</string>
+    <string name="download_file_size_unknown">Неизвестный</string>
+    <string name="saved_time">Сохраненные</string>
+    <string name="download_insufficiant_storage">Недостаточно места</string>
+    <string name="download_error_401_msg">Ссылка устарела</string>
+    <string name="download_error_5xx_msg">Проблема с сервером</string>
+    <string name="video_tips_slide_to_control_position_and_volume">Используйте жест влево/вправо для контроля прогресса, жест вверх/вниз для регулирования громкости.</string>
+    <string name="video_download_tip">Нажмите здесь, чтобы посмотреть позже!</string>
+    <string name="download_preparing_text">Подготовка</string>
+    <string name="download_retrying_text">Повторная попытка (%s)</string>
+    <string name="download_paused_network_unavailable_text">Сеть недоступна</string>
+    <string name="download_paused_not_enough_space_text">Недостаточно места</string>
+    <string name="download_paused_weak_network_text">Слаб. сеть</string>
+    <string name="facebook_notification_title">Facebook for UC</string>
+    <string name="upgrade_notification_guide">Еще не обновил? %s %% пользователей обновились, сделай это СЕЙЧАС!</string>
+    <string name="upgrade_notification_title">Совершенно новый UC %s</string>
+</resources>

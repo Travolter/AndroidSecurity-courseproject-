@@ -1,0 +1,794 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="homepage_card_title_text" />
+    <item type="id" name="homepage_card_title_menu" />
+    <item type="id" name="homepage_card_title_line" />
+    <item type="id" name="homepage_card_toolbar_divider" />
+    <item type="id" name="homepage_card_toolbar_divider_vertical" />
+    <item type="id" name="homepage_card_toolbar" />
+    <item type="id" name="homepage_card_more_button" />
+    <item type="id" name="homepage_card_change_button" />
+    <item type="id" name="homepage_card_update_button" />
+    <item type="id" name="homepage_card_tips_view" />
+    <item type="id" name="homepage_card_imageitem_text" />
+    <item type="id" name="homepage_card_imageitem_desc" />
+    <item type="id" name="homepage_card_imageitem_image" />
+    <item type="id" name="homepage_card_football_status" />
+    <item type="id" name="homepage_card_football_teamA" />
+    <item type="id" name="homepage_card_football_teamB" />
+    <item type="id" name="homepage_card_textitem_image" />
+    <item type="id" name="homepage_card_newstem_image" />
+    <item type="id" name="homepage_card_newstem_text" />
+    <item type="id" name="homepage_card_topic_desc1" />
+    <item type="id" name="homepage_card_topic_desc2" />
+    <item type="id" name="homepage_card_topic_desc3" />
+    <item type="id" name="homepage_card_joke_container" />
+    <item type="id" name="homepage_card_joke_description" />
+    <item type="id" name="homepage_card_joke_quote_1" />
+    <item type="id" name="homepage_card_joke_quote_2" />
+    <item type="id" name="homepage_exchange_time" />
+    <item type="id" name="homepage_exchange_divider" />
+    <item type="id" name="homepage_exchange_content" />
+    <item type="id" name="homepage_exchange_type" />
+    <item type="id" name="homepage_exchange_number" />
+    <item type="id" name="homepage_exchange_delta" />
+    <item type="id" name="decode" />
+    <item type="id" name="decode_failed" />
+    <item type="id" name="decode_succeeded" />
+    <item type="id" name="launch_product_query" />
+    <item type="id" name="quit" />
+    <item type="id" name="restart_preview" />
+    <item type="id" name="return_scan_result" />
+    <item type="id" name="search_book_contents_failed" />
+    <item type="id" name="search_book_contents_succeeded" />
+    <item type="id" name="auto_focus" />
+    <item type="id" name="banner_image" />
+    <item type="id" name="browser_view_control_bar_layout" />
+    <item type="id" name="browser_view_main_page_container" />
+    <item type="id" name="browser_view_window_contenter" />
+    <item type="id" name="browser_view_web_sch_visit_page" />
+    <item type="id" name="browser_view_title_progress" />
+    <item type="id" name="browser_view_nop_top_widgets_panel" />
+    <item type="id" name="browser_view_widgets_panel" />
+    <item type="id" name="homepage_widget_view" />
+    <item type="id" name="homepage_trigger_layout" />
+    <item type="id" name="homepage_trigger_up" />
+    <item type="id" name="homepage_trigger_down" />
+    <item type="id" name="homepage_top_bar" />
+    <item type="id" name="homepage_pin_to_home" />
+    <item type="id" name="homepage_open_background" />
+    <item type="id" name="homepage_top_bar_divider" />
+    <item type="id" name="homepage_bottom_done" />
+    <item type="id" name="homepage_scroll_to_top" />
+    <item type="id" name="home_widget_top_layout" />
+    <item type="id" name="home_widget_content_layout" />
+    <item type="id" name="home_widget_content_image" />
+    <item type="id" name="home_widget_content_image_press" />
+    <item type="id" name="home_widget_content_image_night_mode" />
+    <item type="id" name="home_widget_title_text" />
+    <item type="id" name="home_widget_close_button" />
+    <item type="id" name="download_tabbar_title_downloaded_image" />
+    <item type="id" name="home_page_card_image_view" />
+    <item type="id" name="home_page_card_text_view" />
+    <item type="id" name="home_page_card_title_layout" />
+    <item type="id" name="home_page_card_title_text" />
+    <item type="id" name="home_page_card_title_new_image" />
+    <item type="id" name="home_page_card_title_refresh_image" />
+    <item type="id" name="home_page_card_title_divider_image" />
+    <item type="id" name="home_page_card_title_more_image" />
+    <item type="id" name="home_page_card_title_more_layout" />
+    <item type="id" name="home_page_card_top_button" />
+    <item type="id" name="home_page_card_top_divider_image" />
+    <item type="id" name="home_page_card_delete_button" />
+    <item type="id" name="home_page_card_content_layout" />
+    <item type="id" name="home_page_card_more_divider_image" />
+    <item type="id" name="home_page_card_more_button" />
+    <item type="id" name="home_page_card_more_previous_image" />
+    <item type="id" name="home_page_card_more_next_image" />
+    <item type="id" name="home_page_card_more_layout" />
+    <item type="id" name="home_page_card_manage_card_text" />
+    <item type="id" name="home_page_card_manage_card_red_point_image" />
+    <item type="id" name="FacebookUploadingFloatingView" />
+    <item type="id" name="FacebookUploadFailedFloatingView" />
+    <item type="id" name="FacebookUploadSuccessFloatingView" />
+    <item type="id" name="ll_time">false</item>
+    <item type="id" name="tv_clocktime">false</item>
+    <item type="id" name="tv_clockdate">false</item>
+    <item type="id" name="rtl_container">false</item>
+    <item type="id" name="ll_title">false</item>
+    <item type="id" name="iv_title_icon">false</item>
+    <item type="id" name="tv_title">false</item>
+    <item type="id" name="tv_setting">false</item>
+    <item type="id" name="rtl_message_container">false</item>
+    <item type="id" name="tv_message">false</item>
+    <item type="id" name="tv_message_unread">false</item>
+    <item type="id" name="tv_message_time">false</item>
+    <item type="id" name="tv_message_content">false</item>
+    <item type="id" name="rtl_notification_container">false</item>
+    <item type="id" name="tv_notification">false</item>
+    <item type="id" name="tv_notification_unread">false</item>
+    <item type="id" name="tv_notification_time">false</item>
+    <item type="id" name="tv_notification_content">false</item>
+    <item type="id" name="layout_setting">false</item>
+    <item type="id" name="layoutDisplay">false</item>
+    <item type="id" name="sfPreview">false</item>
+    <item type="id" name="imgCaptured">false</item>
+    <item type="id" name="btnShut">false</item>
+    <item type="id" name="btnReshut">false</item>
+    <item type="id" name="btnConfirm">false</item>
+    <item type="id" name="btnCancel">false</item>
+    <item type="id" name="title">false</item>
+    <item type="id" name="add_site_guide_top_layout">false</item>
+    <item type="id" name="add_site_layout">false</item>
+    <item type="id" name="add_site_image">false</item>
+    <item type="id" name="add_site_top_divider1">false</item>
+    <item type="id" name="refresh_image">false</item>
+    <item type="id" name="add_site_top_divider2">false</item>
+    <item type="id" name="night_mode_image">false</item>
+    <item type="id" name="add_site_guide_tips_text">false</item>
+    <item type="id" name="add_site_guide_ok_button">false</item>
+    <item type="id" name="bottom_view">false</item>
+    <item type="id" name="textView">false</item>
+    <item type="id" name="icon">false</item>
+    <item type="id" name="type_icon">false</item>
+    <item type="id" name="add_sch_listitem_content_layout">false</item>
+    <item type="id" name="subtitle">false</item>
+    <item type="id" name="file_name">false</item>
+    <item type="id" name="bookmark_dlg_exportname">false</item>
+    <item type="id" name="Browser_TitleBar">false</item>
+    <item type="id" name="bookmarkname">false</item>
+    <item type="id" name="t_msg">false</item>
+    <item type="id" name="bookmark_dlg_filename">false</item>
+    <item type="id" name="bookmark_dlg_folder">false</item>
+    <item type="id" name="bookmarkaddress">false</item>
+    <item type="id" name="bookmark_dlg_filepath">false</item>
+    <item type="id" name="controlbar">false</item>
+    <item type="id" name="bookmark_dlg_name">false</item>
+    <item type="id" name="bookmark_dlg_foldername">false</item>
+    <item type="id" name="text1">false</item>
+    <item type="id" name="bookmark_sender_dialog_scrollview">false</item>
+    <item type="id" name="bookmark_sender_dialog_content_layout">false</item>
+    <item type="id" name="bookmark_sender_dialog_content_title">false</item>
+    <item type="id" name="bookmark_sender_dialog_content_edittext">false</item>
+    <item type="id" name="controlbar_fs_main_default">false</item>
+    <item type="id" name="controlbar_fs_popup">false</item>
+    <item type="id" name="controlbar_fs_stop">false</item>
+    <item type="id" name="controlbar_fs_main">false</item>
+    <item type="id" name="inputurl_layout_fullscreen">false</item>
+    <item type="id" name="title_progress_fullscreen">false</item>
+    <item type="id" name="dialog_title">false</item>
+    <item type="id" name="browser_page_attrs_title">false</item>
+    <item type="id" name="page_address">false</item>
+    <item type="id" name="pageattr_button_copy_address">false</item>
+    <item type="id" name="browser_page_attrs_address">false</item>
+    <item type="id" name="page_href_url_layout">false</item>
+    <item type="id" name="page_href_url">false</item>
+    <item type="id" name="pageattr_button_copy_url">false</item>
+    <item type="id" name="browser_page_attrs_url">false</item>
+    <item type="id" name="pageattr_image_url">false</item>
+    <item type="id" name="page_image_url">false</item>
+    <item type="id" name="pageattr_button_copy_image_url">false</item>
+    <item type="id" name="browser_page_attrs_image_url">false</item>
+    <item type="id" name="browser_page_attrs_memory_info">false</item>
+    <item type="id" name="ua_layout">false</item>
+    <item type="id" name="browser_page_attrs_ua">false</item>
+    <item type="id" name="pageattr_button_copy_ua">false</item>
+    <item type="id" name="browser_page_attrs_isnemo">false</item>
+    <item type="id" name="preview_view">false</item>
+    <item type="id" name="viewfinder_view">false</item>
+    <item type="id" name="result_view">false</item>
+    <item type="id" name="contents_text_view">false</item>
+    <item type="id" name="button_result_cancel">false</item>
+    <item type="id" name="button_result_copy">false</item>
+    <item type="id" name="button_cancel">false</item>
+    <item type="id" name="searcheditor">false</item>
+    <item type="id" name="searchbtn">false</item>
+    <item type="id" name="clipboard_container">false</item>
+    <item type="id" name="clipdata_titlebar">false</item>
+    <item type="id" name="clipboard_title">false</item>
+    <item type="id" name="clipdata_clean_button">false</item>
+    <item type="id" name="clipdatalist">false</item>
+    <item type="id" name="clipdata_content_container">false</item>
+    <item type="id" name="clipboard_nocotent_image">false</item>
+    <item type="id" name="clipboard_nocotent_text">false</item>
+    <item type="id" name="clipdata_item_layout">false</item>
+    <item type="id" name="clipdata_item_text">false</item>
+    <item type="id" name="clipdata_item_delete_button">false</item>
+    <item type="id" name="cricketforecast">false</item>
+    <item type="id" name="panel_title">false</item>
+    <item type="id" name="panel">false</item>
+    <item type="id" name="left_arrow">false</item>
+    <item type="id" name="panel_row">false</item>
+    <item type="id" name="right_arrow">false</item>
+    <item type="id" name="panel_term_1">false</item>
+    <item type="id" name="panel_vs">false</item>
+    <item type="id" name="panel_term_2">false</item>
+    <item type="id" name="panel_info">false</item>
+    <item type="id" name="cricket_notify_main">false</item>
+    <item type="id" name="cricket_notfiy_teamA_img">false</item>
+    <item type="id" name="cricket_notify_teamA_name">false</item>
+    <item type="id" name="cricket_teamA_score_info">false</item>
+    <item type="id" name="cricket_notify_scoreA_1">false</item>
+    <item type="id" name="cricket_notify_scoreA_2">false</item>
+    <item type="id" name="cricket_notify_teamAround">false</item>
+    <item type="id" name="cricket_notify_state">false</item>
+    <item type="id" name="cricket_notify_description">false</item>
+    <item type="id" name="cricket_teamB_score_info">false</item>
+    <item type="id" name="cricket_notify_scoreB_1">false</item>
+    <item type="id" name="cricket_notify_scoreB_2">false</item>
+    <item type="id" name="cricket_notify_teamBround">false</item>
+    <item type="id" name="cricket_notfiy_teamB_img">false</item>
+    <item type="id" name="cricket_notify_teamB_name">false</item>
+    <item type="id" name="cricket_notify_error">false</item>
+    <item type="id" name="cricket_update_time">false</item>
+    <item type="id" name="cricket_notify_refresh">false</item>
+    <item type="id" name="cricket_notify_refresh_btn">false</item>
+    <item type="id" name="cricket_notify_setting">false</item>
+    <item type="id" name="cricket_notify_setting_btn">false</item>
+    <item type="id" name="cricketscore">false</item>
+    <item type="id" name="panel_score_1">false</item>
+    <item type="id" name="panel_overs_1">false</item>
+    <item type="id" name="panel_score_2">false</item>
+    <item type="id" name="panel_overs_2">false</item>
+    <item type="id" name="config_switch">false</item>
+    <item type="id" name="nemo_address">false</item>
+    <item type="id" name="dispatch_address">false</item>
+    <item type="id" name="http_state_address">false</item>
+    <item type="id" name="https_state_address">false</item>
+    <item type="id" name="scrollTimer">false</item>
+    <item type="id" name="webkit_ua">false</item>
+    <item type="id" name="bid">false</item>
+    <item type="id" name="versionState">false</item>
+    <item type="id" name="country_code">false</item>
+    <item type="id" name="debug_submit">false</item>
+    <item type="id" name="downloadStateIcon">false</item>
+    <item type="id" name="downloadButton">false</item>
+    <item type="id" name="downloadTaskName">false</item>
+    <item type="id" name="downloadProgressBarContainer">false</item>
+    <item type="id" name="downloadRemainingTime">false</item>
+    <item type="id" name="downloadSpeedText">false</item>
+    <item type="id" name="download_accelerate_guide_progress_bar">false</item>
+    <item type="id" name="download_accelerate_guide_tips_layout">false</item>
+    <item type="id" name="download_accelerate_guide_tip_text">false</item>
+    <item type="id" name="download_accelerate_guide_ok_button">false</item>
+    <item type="id" name="download_accelerate_guide_bottom_view">false</item>
+    <item type="id" name="tips">false</item>
+    <item type="id" name="if_delete_file">false</item>
+    <item type="id" name="filename">false</item>
+    <item type="id" name="download_dlg_filename">false</item>
+    <item type="id" name="download_edit_item_checkbox">false</item>
+    <item type="id" name="download_edit_item_right_layout">false</item>
+    <item type="id" name="download_edit_layout_titlebar">false</item>
+    <item type="id" name="download_edit_layout_listview">false</item>
+    <item type="id" name="download_edit_layout_bottom_layout">false</item>
+    <item type="id" name="download_edit_more_layout">false</item>
+    <item type="id" name="download_edit_more_detail_button">false</item>
+    <item type="id" name="download_edit_more_divider_image">false</item>
+    <item type="id" name="download_edit_more_rename_button">false</item>
+    <item type="id" name="download_edit_more_divider_image1">false</item>
+    <item type="id" name="download_edit_more_wallpaper_button">false</item>
+    <item type="id" name="download_edit_more_ringtone_button">false</item>
+    <item type="id" name="download_edit_layout_bottom_delete_image">false</item>
+    <item type="id" name="download_edit_layout_bottom_redownload_image">false</item>
+    <item type="id" name="download_edit_layout_bottom_more_image">false</item>
+    <item type="id" name="file_size">false</item>
+    <item type="id" name="download_size">false</item>
+    <item type="id" name="save_path">false</item>
+    <item type="id" name="download_path_title">false</item>
+    <item type="id" name="copy_download_path">false</item>
+    <item type="id" name="download_path">false</item>
+    <item type="id" name="range_support">false</item>
+    <item type="id" name="download_item_search_guide">false</item>
+    <item type="id" name="download_item_search_split">false</item>
+    <item type="id" name="download_item_search_image">false</item>
+    <item type="id" name="download_item_search_text">false</item>
+    <item type="id" name="download_item_search_close_image">false</item>
+    <item type="id" name="download_item_icon_image">false</item>
+    <item type="id" name="download_item_state_image">false</item>
+    <item type="id" name="download_item_progress_layout">false</item>
+    <item type="id" name="download_item_name_text">false</item>
+    <item type="id" name="download_item_progress_bar">false</item>
+    <item type="id" name="download_item_progress_text">false</item>
+    <item type="id" name="download_item_speed_text">false</item>
+    <item type="id" name="download_item_search_container">false</item>
+    <item type="id" name="download_layout_list_layout">false</item>
+    <item type="id" name="download_facebook_container_layout">false</item>
+    <item type="id" name="download_layout_listview">false</item>
+    <item type="id" name="download_blank_layout">false</item>
+    <item type="id" name="download_blank_center_layout">false</item>
+    <item type="id" name="download_blank_page_icon">false</item>
+    <item type="id" name="download_blank_page_text">false</item>
+    <item type="id" name="download_bottom_layout">false</item>
+    <item type="id" name="download_layout_bottom_delete_image">false</item>
+    <item type="id" name="download_available_space_text">false</item>
+    <item type="id" name="downloadProgressBar">false</item>
+    <item type="id" name="facebook_ad_title_layout">false</item>
+    <item type="id" name="facebook_ad_title_left_divider_image">false</item>
+    <item type="id" name="facebook_ad_recommend_text">false</item>
+    <item type="id" name="facebook_ad_title_right_divider_image">false</item>
+    <item type="id" name="facebook_ad_content_layout">false</item>
+    <item type="id" name="facebook_ad_icon_image">false</item>
+    <item type="id" name="facebook_ad_vertical_divider">false</item>
+    <item type="id" name="facebook_ad_center_layout">false</item>
+    <item type="id" name="facebook_ad_action_text">false</item>
+    <item type="id" name="facebook_ad_title_text">false</item>
+    <item type="id" name="facebook_ad_body_text">false</item>
+    <item type="id" name="facebook_ad_ratingbar">false</item>
+    <item type="id" name="facebook_note_scrollview">false</item>
+    <item type="id" name="facebook_note_content_layout">false</item>
+    <item type="id" name="facebook_note_titlebar">false</item>
+    <item type="id" name="facbook_note_setting_layout">false</item>
+    <item type="id" name="facebook_note_message_layout">false</item>
+    <item type="id" name="facebook_note_message_left_layout">false</item>
+    <item type="id" name="facebook_note_message_checkbox">false</item>
+    <item type="id" name="facebook_note_message_text">false</item>
+    <item type="id" name="facebook_note_message_summary_text">false</item>
+    <item type="id" name="facbook_note_setting_divider1_image">false</item>
+    <item type="id" name="facebook_note_notification_layout">false</item>
+    <item type="id" name="facebook_note_notification_left_layout">false</item>
+    <item type="id" name="facebook_note_notification_checkbox">false</item>
+    <item type="id" name="facebook_note_notification_text">false</item>
+    <item type="id" name="facebook_note_notification_summary_text">false</item>
+    <item type="id" name="facbook_note_setting_divider2_image">false</item>
+    <item type="id" name="facebook_note_alert_layout">false</item>
+    <item type="id" name="facebook_note_alert_left_layout">false</item>
+    <item type="id" name="facebook_note_alert_checkbox">false</item>
+    <item type="id" name="facebook_note_alert_text">false</item>
+    <item type="id" name="facebook_note_alert_summary_text">false</item>
+    <item type="id" name="facebook_note_screenlock_push_layout">false</item>
+    <item type="id" name="facbook_note_setting_divider4_image">false</item>
+    <item type="id" name="facebook_note_screenlock_push_checkbox">false</item>
+    <item type="id" name="facebook_note_screenlock_push_text">false</item>
+    <item type="id" name="facebook_note_screenlock_push_summary_text">false</item>
+    <item type="id" name="facebook_note_screenlock_light_layout">false</item>
+    <item type="id" name="facbook_note_setting_divider5_image">false</item>
+    <item type="id" name="facebook_note_screenlock_light_checkbox">false</item>
+    <item type="id" name="facebook_note_screenlock_light_text">false</item>
+    <item type="id" name="facebook_note_screenlock_light_summary_text">false</item>
+    <item type="id" name="facbook_note_setting_divider3_image">false</item>
+    <item type="id" name="facebook_note_adjust_type_text">false</item>
+    <item type="id" name="facebook_note_error_message_text">false</item>
+    <item type="id" name="ll_send_container">false</item>
+    <item type="id" name="edt_input">false</item>
+    <item type="id" name="btn_send">false</item>
+    <item type="id" name="title_bar">false</item>
+    <item type="id" name="lv_details">false</item>
+    <item type="id" name="tv_time">false</item>
+    <item type="id" name="iv_avatar">false</item>
+    <item type="id" name="tv_name">false</item>
+    <item type="id" name="tv_desc">false</item>
+    <item type="id" name="iv_feedback_state">false</item>
+    <item type="id" name="sl_container">false</item>
+    <item type="id" name="rtl_select_problem">false</item>
+    <item type="id" name="iv_issue">false</item>
+    <item type="id" name="tv_issue">false</item>
+    <item type="id" name="iv_issue_arrow">false</item>
+    <item type="id" name="drivider_issue">false</item>
+    <item type="id" name="iv_problem">false</item>
+    <item type="id" name="tv_problem_details">false</item>
+    <item type="id" name="edt_problem">false</item>
+    <item type="id" name="fl_image">false</item>
+    <item type="id" name="iv_submit_problem">false</item>
+    <item type="id" name="mask">false</item>
+    <item type="id" name="iv_delete">false</item>
+    <item type="id" name="iv_plus">false</item>
+    <item type="id" name="edt_problem_url">false</item>
+    <item type="id" name="drivider_problem">false</item>
+    <item type="id" name="iv_contact">false</item>
+    <item type="id" name="tv_contact">false</item>
+    <item type="id" name="edt_email">false</item>
+    <item type="id" name="rtl_submit_container">false</item>
+    <item type="id" name="btn_submit">false</item>
+    <item type="id" name="rtl_helpcenter">false</item>
+    <item type="id" name="iv_helpcenter">false</item>
+    <item type="id" name="tv_helpcenter">false</item>
+    <item type="id" name="drivider_helpcenter">false</item>
+    <item type="id" name="fl_loading">false</item>
+    <item type="id" name="iv_loading">false</item>
+    <item type="id" name="tv_state_content">false</item>
+    <item type="id" name="tv_state_desc">false</item>
+    <item type="id" name="no_sd_card_warning">false</item>
+    <item type="id" name="file_list">false</item>
+    <item type="id" name="filepath">false</item>
+    <item type="id" name="fileattr_filepath">false</item>
+    <item type="id" name="lastmodify">false</item>
+    <item type="id" name="fileattr_lastmodify">false</item>
+    <item type="id" name="filesize">false</item>
+    <item type="id" name="fileattr_filesize">false</item>
+    <item type="id" name="item_icon">false</item>
+    <item type="id" name="item_title">false</item>
+    <item type="id" name="item_discript">false</item>
+    <item type="id" name="file_manager_layout_titlebar">false</item>
+    <item type="id" name="file_manager_bottom_layout">false</item>
+    <item type="id" name="file_manager_layout_bottom_new_folder_image">false</item>
+    <item type="id" name="flash">false</item>
+    <item type="id" name="scrollView1">false</item>
+    <item type="id" name="T00">false</item>
+    <item type="id" name="E00">false</item>
+    <item type="id" name="T01">false</item>
+    <item type="id" name="E01">false</item>
+    <item type="id" name="T02">false</item>
+    <item type="id" name="E02">false</item>
+    <item type="id" name="T10">false</item>
+    <item type="id" name="E10">false</item>
+    <item type="id" name="T11">false</item>
+    <item type="id" name="E11">false</item>
+    <item type="id" name="T12">false</item>
+    <item type="id" name="E12">false</item>
+    <item type="id" name="T20">false</item>
+    <item type="id" name="E20">false</item>
+    <item type="id" name="T21">false</item>
+    <item type="id" name="E21">false</item>
+    <item type="id" name="T22">false</item>
+    <item type="id" name="E22">false</item>
+    <item type="id" name="T4">false</item>
+    <item type="id" name="E4">false</item>
+    <item type="id" name="t_fontsize_small">false</item>
+    <item type="id" name="e_fontsize_small">false</item>
+    <item type="id" name="t_fontsize_medium">false</item>
+    <item type="id" name="e_fontsize_medium">false</item>
+    <item type="id" name="t_fontsize_large">false</item>
+    <item type="id" name="e_fontsize_large">false</item>
+    <item type="id" name="homepage_card_item_football_previous_image">false</item>
+    <item type="id" name="homepage_card_item_football_next_image">false</item>
+    <item type="id" name="homepage_card_item_football_content_layout">false</item>
+    <item type="id" name="homepage_card_item_football_content_team_a_layout">false</item>
+    <item type="id" name="homepage_card_item_football_content_center_layout">false</item>
+    <item type="id" name="homepage_card_item_football_team_a_image">false</item>
+    <item type="id" name="homepage_card_item_football_team_a_text">false</item>
+    <item type="id" name="homepage_card_item_football_content_team_b_layout">false</item>
+    <item type="id" name="homepage_card_item_football_team_b_image">false</item>
+    <item type="id" name="homepage_card_item_football_team_b_text">false</item>
+    <item type="id" name="homepage_card_item_football_score_text">false</item>
+    <item type="id" name="homepage_card_item_football_time_text">false</item>
+    <item type="id" name="homepage_card_item_football_enter_text">false</item>
+    <item type="id" name="homepage_card_item_joke_previous_image">false</item>
+    <item type="id" name="homepage_card_item_joke_next_image">false</item>
+    <item type="id" name="homepage_card_item_joke_content_layout">false</item>
+    <item type="id" name="homepage_card_item_joke_content_text">false</item>
+    <item type="id" name="homepage_card_item_joke_content_image">false</item>
+    <item type="id" name="homepage_card_item_joke_title_text">false</item>
+    <item type="id" name="homepage_card_item_joke_more_layout">false</item>
+    <item type="id" name="homepage_card_item_joke_more_image">false</item>
+    <item type="id" name="homepage_card_item_joke_more_text">false</item>
+    <item type="id" name="homepage_card_item_news_title_layout">false</item>
+    <item type="id" name="homepage_card_item_news_title_text">false</item>
+    <item type="id" name="homepage_card_item_news_title_image">false</item>
+    <item type="id" name="homepage_card_item_news_content_text">false</item>
+    <item type="id" name="homepage_card_item_news_time_text">false</item>
+    <item type="id" name="homepage_card_item_news_previous_image">false</item>
+    <item type="id" name="homepage_card_item_news_next_image">false</item>
+    <item type="id" name="homepage_card_item_news_center_layout">false</item>
+    <item type="id" name="homepage_card_item_news_content_layout">false</item>
+    <item type="id" name="homepage_card_item_news_content_image">false</item>
+    <item type="id" name="homepage_card_item_news1_content_layout">false</item>
+    <item type="id" name="homepage_card_item_news1_content_text">false</item>
+    <item type="id" name="homepage_card_item_news1_image">false</item>
+    <item type="id" name="homepage_card_item_news1_ext1_text">false</item>
+    <item type="id" name="homepage_card_item_news1_ext2_text">false</item>
+    <item type="id" name="homepage_card_manager_item_info_layout">false</item>
+    <item type="id" name="homepage_card_manager_item_checkbox">false</item>
+    <item type="id" name="homepage_card_manager_item_name">false</item>
+    <item type="id" name="homepage_card_manager_item_summary">false</item>
+    <item type="id" name="homepage_folder_panel_layout">false</item>
+    <item type="id" name="homepage_folder_panel_top_layout">false</item>
+    <item type="id" name="homepage_folder_panel_title">false</item>
+    <item type="id" name="homepage_folder_panel_edittext">false</item>
+    <item type="id" name="homepage_folder_panel_edittext_cancel_image">false</item>
+    <item type="id" name="homepage_folder_panel_divivder_line">false</item>
+    <item type="id" name="homeppage_folder_panel_widget_view">false</item>
+    <item type="id" name="folder_up_trigger">false</item>
+    <item type="id" name="folder_bottom_trigger">false</item>
+    <item type="id" name="progress_indicator">false</item>
+    <item type="id" name="top_layout">false</item>
+    <item type="id" name="initial_dotset">false</item>
+    <item type="id" name="logo_layout">false</item>
+    <item type="id" name="logo">false</item>
+    <item type="id" name="app_name">false</item>
+    <item type="id" name="version_name">false</item>
+    <item type="id" name="initial_loading_1">false</item>
+    <item type="id" name="initial_loading_2">false</item>
+    <item type="id" name="initial_loading_3">false</item>
+    <item type="id" name="initial_loading_4">false</item>
+    <item type="id" name="initial_loading_5">false</item>
+    <item type="id" name="initial_loading_6">false</item>
+    <item type="id" name="init_message">false</item>
+    <item type="id" name="textView2">false</item>
+    <item type="id" name="textView3">false</item>
+    <item type="id" name="upgrade_title">false</item>
+    <item type="id" name="upgrade_image">false</item>
+    <item type="id" name="upgrade_desc">false</item>
+    <item type="id" name="upgrade_never">false</item>
+    <item type="id" name="upgrade_btn">false</item>
+    <item type="id" name="upgrade_cancel">false</item>
+    <item type="id" name="upgrade_tryit">false</item>
+    <item type="id" name="tv_switch">false</item>
+    <item type="id" name="cb_switch">false</item>
+    <item type="id" name="divider">false</item>
+    <item type="id" name="rtl_pre">false</item>
+    <item type="id" name="tv_secret_mode">false</item>
+    <item type="id" name="cb_secret">false</item>
+    <item type="id" name="iv_arrow">false</item>
+    <item type="id" name="tv_unread">false</item>
+    <item type="id" name="tw_container">false</item>
+    <item type="id" name="ll_indicator_container">false</item>
+    <item type="id" name="iv_first">false</item>
+    <item type="id" name="iv_second">false</item>
+    <item type="id" name="iv_third">false</item>
+    <item type="id" name="privacy">false</item>
+    <item type="id" name="tv_start_now">false</item>
+    <item type="id" name="rtl_first_marketing">false</item>
+    <item type="id" name="iv_marketing">false</item>
+    <item type="id" name="tv_center">false</item>
+    <item type="id" name="tv_description">false</item>
+    <item type="id" name="tv_term_of_use">false</item>
+    <item type="id" name="ll_bottom_container">false</item>
+    <item type="id" name="cb_ux">false</item>
+    <item type="id" name="tv_ux_inpro">false</item>
+    <item type="id" name="iv_cancel">false</item>
+    <item type="id" name="iv_center">false</item>
+    <item type="id" name="ll_btn">false</item>
+    <item type="id" name="iv_rate">false</item>
+    <item type="id" name="tv_rate">false</item>
+    <item type="id" name="tv_feedback">false</item>
+    <item type="id" name="tv_quicksearch">false</item>
+    <item type="id" name="btn_comfirm">false</item>
+    <item type="id" name="ll_content">false</item>
+    <item type="id" name="tv_upgrade">false</item>
+    <item type="id" name="tv_later">false</item>
+    <item type="id" name="iv_tip">false</item>
+    <item type="id" name="menu_item_layout">false</item>
+    <item type="id" name="menu_item_text">false</item>
+    <item type="id" name="menu_item_more_button">false</item>
+    <item type="id" name="menu_item_image">false</item>
+    <item type="id" name="menu_item_reddot_image">false</item>
+    <item type="id" name="menu_icon_item_container">false</item>
+    <item type="id" name="menu_icon_bookmark">false</item>
+    <item type="id" name="menu_icon_horizontal_split1">false</item>
+    <item type="id" name="menu_icon_refresh">false</item>
+    <item type="id" name="menu_icon_horizontal_split2">false</item>
+    <item type="id" name="menu_icon_share">false</item>
+    <item type="id" name="menu_icon_vertical_split1">false</item>
+    <item type="id" name="menu_tab_widget">false</item>
+    <item type="id" name="menu_icon_vertical_split2">false</item>
+    <item type="id" name="inputurl_layout">false</item>
+    <item type="id" name="menu_background_layout">false</item>
+    <item type="id" name="controlbar_layout">false</item>
+    <item type="id" name="menubarbar_layout">false</item>
+    <item type="id" name="controlbar_back">false</item>
+    <item type="id" name="frame">false</item>
+    <item type="id" name="content">false</item>
+    <item type="id" name="multi_window_divider">false</item>
+    <item type="id" name="button_area">false</item>
+    <item type="id" name="new_window_button">false</item>
+    <item type="id" name="mynavi_edit_layout">false</item>
+    <item type="id" name="mynavi_url">false</item>
+    <item type="id" name="mynavi_ok_button">false</item>
+    <item type="id" name="container">false</item>
+    <item type="id" name="myvideo_edit_item_checkbox">false</item>
+    <item type="id" name="myvideo_edit_item_right_layout">false</item>
+    <item type="id" name="myvideo_edit_layout_listview">false</item>
+    <item type="id" name="myvideo_edit_layout_bottom_layout">false</item>
+    <item type="id" name="myvideo_edit_layout_bottom_rename_image">false</item>
+    <item type="id" name="myvideo_edit_selectedinfo_text">false</item>
+    <item type="id" name="myvideo_edit_layout_bottom_delete_image">false</item>
+    <item type="id" name="myvideo_thumbnail_image">false</item>
+    <item type="id" name="myvideo_new_image">false</item>
+    <item type="id" name="myvideo_item_info_layout">false</item>
+    <item type="id" name="myvideo_item_name_text">false</item>
+    <item type="id" name="myvideo_item_mins_image">false</item>
+    <item type="id" name="myvideo_item_mins_text">false</item>
+    <item type="id" name="myvideo_item_filesize_image">false</item>
+    <item type="id" name="myvideo_item_filesize_text">false</item>
+    <item type="id" name="myvideo_layout_list_layout">false</item>
+    <item type="id" name="myvideo_layout_listview">false</item>
+    <item type="id" name="myvideo_blank_layout">false</item>
+    <item type="id" name="myvideo_blank_center_layout">false</item>
+    <item type="id" name="myvideo_blank_page_icon">false</item>
+    <item type="id" name="myvideo_blank_page_text">false</item>
+    <item type="id" name="speed_mode_guide_content_layout">false</item>
+    <item type="id" name="speed_mode_guide_speed_mode_layout">false</item>
+    <item type="id" name="speed_mode_guide_speed_mode_text">false</item>
+    <item type="id" name="speed_mode_guide_speed_mode_image">false</item>
+    <item type="id" name="speed_mode_guide_tips_text">false</item>
+    <item type="id" name="speed_mode_guide_ok_text">false</item>
+    <item type="id" name="button">false</item>
+    <item type="id" name="text">false</item>
+    <item type="id" name="tip_icon">false</item>
+    <item type="id" name="text2">false</item>
+    <item type="id" name="setting">false</item>
+    <item type="id" name="search_box">false</item>
+    <item type="id" name="engine_icon">false</item>
+    <item type="id" name="search_content">false</item>
+    <item type="id" name="search_icon">false</item>
+    <item type="id" name="page_top">false</item>
+    <item type="id" name="page_top_tips">false</item>
+    <item type="id" name="tip_content">false</item>
+    <item type="id" name="page_up">false</item>
+    <item type="id" name="page_down">false</item>
+    <item type="id" name="pin_facebook_to_launcher_top_divider_image">false</item>
+    <item type="id" name="pin_facebook_to_launcher_title_layout">false</item>
+    <item type="id" name="pin_facebook_to_launcher_title_icon">false</item>
+    <item type="id" name="pin_facebook_to_launcher_title_text">false</item>
+    <item type="id" name="pin_facebook_to_launcher_summary_text">false</item>
+    <item type="id" name="pin_facebook_to_launcher_button_layout">false</item>
+    <item type="id" name="pin_facebook_to_launcher_nope_button">false</item>
+    <item type="id" name="pin_facebook_to_launcher_pin_button">false</item>
+    <item type="id" name="plugin_downloadfail_day">false</item>
+    <item type="id" name="plugin_iv">false</item>
+    <item type="id" name="plugin_tv">false</item>
+    <item type="id" name="plugin_btn">false</item>
+    <item type="id" name="plugin_downloadfail_night">false</item>
+    <item type="id" name="plugin_downloading_day">false</item>
+    <item type="id" name="plugin_progressbar">false</item>
+    <item type="id" name="plugin_downloading_night">false</item>
+    <item type="id" name="plugin_needdownload_day">false</item>
+    <item type="id" name="plugin_needdownload_night">false</item>
+    <item type="id" name="progress">false</item>
+    <item type="id" name="message">false</item>
+    <item type="id" name="intertimer">false</item>
+    <item type="id" name="save_source_name">false</item>
+    <item type="id" name="searchRelativeLayout">false</item>
+    <item type="id" name="search_bar_textView">false</item>
+    <item type="id" name="search_input_list">false</item>
+    <item type="id" name="search_bar_editText">false</item>
+    <item type="id" name="search_bar_input">false</item>
+    <item type="id" name="address_bar_view">false</item>
+    <item type="id" name="search_engine_icon_layout">false</item>
+    <item type="id" name="search_engine_icon">false</item>
+    <item type="id" name="search_engine_downicon">false</item>
+    <item type="id" name="search_input_cancle">false</item>
+    <item type="id" name="clear_button">false</item>
+    <item type="id" name="engine_list_cover">false</item>
+    <item type="id" name="search_engine_list">false</item>
+    <item type="id" name="search_engine_text">false</item>
+    <item type="id" name="search_engine_divider">false</item>
+    <item type="id" name="search_engine_list_icon">false</item>
+    <item type="id" name="short_pannel">false</item>
+    <item type="id" name="shortcut1">false</item>
+    <item type="id" name="shortcut_text">false</item>
+    <item type="id" name="shortcut_switch_image">false</item>
+    <item type="id" name="shortcut_devider_line1">false</item>
+    <item type="id" name="shortcut2">false</item>
+    <item type="id" name="shortcut_devider_line2">false</item>
+    <item type="id" name="shortcut3">false</item>
+    <item type="id" name="shortcut_devider_line3">false</item>
+    <item type="id" name="shortcut4">false</item>
+    <item type="id" name="bc_titlebar">false</item>
+    <item type="id" name="bc_title">false</item>
+    <item type="id" name="bc_controlbar">false</item>
+    <item type="id" name="uc_custom_dialog_title_layout">false</item>
+    <item type="id" name="uc_custom_dialog_title_icon">false</item>
+    <item type="id" name="uc_custom_dialog_title_text">false</item>
+    <item type="id" name="uc_custom_dialog_content_layout">false</item>
+    <item type="id" name="uc_custom_dialog_content_scroll_view">false</item>
+    <item type="id" name="uc_custom_dialog_content_text">false</item>
+    <item type="id" name="uc_custom_dialog_content_listview">false</item>
+    <item type="id" name="uc_custom_dialog_bottom_divider">false</item>
+    <item type="id" name="uc_custom_dialog_action_button_layout">false</item>
+    <item type="id" name="uc_custom_dialog_left_button">false</item>
+    <item type="id" name="uc_custom_dialog_btn_divider1">false</item>
+    <item type="id" name="uc_custom_dialog_neutral_button">false</item>
+    <item type="id" name="uc_custom_dialog_btn_divider2">false</item>
+    <item type="id" name="uc_custom_dialog_right_button">false</item>
+    <item type="id" name="uc_download_head">false</item>
+    <item type="id" name="uc_download_icon">false</item>
+    <item type="id" name="editfilename">false</item>
+    <item type="id" name="uc_download_download">false</item>
+    <item type="id" name="download">false</item>
+    <item type="id" name="storeage">false</item>
+    <item type="id" name="uc_download_divider2">false</item>
+    <item type="id" name="uc_download_cancel">false</item>
+    <item type="id" name="cancel">false</item>
+    <item type="id" name="uc_download_cloud">false</item>
+    <item type="id" name="cloud">false</item>
+    <item type="id" name="uc_download_divider3">false</item>
+    <item type="id" name="uc_download_play">false</item>
+    <item type="id" name="play">false</item>
+    <item type="id" name="extsdcard_msg_header">false</item>
+    <item type="id" name="extsdcard_msg">false</item>
+    <item type="id" name="extsdcard_msg_footer">false</item>
+    <item type="id" name="msg">false</item>
+    <item type="id" name="uc_custom_dialog_night_mode_brightness_layout">false</item>
+    <item type="id" name="uc_custom_dialog_night_mode_brightness_left_icon">false</item>
+    <item type="id" name="uc_custom_dialog_night_mode_brightness_seekbar">false</item>
+    <item type="id" name="uc_custom_dialog_night_mode_brightness_right_icon">false</item>
+    <item type="id" name="uc_preview_or_play">false</item>
+    <item type="id" name="preview_or_play">false</item>
+    <item type="id" name="uc_download_divider4">false</item>
+    <item type="id" name="uc_custom_dialog_clear_history_layout">false</item>
+    <item type="id" name="uc_custom_dialog_clear_history_checkbox">false</item>
+    <item type="id" name="uc_custom_dialog_clear_history_text">false</item>
+    <item type="id" name="uc_custom_dialog_tip_layout">false</item>
+    <item type="id" name="uc_custom_dialog_tip_checkbox">false</item>
+    <item type="id" name="uc_custom_dialog_tip_text">false</item>
+    <item type="id" name="dialog_savepassword_msg">false</item>
+    <item type="id" name="uc_custom_dialog_autosave_layout">false</item>
+    <item type="id" name="uc_custom_dialog_autosave_checkbox">false</item>
+    <item type="id" name="uc_custom_dialog_autosave_text">false</item>
+    <item type="id" name="custom_dialog_single_choice_item_icon">false</item>
+    <item type="id" name="custom_dialog_single_choice_item_text">false</item>
+    <item type="id" name="custom_dialog_single_choice_item_checkbox">false</item>
+    <item type="id" name="media_player_surface_layout">false</item>
+    <item type="id" name="media_player_surface_view">false</item>
+    <item type="id" name="media_player_top_layout">false</item>
+    <item type="id" name="media_player_exit_button">false</item>
+    <item type="id" name="media_player_name_text">false</item>
+    <item type="id" name="media_player_electric_power_image">false</item>
+    <item type="id" name="media_player_clock_text">false</item>
+    <item type="id" name="download_toast">false</item>
+    <item type="id" name="download_toast_head">false</item>
+    <item type="id" name="media_player_slide_position_volume_layout">false</item>
+    <item type="id" name="media_player_slide_position_layout">false</item>
+    <item type="id" name="media_player_slide_position_text">false</item>
+    <item type="id" name="media_player_slide_change_position_text">false</item>
+    <item type="id" name="media_player_slide_volume_layout">false</item>
+    <item type="id" name="media_player_slide_volume_image">false</item>
+    <item type="id" name="media_player_slide_volume_text">false</item>
+    <item type="id" name="media_player_center_view">false</item>
+    <item type="id" name="media_player_loading_view">false</item>
+    <item type="id" name="media_player_center_percent_speed_layout">false</item>
+    <item type="id" name="buffering_percent">false</item>
+    <item type="id" name="media_player_speed_text">false</item>
+    <item type="id" name="media_player_center_play_button">false</item>
+    <item type="id" name="media_player_quality_layout">false</item>
+    <item type="id" name="media_player_bottom_layout">false</item>
+    <item type="id" name="media_player_super_quality_text">false</item>
+    <item type="id" name="media_player_hight_quality_text">false</item>
+    <item type="id" name="media_player_normal_quality_text">false</item>
+    <item type="id" name="media_player_low_quality_text">false</item>
+    <item type="id" name="media_player_control_layout">false</item>
+    <item type="id" name="media_player_play_pause_button">false</item>
+    <item type="id" name="media_player_now_time_text">false</item>
+    <item type="id" name="media_player_total_time_text">false</item>
+    <item type="id" name="media_player_bottom_right_layout">false</item>
+    <item type="id" name="media_player_select_quality_text">false</item>
+    <item type="id" name="media_player_control_download_divider_image">false</item>
+    <item type="id" name="media_player_download">false</item>
+    <item type="id" name="media_player_control_switch_divider_image">false</item>
+    <item type="id" name="media_player_switch_button">false</item>
+    <item type="id" name="media_player_seekbar_position">false</item>
+    <item type="id" name="uc_popup_divider">false</item>
+    <item type="id" name="uc_popup_view_button">false</item>
+    <item type="id" name="uc_popup_left_button">false</item>
+    <item type="id" name="uc_popup_btn_divider1">false</item>
+    <item type="id" name="uc_popup_neutral_button">false</item>
+    <item type="id" name="uc_popup_btn_divider2">false</item>
+    <item type="id" name="uc_popup_right_button">false</item>
+    <item type="id" name="fl_title_icon">false</item>
+    <item type="id" name="uc_popup_title_icon">false</item>
+    <item type="id" name="uc_popup_title_icon_download_finish">false</item>
+    <item type="id" name="uc_popup_title_text">false</item>
+    <item type="id" name="uc_popup_close_button">false</item>
+    <item type="id" name="guide_icon_image">false</item>
+    <item type="id" name="guide_tips_text">false</item>
+    <item type="id" name="guide_double_btn_group">false</item>
+    <item type="id" name="guide_left_btn">false</item>
+    <item type="id" name="guide_right_btn">false</item>
+    <item type="id" name="guide_ok_button">false</item>
+    <item type="id" name="tv_content">false</item>
+    <item type="id" name="webView1">false</item>
+    <item type="id" name="dividerline">false</item>
+    <item type="id" name="ucBottomLayout">false</item>
+    <item type="id" name="uCButton1">false</item>
+    <item type="id" name="uCCheckBox1">false</item>
+    <item type="id" name="ucTextView">false</item>
+    <item type="id" name="title_time">false</item>
+    <item type="id" name="preContent">false</item>
+    <item type="id" name="websiteRelativeLayout">false</item>
+    <item type="id" name="address_bar_textView">false</item>
+    <item type="id" name="address_input_list">false</item>
+    <item type="id" name="address_emptyinput_layout">false</item>
+    <item type="id" name="mostvisited_textView">false</item>
+    <item type="id" name="address_mostvisited_view">false</item>
+    <item type="id" name="mostvisited_blank_layout">false</item>
+    <item type="id" name="mostvisited_blank_center_layout">false</item>
+    <item type="id" name="mostvisited_blank_page_icon">false</item>
+    <item type="id" name="mostvisited_blank_page_text">false</item>
+    <item type="id" name="address_bar_input">false</item>
+    <item type="id" name="address_bar_editText">false</item>
+    <item type="id" name="address_input_state">false</item>
+    <item type="id" name="search_engine_srollview">false</item>
+    <item type="id" name="zoom_out">false</item>
+    <item type="id" name="zoom_in">false</item>
+</resources>

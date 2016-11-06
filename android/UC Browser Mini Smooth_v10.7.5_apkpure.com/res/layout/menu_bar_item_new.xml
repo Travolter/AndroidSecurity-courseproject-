@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.uc.browser.MenuItemView android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="@dimen/menu_tab_widget_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/menu_item_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:layout_centerHorizontal="true" />
+    <ImageView android:id="@id/menu_item_reddot_image" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/menu_item_reddot_margin_right" android:layout_alignParentRight="true" />
+    <TextView android:textSize="10.666992sp" android:ellipsize="end" android:gravity="center" android:id="@id/menu_item_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" android:maxLines="2" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</com.uc.browser.MenuItemView>

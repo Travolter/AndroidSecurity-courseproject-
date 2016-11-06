@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/preferences_category_general">
+        <Preference android:title="@string/preferences_locations" android:summary="@string/preferences_locations_summary">
+            <intent android:targetPackage="@string/namespace" android:action="org.yoki.android.buienalarm.LAUNCH_LOCATION_PREFERENCES" android:targetClass="org.yoki.android.buienalarm.ui.activity.LocationPreferencesActivity" />
+        </Preference>
+        <ListPreference android:entries="@array/entries_country_list" android:title="@string/preferences_country_frequency" android:key="default_country" android:summary="%s" android:defaultValue="0" android:entryValues="@array/entryvalues_country_list" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/preferences_category_forecast">
+        <ListPreference android:entries="@array/entries_update_frequency" android:title="@string/preferences_update_frequency" android:key="list_update_frequency" android:summary="@string/preferences_update_frequency_summary" android:defaultValue="30" android:entryValues="@array/entryvalues_update_frequency" />
+        <ListPreference android:entries="@array/entries_notification_period" android:title="@string/preferences_notification_period" android:key="list_notification_period" android:summary="@string/preferences_notification_period_summary" android:defaultValue="60" android:entryValues="@array/entryvalues_notification_period" />
+        <ListPreference android:entries="@array/entries_precipitation_level" android:title="@string/precipitation_level" android:key="list_precipitation_level" android:summary="@string/precipitation_level_summary" android:defaultValue="1" android:entryValues="@array/entryvalues_precipitation_level" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/preferences_category_notification_pause" android:key="preferences_category_notification_pause">
+        <CheckBoxPreference android:title="@string/preferences_notification_pause" android:key="checkbox_notification_pause" />
+        <PreferenceScreen android:layout="?android:preferenceLayoutChild" android:title="@string/preferences_start_time" android:key="dialog_start_time" android:summary="@string/preferences_start_time_summary" android:dependency="checkbox_notification_pause" />
+        <PreferenceScreen android:layout="?android:preferenceLayoutChild" android:title="@string/preferences_stop_time" android:key="dialog_stop_time" android:summary="@string/preferences_stop_time_summary" android:dependency="checkbox_notification_pause" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/preferences_category_notifications">
+        <CheckBoxPreference android:title="@string/preferences_notifications_enabled" android:key="checkbox_notifications_enabled" android:defaultValue="true" />
+        <RingtonePreference android:layout="?android:preferenceLayoutChild" android:title="@string/preferences_ringtone" android:key="ringtone_preference" android:dependency="checkbox_notifications_enabled" android:defaultValue="content://settings/system/notification_sound" android:ringtoneType="notification" />
+        <CheckBoxPreference android:layout="?android:preferenceLayoutChild" android:title="@string/preferences_led_enabled" android:key="checkbox_led_enabled" android:dependency="checkbox_notifications_enabled" android:defaultValue="true" />
+        <CheckBoxPreference android:layout="?android:preferenceLayoutChild" android:title="@string/preferences_vibration_enabled" android:key="checkbox_vibration_enabled" android:dependency="checkbox_notifications_enabled" android:defaultValue="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/preferences_category_version" android:key="preferences_category_version">
+        <Preference android:key="preference_version_info" />
+    </PreferenceCategory>
+</PreferenceScreen>

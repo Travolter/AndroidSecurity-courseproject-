@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.uc.download.view.DownloadItemView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/download_item_icon_image" android:layout_width="@dimen/download_item_height" android:layout_height="@dimen/download_item_height" android:scaleType="center" />
+    <ImageView android:id="@id/download_item_state_image" android:layout_width="53.332977dip" android:layout_height="53.332977dip" android:scaleType="center" android:layout_alignParentRight="true" />
+    <RelativeLayout android:id="@id/download_item_progress_layout" android:paddingTop="5.3329773dip" android:layout_width="fill_parent" android:layout_height="@dimen/download_item_height" android:layout_toLeftOf="@id/download_item_state_image" android:layout_toRightOf="@id/download_item_icon_image">
+        <TextView android:textSize="14.666992sp" android:ellipsize="end" android:id="@id/download_item_name_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="3.3329773dip" android:singleLine="true" />
+        <ProgressBar android:id="@id/download_item_progress_bar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="2.6669922dip" android:layout_marginBottom="3.3329773dip" android:max="100" android:indeterminate="false" android:layout_below="@id/download_item_name_text" style="@android:style/Widget.ProgressBar.Horizontal" />
+        <TextView android:textSize="12.0sp" android:ellipsize="end" android:id="@id/download_item_progress_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_below="@id/download_item_progress_bar" android:layout_alignParentLeft="true" />
+        <TextView android:textSize="12.0sp" android:ellipsize="end" android:gravity="right" android:id="@id/download_item_speed_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:singleLine="true" android:layout_toRightOf="@id/download_item_progress_text" android:layout_below="@id/download_item_progress_bar" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <ViewStub android:id="@id/download_item_search_container" android:layout="@layout/download_item_search" android:layout_width="wrap_content" android:layout_height="41.332977dip" android:layout_marginLeft="@dimen/download_item_height" android:layout_marginTop="5.3329773dip" android:layout_below="@id/download_item_progress_layout" />
+</com.uc.download.view.DownloadItemView>

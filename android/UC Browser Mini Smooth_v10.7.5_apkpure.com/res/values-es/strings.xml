@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name_dot">UC Mini</string>
+    <string name="quality_low">Baja</string>
+    <string name="quality_normal">Media</string>
+    <string name="quality_high">Alta</string>
+    <string name="quality_super">Muy alta</string>
+    <string name="download_waiting_text">Esperando</string>
+    <string name="download_connecting_text">Conectando</string>
+    <string name="download_paused_text">Detenida</string>
+    <string name="download_notif_time_remaining_text">%s restantes</string>
+    <string name="download_notif_complete_text">Completado</string>
+    <string name="download_notif_failed_text">Fallo</string>
+    <string name="download_file_size_unknown">Desconocido</string>
+    <string name="saved_time">Guardado</string>
+    <string name="download_insufficiant_storage">Memoria insuficiente</string>
+    <string name="download_error_401_msg">El enlace expiró</string>
+    <string name="download_error_5xx_msg">Problemas en el servidor</string>
+    <string name="video_tips_slide_to_control_position_and_volume">Deslizar hacia derecha o izquierda para controlar el progreso. Deslizar hacia arriba o hacia abajo para controlar el volumen.</string>
+    <string name="video_download_tip">¡Haz clic aquí para ver más tarde!</string>
+    <string name="download_preparing_text">Preparando</string>
+    <string name="download_retrying_text">Reintentando(%s)</string>
+    <string name="download_paused_network_unavailable_text">Red no disponible</string>
+    <string name="download_paused_not_enough_space_text">Sin espacio disponible</string>
+    <string name="download_paused_weak_network_text">señal débil</string>
+    <string name="upgrade_notification_guide">¿No te has actualizado? %s %% de los usuarios ya se actualizaron. Actualiz tu UC</string>
+    <string name="upgrade_notification_title">Completamente nuevo UC %s</string>
+</resources>

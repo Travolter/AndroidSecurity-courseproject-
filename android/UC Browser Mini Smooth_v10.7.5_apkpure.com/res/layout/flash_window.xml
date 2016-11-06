@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.uc.browser.TitleBarTextView android:textSize="@dimen/title_text_size" android:textStyle="bold" android:textColor="@color/title_text" android:gravity="center|left" android:id="@id/Browser_TitleBar" android:paddingLeft="4.0dip" android:paddingTop="2.0dip" android:focusable="false" android:layout_width="fill_parent" android:layout_height="@dimen/titlebar_height" android:text="Flash" android:singleLine="true" android:shadowColor="#ff555555" android:shadowDx="1.2" android:shadowDy="1.2" />
+    <com.uc.browser.BarLayout android:id="@id/controlbar" android:paddingTop="2.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/controlbar_height" android:layout_alignParentBottom="true" />
+    <com.uc.browser.FlashWrapperView android:id="@id/flash" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/controlbar" android:layout_below="@id/Browser_TitleBar" />
+</RelativeLayout>

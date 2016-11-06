@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="bottom" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:uc="http://schemas.android.com/apk/res/com.uc.browser">
+    <com.uc.browser.homepage.ViewMainBar android:id="@id/controlbar" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/controlbar_height" android:layout_alignParentBottom="true" />
+    <com.uc.browser.SAnimLinearLayout android:orientation="vertical" android:id="@id/frame" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/controlbar">
+        <RelativeLayout android:id="@id/content" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ImageView android:id="@id/multi_window_divider" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <RelativeLayout android:id="@id/button_area" android:layout_width="fill_parent" android:layout_height="@dimen/mutiwindowlist_item_height">
+            <ImageView android:gravity="center" android:id="@id/new_window_button" android:layout_width="@dimen/mutiwindowlist_item_height" android:layout_height="fill_parent" android:scaleType="centerInside" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </com.uc.browser.SAnimLinearLayout>
+</RelativeLayout>

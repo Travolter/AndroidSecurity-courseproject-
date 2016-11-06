@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dialog_button_margin">25.0dip</dimen>
+    <dimen name="dialog_content_max_height">135.0dip</dimen>
+    <dimen name="dialog_frame_padding_top">20.0dip</dimen>
+    <dimen name="dialog_frame_padding_left">40.0dip</dimen>
+    <dimen name="dialog_frame_padding_right">40.0dip</dimen>
+    <dimen name="dialog_frame_padding_bottom">20.0dip</dimen>
+    <dimen name="zoomcontrol_padding_bottom">10.0px</dimen>
+    <dimen name="channel_padding_left">35.0px</dimen>
+    <dimen name="channel_padding_right">35.0px</dimen>
+    <dimen name="add_sch_engine_divider_width">445.0px</dimen>
+    <dimen name="first_marketing_image_margin_top">0.0dip</dimen>
+    <dimen name="first_marketing_text_margin_top">0.0dip</dimen>
+    <dimen name="multiwindow_list_max_height">145.0dip</dimen>
+    <dimen name="mutiwindowlist_maxtitletextlength">345.0px</dimen>
+    <dimen name="add_sch_enginelist_width">470.0px</dimen>
+    <dimen name="add_sch_schengine_width">72.0px</dimen>
+</resources>

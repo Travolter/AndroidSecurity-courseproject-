@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="menu_h_space">20.0px</dimen>
+    <dimen name="channel_padding_left">65.0px</dimen>
+    <dimen name="channel_padding_right">65.0px</dimen>
+    <dimen name="add_sch_engine_divider_width">794.0px</dimen>
+    <dimen name="multiwindow_list_max_height">180.0dip</dimen>
+    <dimen name="mutiwindowlist_maxtitletextlength">640.0px</dimen>
+    <dimen name="add_sch_enginelist_width">834.0px</dimen>
+    <dimen name="add_sch_schengine_width">128.0px</dimen>
+    <dimen name="add_sch_enginelist_height">226.0px</dimen>
+    <dimen name="add_sch_schengine_height">124.0px</dimen>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/bookmark_sender_dialog_scrollview" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/uc_custom_dialog_item_padding" android:paddingTop="13.332977dip" android:paddingRight="@dimen/uc_custom_dialog_item_padding" android:paddingBottom="3.3329773dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/uc_custom_dialog_item_text_size" android:textColor="#ffababab" android:id="@id/filename" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.uc.browser.UCEditText android:textSize="@dimen/uc_custom_dialog_item_text_size" android:textColor="#ff636363" android:textColorHint="#ff636363" android:layout_gravity="center_vertical" android:id="@id/download_dlg_filename" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="13.332977dip" android:layout_marginBottom="30.0dip" android:singleLine="true" />
+    </LinearLayout>
+</ScrollView>

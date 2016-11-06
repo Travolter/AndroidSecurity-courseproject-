@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="juc_text_small">14.666992sp</dimen>
+    <dimen name="juc_text_medium">17.332977sp</dimen>
+    <dimen name="juc_text_large">21.332977sp</dimen>
+    <dimen name="first_marketing_image_margin_top">60.0dip</dimen>
+    <dimen name="first_marketing_text_margin_top">23.0dip</dimen>
+</resources>

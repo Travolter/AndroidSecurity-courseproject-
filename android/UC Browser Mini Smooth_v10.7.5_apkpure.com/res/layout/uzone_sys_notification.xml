@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="#ff212121" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="120.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/downloadStateIcon" android:layout_width="40.319977dip" android:layout_height="40.319977dip" android:layout_marginLeft="13.439972dip" android:layout_marginRight="18.139984dip" android:src="@drawable/bcmsg_notif_icon" />
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="13.439972dip">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="16.0sp" android:textColor="#ffffffff" android:ellipsize="middle" android:gravity="center|left" android:id="@id/title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="4.0" />
+            <TextView android:textSize="12.0sp" android:textColor="#ff9c9c9c" android:gravity="center|right" android:id="@id/title_time" android:layout_width="0.0dip" android:layout_height="fill_parent" android:singleLine="true" android:layout_weight="1.0" />
+        </LinearLayout>
+        <TextView android:textSize="12.0sp" android:textColor="#ff9c9c9c" android:ellipsize="marquee" android:gravity="center|left" android:id="@id/preContent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lines="1" />
+    </LinearLayout>
+</LinearLayout>

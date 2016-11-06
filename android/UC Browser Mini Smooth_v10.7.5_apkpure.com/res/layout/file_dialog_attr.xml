@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:scrollbarStyle="outsideOverlay" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="18.0dip" android:textStyle="bold" android:textColor="@color/dialog_text_color" android:id="@id/filepath" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="18.0dip" android:id="@id/fileattr_filepath" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="18.0dip" android:textStyle="bold" android:textColor="@color/dialog_text_color" android:id="@id/lastmodify" android:paddingTop="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="18.0dip" android:id="@id/fileattr_lastmodify" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="18.0dip" android:textStyle="bold" android:textColor="@color/dialog_text_color" android:id="@id/filesize" android:paddingTop="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="18.0dip" android:id="@id/fileattr_filesize" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>
