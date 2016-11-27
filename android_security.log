@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2016.8.18)  30 OCT 2016 15:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2016.11.22)  26 NOV 2016 09:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -577,43 +577,33 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 LaTeX Font Info:    Try loading font information for U+msb on input line 14.
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) <images/manifest1.png, id=1, 699.61375pt x 144.54pt>
+) <images/manifest1.png, id=1, 814.04124pt x 149.55875pt>
 File: images/manifest1.png Graphic file (type png)
  <use images/manifest1.png>
 Package pdftex.def Info: images/manifest1.png used on input line 22.
-(pdftex.def)             Requested size: 338.58632pt x 69.95183pt.
+(pdftex.def)             Requested size: 338.58632pt x 62.20493pt.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 31.
+ (/usr/share/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 31.
+ [1
 
-./android_security.tex:28: Misplaced alignment tab character &.
-l.28 ...ps/details?id=org.yoki.android.buienalarm&
-                                                  hl=nl
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-
-Overfull \hbox (13.61002pt too wide) in paragraph at lines 32--33
-[]\OT1/cmr/m/n/10 http://dl.apk4now.com/26724/d2d8e1be9e0035d0a47aaeaac696d7c7ea8cb409/org.yoki.android.buienalarm.apk 
- []
-
-[1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./images/manifest1.png>] (./android_security.aux) ) 
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./images/manifest1.png>] [2] (./android_security.aux) ) 
 Here is how much of TeX's memory you used:
- 4950 strings out of 493013
- 64691 string characters out of 6139317
- 140183 words of memory out of 5000000
- 8415 multiletter control sequences out of 15000+600000
+ 4968 strings out of 493013
+ 64985 string characters out of 6139316
+ 144183 words of memory out of 5000000
+ 8430 multiletter control sequences out of 15000+600000
  9357 words of font info for 36 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  40i,7n,32p,254b,229s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on android_security.pdf (1 page, 98718 bytes).
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on android_security.pdf (2 pages, 120781 bytes).
 PDF statistics:
- 29 PDF objects out of 1000 (max. 8388607)
- 19 compressed objects within 1 object stream
+ 36 PDF objects out of 1000 (max. 8388607)
+ 24 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

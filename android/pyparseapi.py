@@ -1,7 +1,7 @@
 #!/bin/python
 import subprocess
 
-SEARCH_PATH = "./org.yoki.android.buienalarm/smali/"
+SEARCH_PATH = "./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/*"
 
 def parse(): 
     input = open('test', 'r')
@@ -29,7 +29,8 @@ def parse():
         print("method: "+ method)
         print("======")
     
-        output.write(service + " " + method + " " + permission)
+        if "<" not in service and ">" not in service and "<" not in method and ">" not in method and "enter" not in service and "enter" not in method:
+            output.write(service + " " + method + " " + permission)
     
     
         line = input.readline()
@@ -38,26 +39,48 @@ def search():
     parsed_api = open('parsed_api', 'r')
     result = open('result', 'w')
     line = parsed_api.readline()
+    searched_tuples = []
     while(line):
         split_line = line.split(" ") 
         grep1 = split_line[0]
         grep2 = split_line[1]
         permission = split_line[2]
 
-        stdoutdata = subprocess.getoutput('grep -Rin ' + grep1 + ' ' + SEARCH_PATH + ' | grep ' + grep2)
+        grep = 'grep -Ri ' + grep1 + ' ' + SEARCH_PATH + ' | grep -i ' + grep2
+        if not (grep1, grep2) in searched_tuples:
+            stdoutdata = subprocess.getoutput(grep)
+            searched_tuples.append((grep1, grep2))
 
         if (stdoutdata):
-            print("stdoutdata: " + stdoutdata)
-
-        # result.write("==========================\n" + grep1 + " " + grep2 + " " + permission + "\n" + stdoutdata) 
+            result.write("==========================\n")
+            result.write(grep + '\n')
+            result.write("PERMISSION: " + permission + '\n')
+            result.write("SEARCHED: " + grep1 + " & " + grep2 + "\n") 
+            result.write("FOUND: " + stdoutdata + "\n") 
+            result.write("==========================\n")
         
         line = parsed_api.readline()
+
+    print("done")
 
 
 def test():
 
-    print("stdoutdata: " + stdoutdata)
-    print("===============")
+    result = open('result', 'w')
+    grep1 = "conversation"
+    grep2 = "getfound"
+    permission = "test"
+    
+    grep = 'grep -Ri ' + grep1 + ' ' + SEARCH_PATH + ' | grep -i ' + grep2
 
+
+    stdoutdata = subprocess.getoutput(grep)
+
+    result.write(grep + '\n')
+    if (stdoutdata):
+        result.write("==========================\n")
+        result.write(permission + '\n')
+        result.write("SEARCHED: " + grep1 + " & " + grep2 + "\n") 
+        result.write("FOUND: " + stdoutdata + "\n") 
 
 search()
