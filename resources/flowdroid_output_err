@@ -1,0 +1,218 @@
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/travolter/capita_slecta/flowdroid/soot-trunk.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/travolter/capita_slecta/flowdroid/slf4j-simple-1.7.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.SimpleLoggerFactory]
+[main] INFO soot.jimple.infoflow.taintWrappers.EasyTaintWrapper - Loaded wrapper entries for 70 classes and 11 exclusions.
+[main] INFO soot.jimple.infoflow.android.SetupApplication - ARSC file parsing took 0.012640783 seconds
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.content.Intent
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.content.Context
+[main] INFO soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Generated main method:
+    public static void dummyMainMethod(java.lang.String[])
+    {
+        java.lang.String[] $r0;
+        int $i0, $i1;
+        de.mobinauten.smsspy.EmergencyService $r1;
+        android.os.IBinder $r2;
+        de.mobinauten.smsspy.EmergencyBroadcastReceiver $r3;
+
+        $r0 := @parameter0: java.lang.String[];
+
+        $i0 = 0;
+
+     label1:
+        if $i0 == 0 goto label5;
+
+        $r1 = new de.mobinauten.smsspy.EmergencyService;
+
+        specialinvoke $r1.<de.mobinauten.smsspy.EmergencyService: void <init>()>();
+
+        virtualinvoke $r1.<de.mobinauten.smsspy.EmergencyService: void onCreate()>();
+
+     label2:
+        if $i0 == 1 goto label3;
+
+        $i1 = virtualinvoke $r1.<de.mobinauten.smsspy.EmergencyService: int onStartCommand(android.content.Intent,int,int)>(null, 0, 0);
+
+        if $i0 == 2 goto label2;
+
+     label3:
+        $r2 = virtualinvoke $r1.<de.mobinauten.smsspy.EmergencyService: android.os.IBinder onBind(android.content.Intent)>(null);
+
+     label4:
+        if $i0 == 4 goto label5;
+
+        if $i0 == 5 goto label4;
+
+     label5:
+        if $i0 == 6 goto label7;
+
+        $r3 = new de.mobinauten.smsspy.EmergencyBroadcastReceiver;
+
+        specialinvoke $r3.<de.mobinauten.smsspy.EmergencyBroadcastReceiver: void <init>()>();
+
+        if $i0 == 7 goto label7;
+
+     label6:
+        virtualinvoke $r3.<de.mobinauten.smsspy.EmergencyBroadcastReceiver: void onReceive(android.content.Context,android.content.Intent)>(null, null);
+
+        if $i0 == 9 goto label6;
+
+     label7:
+        if $i0 == 10 goto label1;
+
+        return;
+    }
+
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Collecting callbacks in DEFAULT mode...
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.content.Intent
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.content.Context
+[main] INFO soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Generated main method:
+    public static void dummyMainMethod(java.lang.String[])
+    {
+        java.lang.String[] $r0;
+        int $i0, $i1;
+        de.mobinauten.smsspy.EmergencyService $r1;
+        android.os.IBinder $r2;
+        de.mobinauten.smsspy.EmergencyBroadcastReceiver $r3;
+
+        $r0 := @parameter0: java.lang.String[];
+
+        $i0 = 0;
+
+     label1:
+        if $i0 == 0 goto label5;
+
+        $r1 = new de.mobinauten.smsspy.EmergencyService;
+
+        specialinvoke $r1.<de.mobinauten.smsspy.EmergencyService: void <init>()>();
+
+        virtualinvoke $r1.<de.mobinauten.smsspy.EmergencyService: void onCreate()>();
+
+     label2:
+        if $i0 == 1 goto label3;
+
+        $i1 = virtualinvoke $r1.<de.mobinauten.smsspy.EmergencyService: int onStartCommand(android.content.Intent,int,int)>(null, 0, 0);
+
+        if $i0 == 2 goto label2;
+
+     label3:
+        $r2 = virtualinvoke $r1.<de.mobinauten.smsspy.EmergencyService: android.os.IBinder onBind(android.content.Intent)>(null);
+
+     label4:
+        if $i0 == 4 goto label5;
+
+        if $i0 == 5 goto label4;
+
+     label5:
+        if $i0 == 6 goto label7;
+
+        $r3 = new de.mobinauten.smsspy.EmergencyBroadcastReceiver;
+
+        specialinvoke $r3.<de.mobinauten.smsspy.EmergencyBroadcastReceiver: void <init>()>();
+
+        if $i0 == 7 goto label7;
+
+     label6:
+        virtualinvoke $r3.<de.mobinauten.smsspy.EmergencyBroadcastReceiver: void onReceive(android.content.Context,android.content.Intent)>(null, null);
+
+        if $i0 == 9 goto label6;
+
+     label7:
+        if $i0 == 10 goto label1;
+
+        return;
+    }
+
+[main] INFO soot.jimple.infoflow.Infoflow - Resetting Soot...
+[main] INFO soot.jimple.infoflow.Infoflow - Basic class loading done.
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.content.Intent
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class android.content.Context
+[main] INFO soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Generated main method:
+    public static void dummyMainMethod(java.lang.String[])
+    {
+        java.lang.String[] $r0;
+        int $i0, $i1;
+        de.mobinauten.smsspy.EmergencyService $r1;
+        android.os.IBinder $r2;
+        de.mobinauten.smsspy.EmergencyBroadcastReceiver $r3;
+
+        $r0 := @parameter0: java.lang.String[];
+
+        $i0 = 0;
+
+     label1:
+        if $i0 == 0 goto label5;
+
+        $r1 = new de.mobinauten.smsspy.EmergencyService;
+
+        specialinvoke $r1.<de.mobinauten.smsspy.EmergencyService: void <init>()>();
+
+        virtualinvoke $r1.<de.mobinauten.smsspy.EmergencyService: void onCreate()>();
+
+     label2:
+        if $i0 == 1 goto label3;
+
+        $i1 = virtualinvoke $r1.<de.mobinauten.smsspy.EmergencyService: int onStartCommand(android.content.Intent,int,int)>(null, 0, 0);
+
+        if $i0 == 2 goto label2;
+
+     label3:
+        $r2 = virtualinvoke $r1.<de.mobinauten.smsspy.EmergencyService: android.os.IBinder onBind(android.content.Intent)>(null);
+
+     label4:
+        if $i0 == 4 goto label5;
+
+        if $i0 == 5 goto label4;
+
+     label5:
+        if $i0 == 6 goto label7;
+
+        $r3 = new de.mobinauten.smsspy.EmergencyBroadcastReceiver;
+
+        specialinvoke $r3.<de.mobinauten.smsspy.EmergencyBroadcastReceiver: void <init>()>();
+
+        if $i0 == 7 goto label7;
+
+     label6:
+        virtualinvoke $r3.<de.mobinauten.smsspy.EmergencyBroadcastReceiver: void onReceive(android.content.Context,android.content.Intent)>(null, null);
+
+        if $i0 == 9 goto label6;
+
+     label7:
+        if $i0 == 10 goto label1;
+
+        return;
+    }
+
+[main] INFO soot.jimple.infoflow.Infoflow - Callgraph construction took 0.111518746 seconds
+[main] INFO soot.jimple.infoflow.codeOptimization.InterproceduralConstantValuePropagator - Removing side-effect free methods is disabled
+[main] INFO soot.jimple.infoflow.Infoflow - Dead code elimination took 0.027946669 seconds
+[main] INFO soot.jimple.infoflow.Infoflow - Callgraph has 41 edges
+[main] INFO soot.jimple.infoflow.Infoflow - Starting Taint Analysis
+[main] INFO soot.jimple.infoflow.data.FlowDroidMemoryManager - Initializing FlowDroid memory manager...
+[main] INFO soot.jimple.infoflow.data.FlowDroidMemoryManager - FDMM: Path data erasure enabled
+[main] INFO soot.jimple.infoflow.android.InfoflowAndroidConfiguration - Implicit flow tracking is NOT enabled
+[main] INFO soot.jimple.infoflow.android.InfoflowAndroidConfiguration - Exceptional flow tracking is enabled
+[main] INFO soot.jimple.infoflow.android.InfoflowAndroidConfiguration - Running with a maximum access path length of 5
+[main] INFO soot.jimple.infoflow.android.InfoflowAndroidConfiguration - Using path-agnostic result collection
+[main] INFO soot.jimple.infoflow.android.InfoflowAndroidConfiguration - Recursive access path shortening is enabled
+[main] INFO soot.jimple.infoflow.android.InfoflowAndroidConfiguration - Taint analysis enabled: true
+[main] INFO soot.jimple.infoflow.Infoflow - Looking for sources and sinks...
+[main] INFO soot.jimple.infoflow.Infoflow - Source lookup done, found 7 sources and 6 sinks.
+[main] INFO soot.jimple.infoflow.Infoflow - Taint wrapper hits: 69
+[main] INFO soot.jimple.infoflow.Infoflow - Taint wrapper misses: 28
+[main] INFO soot.jimple.infoflow.Infoflow - IFDS problem with 809 forward and 101 backward edges solved, processing 4 results...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextInsensitiveSourceFinder - Obtainted 4 connections between sources and sinks
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextInsensitiveSourceFinder - Building path 1 with task id 0
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextInsensitiveSourceFinder - Building path 2 with task id 1
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextInsensitiveSourceFinder - Building path 3 with task id 2
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextInsensitiveSourceFinder - Building path 4 with task id 3
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextInsensitiveSourceFinder - Path processing took 0.01108683 seconds in total
+[main] INFO soot.jimple.infoflow.Infoflow - The sink staticinvoke <android.util.Log: int i(java.lang.String,java.lang.String)>("SMSSPY", $r7) in method <de.mobinauten.smsspy.EmergencyTask: java.lang.Void doInBackground(android.content.Intent[])> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.Infoflow - - $r1 := @parameter0: android.content.Intent in method <de.mobinauten.smsspy.EmergencyService: int onStartCommand(android.content.Intent,int,int)>
+[main] INFO soot.jimple.infoflow.Infoflow - The sink virtualinvoke $r1.<android.content.Context: android.content.ComponentName startService(android.content.Intent)>($r2) in method <de.mobinauten.smsspy.EmergencyBroadcastReceiver: void onReceive(android.content.Context,android.content.Intent)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.Infoflow - - $r1 := @parameter0: android.content.Context in method <de.mobinauten.smsspy.EmergencyBroadcastReceiver: void onReceive(android.content.Context,android.content.Intent)>
+[main] INFO soot.jimple.infoflow.Infoflow - - $r2 := @parameter1: android.content.Intent in method <de.mobinauten.smsspy.EmergencyBroadcastReceiver: void onReceive(android.content.Context,android.content.Intent)>
+[main] INFO soot.jimple.infoflow.Infoflow - The sink staticinvoke <android.util.Log: int i(java.lang.String,java.lang.String)>("SMSSPY", $r5) in method <de.mobinauten.smsspy.EmergencyBroadcastReceiver: void onReceive(android.content.Context,android.content.Intent)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.Infoflow - - $r2 := @parameter1: android.content.Intent in method <de.mobinauten.smsspy.EmergencyBroadcastReceiver: void onReceive(android.content.Context,android.content.Intent)>

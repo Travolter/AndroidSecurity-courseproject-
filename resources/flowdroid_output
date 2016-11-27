@@ -1,0 +1,43 @@
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.2 seconds.
+[Spark] Solution found in 0.2 seconds.
+Callback analysis done.
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+Running incremental callback analysis for 2 components...
+Incremental callback analysis done.
+Found 4 callback methods for 2 components
+Found {} layout controls
+Entry point calculation done.
+Created a SourceSinkManager with 89 sources, 133 sinks, and 4 callback methods.
+Running data flow analysis...
+Running data flow analysis on /home/travolter/capita_slecta/android/0eb4b7737df1b8b52213599e405d71c9be8a68ac.apk with 89 sources and 133 sinks...
+Starting infoflow computation...
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.1 seconds.
+[Spark] Solution found in 0.1 seconds.
+Found a flow to sink staticinvoke <android.util.Log: int i(java.lang.String,java.lang.String)>("SMSSPY", $r7), from the following sources:
+	- $r1 := @parameter0: android.content.Intent (in <de.mobinauten.smsspy.EmergencyService: int onStartCommand(android.content.Intent,int,int)>)
+Found a flow to sink virtualinvoke $r1.<android.content.Context: android.content.ComponentName startService(android.content.Intent)>($r2), from the following sources:
+	- $r1 := @parameter0: android.content.Context (in <de.mobinauten.smsspy.EmergencyBroadcastReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+	- $r2 := @parameter1: android.content.Intent (in <de.mobinauten.smsspy.EmergencyBroadcastReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+Found a flow to sink staticinvoke <android.util.Log: int i(java.lang.String,java.lang.String)>("SMSSPY", $r5), from the following sources:
+	- $r2 := @parameter1: android.content.Intent (in <de.mobinauten.smsspy.EmergencyBroadcastReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+Maximum memory consumption: 50.690432 MB
+Analysis has run for 2.926134118 seconds

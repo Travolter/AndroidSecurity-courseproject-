@@ -56,9 +56,43 @@ This shows that following permissions were used:
   \item android.permission.WRITE\_SETTINGS: not requested in manifest 
 
   \item android.permission.WAKE\_LOCK: requested in manifest 
-
-  
 \end{itemize}
+
+\section{Step 3}
+Flowdroid found following sinks and sources:
+\begin{itemize}
+  \item \begin{verbatim}<android.util.Log: int
+    i(java.lang.String,java.lang.String)>("SMSSPY",$r7)\end{verbatim}
+    from the following sources:
+    \begin{itemize}
+	\item \begin{verbatim} android.content.Intent (in 
+          <de.mobinauten.smsspy.EmergencyService: int 
+          onStartCommand(android.content.Intent,int,int)>)\end{verbatim}
+    \end{itemize}
+
+  \item \begin{verbatim}virtualinvoke <android.content.Context:
+  android.content.ComponentName startService(android.content.Intent)>($r2)\end{verbatim}
+    from the following sources:
+    \begin{itemize}
+      \item \begin{verbatim}android.content.Context (in
+      <de.mobinauten.smsspy.EmergencyBroadcastReceiver: void
+        onReceive(android.content.Context,android.content.Intent)>)\end{verbatim}
+      \item  \begin{verbatim}android.content.Intent (in
+      <de.mobinauten.smsspy.EmergencyBroadcastReceiver: void
+        onReceive(android.content.Context,android.content.Intent)>)\end{verbatim}
+    \end{itemize}
+
+  \item \begin{verbatim}staticinvoke <android.util.Log: int
+  i(java.lang.String,java.lang.String)>("SMSSPY", $r5)\end{verbatim}
+  from the following sources:
+    \begin{itemize}
+      \item \begin{verbatim}android.content.Intent (in
+      <de.mobinauten.smsspy.EmergencyBroadcastReceiver: void
+        onReceive(android.content.Context,android.content.Intent)>)\end{verbatim}
+    \end{itemize}
+
+\end{itemize}
+
 
 \begin{thebibliography}{9}
   
