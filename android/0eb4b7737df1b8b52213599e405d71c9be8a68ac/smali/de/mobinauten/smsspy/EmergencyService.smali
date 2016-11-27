@@ -70,6 +70,8 @@
     invoke-virtual {v1, v2}, Lde/mobinauten/smsspy/EmergencyTask;->setContext(Landroid/content/Context;)V
 
     .line 28
+    log.i("###########################################################", v1)
+    log.i("###########################################################", v0)
     invoke-virtual {v1, v0}, Lde/mobinauten/smsspy/EmergencyTask;->execute([Ljava/lang/Object;)Landroid/os/AsyncTask;
 
     .line 29

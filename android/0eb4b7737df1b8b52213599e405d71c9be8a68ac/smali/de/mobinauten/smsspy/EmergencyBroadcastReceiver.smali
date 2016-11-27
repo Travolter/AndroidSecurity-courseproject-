@@ -84,6 +84,7 @@
 
     move-result-object v2
 
+    log.i("#########get -> i#################",p2)
     invoke-virtual {p2}, Landroid/content/Intent;->getAction()Ljava/lang/String;
 
     move-result-object v3
@@ -101,9 +102,13 @@
     .line 20
     const-class v1, Lde/mobinauten/smsspy/EmergencyService;
 
+    log.i("###set#####################",p2)
+    log.i("##########################",p1)
     invoke-virtual {p2, p1, v1}, Landroid/content/Intent;->setClass(Landroid/content/Context;Ljava/lang/Class;)Landroid/content/Intent;
 
     .line 21
+    log.i("#####start#####################",p2)
+    log.i("##########################",p1)
     invoke-virtual {p1, p2}, Landroid/content/Context;->startService(Landroid/content/Intent;)Landroid/content/ComponentName;
     :try_end_0
     .catch Ljava/lang/Throwable; {:try_start_0 .. :try_end_0} :catch_0
