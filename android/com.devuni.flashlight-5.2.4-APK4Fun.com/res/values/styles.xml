@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="LightEmpty" parent="@android:style/Theme.Translucent.NoTitleBar">
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+    <style name="Theme.MBBase" parent="@style/Theme.StyleBase">
+        <item name="android:windowBackground">@color/black</item>
+    </style>
+    <style name="Theme.StyleBase" parent="@android:style/Theme.NoTitleBar.Fullscreen" />
+</resources>

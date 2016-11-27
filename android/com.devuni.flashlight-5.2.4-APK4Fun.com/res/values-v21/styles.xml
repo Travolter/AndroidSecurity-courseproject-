@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.MBBase" parent="@style/Theme.StyleBase">
+        <item name="android:windowBackground">@color/graybg</item>
+    </style>
+    <style name="Theme.StyleBase" parent="@android:style/Theme.Material.NoActionBar.Fullscreen" />
+    <style name="NotificationText" parent="@android:style/TextAppearance.StatusBar.EventContent" />
+</resources>
