@@ -314,7 +314,7 @@
 
     if-nez v4, :cond_1e
 
-    # invoke-static {p0}, Lcom/millennialmedia/android/dt;->n(Landroid/content/Context;)Lcom/google/android/gms/ads/identifier/AdvertisingIdClient$Info;
+    invoke-static {p0}, Lcom/millennialmedia/android/dt;->n(Landroid/content/Context;)Lcom/google/android/gms/ads/identifier/AdvertisingIdClient$Info;
 
     move-result-object v5
 
@@ -327,7 +327,7 @@
     :goto_2
     if-eqz v4, :cond_0
 
-    # invoke-virtual {v5}, Lcom/google/android/gms/ads/identifier/AdvertisingIdClient$Info;->isLimitAdTrackingEnabled()Z
+    invoke-virtual {v5}, Lcom/google/android/gms/ads/identifier/AdvertisingIdClient$Info;->isLimitAdTrackingEnabled()Z
 
     move-result v5
 
@@ -964,7 +964,7 @@
     goto/16 :goto_1
 
     :cond_14
-    # invoke-virtual {v5}, Lcom/google/android/gms/ads/identifier/AdvertisingIdClient$Info;->getId()Ljava/lang/String;
+    invoke-virtual {v5}, Lcom/google/android/gms/ads/identifier/AdvertisingIdClient$Info;->getId()Ljava/lang/String;
 
     move-result-object v4
 
@@ -2333,7 +2333,7 @@
     const/4 v0, 0x0
 
     :try_start_0
-    # invoke-static {p0}, Lcom/google/android/gms/ads/identifier/AdvertisingIdClient;->getAdvertisingIdInfo(Landroid/content/Context;)Lcom/google/android/gms/ads/identifier/AdvertisingIdClient$Info;
+    invoke-static {p0}, Lcom/google/android/gms/ads/identifier/AdvertisingIdClient;->getAdvertisingIdInfo(Landroid/content/Context;)Lcom/google/android/gms/ads/identifier/AdvertisingIdClient$Info;
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
     .catch Lcom/google/android/gms/common/d; {:try_start_0 .. :try_end_0} :catch_1

@@ -22,7 +22,6 @@
 
     iget-object v0, p0, Lcom/devuni/ads/AdmobInt;->b:Lcom/google/android/gms/ads/f;
 
-    const v0, 0x0
     if-nez v0, :cond_0
 
     new-instance v0, Lcom/google/android/gms/ads/f;
@@ -47,7 +46,6 @@
 
     invoke-virtual {v0, v1}, Lcom/google/android/gms/ads/f;->a(Lcom/google/android/gms/ads/a;)V
 
-    const v0, 0x0
     :cond_0
     new-instance v0, Lcom/google/android/gms/ads/c;
 

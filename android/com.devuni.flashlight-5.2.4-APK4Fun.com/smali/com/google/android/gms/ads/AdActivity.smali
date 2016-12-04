@@ -18,13 +18,12 @@
 .method private a()V
     .locals 2
 
-    #iget-object v0, p0, Lcom/google/android/gms/ads/AdActivity;->a:Lcom/google/android/gms/internal/ft;
+    iget-object v0, p0, Lcom/google/android/gms/ads/AdActivity;->a:Lcom/google/android/gms/internal/ft;
 
-    const v0, 0x0
     if-eqz v0, :cond_0
 
     :try_start_0
-    #iget-object v0, p0, Lcom/google/android/gms/ads/AdActivity;->a:Lcom/google/android/gms/internal/ft;
+    iget-object v0, p0, Lcom/google/android/gms/ads/AdActivity;->a:Lcom/google/android/gms/internal/ft;
 
     invoke-interface {v0}, Lcom/google/android/gms/internal/ft;->j()V
     :try_end_0
@@ -49,16 +48,15 @@
 .method protected final onCreate(Landroid/os/Bundle;)V
     .locals 2
 
-    const v0, 0x0
     invoke-super {p0, p1}, Landroid/app/Activity;->onCreate(Landroid/os/Bundle;)V
 
     invoke-static {p0}, Lcom/google/android/gms/internal/fr;->a(Landroid/app/Activity;)Lcom/google/android/gms/internal/ft;
 
     move-result-object v0
 
-    # iput-object v0, p0, Lcom/google/android/gms/ads/AdActivity;->a:Lcom/google/android/gms/internal/ft;
+    iput-object v0, p0, Lcom/google/android/gms/ads/AdActivity;->a:Lcom/google/android/gms/internal/ft;
 
-    # iget-object v0, p0, Lcom/google/android/gms/ads/AdActivity;->a:Lcom/google/android/gms/internal/ft;
+    iget-object v0, p0, Lcom/google/android/gms/ads/AdActivity;->a:Lcom/google/android/gms/internal/ft;
 
     if-nez v0, :cond_0
 
@@ -66,14 +64,14 @@
 
     invoke-static {v0}, Lcom/google/android/gms/internal/la;->e(Ljava/lang/String;)V
 
-    # invoke-virtual {p0}, Lcom/google/android/gms/ads/AdActivity;->finish()V
+    invoke-virtual {p0}, Lcom/google/android/gms/ads/AdActivity;->finish()V
 
     :goto_0
     return-void
 
     :cond_0
     :try_start_0
-    #  iget-object v0, p0, Lcom/google/android/gms/ads/AdActivity;->a:Lcom/google/android/gms/internal/ft;
+    iget-object v0, p0, Lcom/google/android/gms/ads/AdActivity;->a:Lcom/google/android/gms/internal/ft;
 
     invoke-interface {v0, p1}, Lcom/google/android/gms/internal/ft;->a(Landroid/os/Bundle;)V
     :try_end_0
@@ -88,7 +86,7 @@
 
     invoke-static {v1, v0}, Lcom/google/android/gms/internal/la;->c(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    # invoke-virtual {p0}, Lcom/google/android/gms/ads/AdActivity;->finish()V
+    invoke-virtual {p0}, Lcom/google/android/gms/ads/AdActivity;->finish()V
 
     goto :goto_0
 .end method
@@ -97,12 +95,11 @@
     .locals 2
 
     :try_start_0
-    # iget-object v0, p0, Lcom/google/android/gms/ads/AdActivity;->a:Lcom/google/android/gms/internal/ft;
+    iget-object v0, p0, Lcom/google/android/gms/ads/AdActivity;->a:Lcom/google/android/gms/internal/ft;
 
-    const v0, 0x0
     if-eqz v0, :cond_0
 
-    # iget-object v0, p0, Lcom/google/android/gms/ads/AdActivity;->a:Lcom/google/android/gms/internal/ft;
+    iget-object v0, p0, Lcom/google/android/gms/ads/AdActivity;->a:Lcom/google/android/gms/internal/ft;
 
     invoke-interface {v0}, Lcom/google/android/gms/internal/ft;->i()V
     :try_end_0
@@ -127,13 +124,12 @@
 .method protected final onPause()V
     .locals 2
 
-    const v0, 0x0
     :try_start_0
-    # iget-object v0, p0, Lcom/google/android/gms/ads/AdActivity;->a:Lcom/google/android/gms/internal/ft;
+    iget-object v0, p0, Lcom/google/android/gms/ads/AdActivity;->a:Lcom/google/android/gms/internal/ft;
 
     if-eqz v0, :cond_0
 
-    # iget-object v0, p0, Lcom/google/android/gms/ads/AdActivity;->a:Lcom/google/android/gms/internal/ft;
+    iget-object v0, p0, Lcom/google/android/gms/ads/AdActivity;->a:Lcom/google/android/gms/internal/ft;
 
     invoke-interface {v0}, Lcom/google/android/gms/internal/ft;->g()V
     :try_end_0
@@ -152,7 +148,7 @@
 
     invoke-static {v1, v0}, Lcom/google/android/gms/internal/la;->c(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    # invoke-virtual {p0}, Lcom/google/android/gms/ads/AdActivity;->finish()V
+    invoke-virtual {p0}, Lcom/google/android/gms/ads/AdActivity;->finish()V
 
     goto :goto_0
 .end method
@@ -160,15 +156,14 @@
 .method protected final onRestart()V
     .locals 2
 
-    const v0, 0x0
     invoke-super {p0}, Landroid/app/Activity;->onRestart()V
 
     :try_start_0
-    # iget-object v0, p0, Lcom/google/android/gms/ads/AdActivity;->a:Lcom/google/android/gms/internal/ft;
+    iget-object v0, p0, Lcom/google/android/gms/ads/AdActivity;->a:Lcom/google/android/gms/internal/ft;
 
     if-eqz v0, :cond_0
 
-    # iget-object v0, p0, Lcom/google/android/gms/ads/AdActivity;->a:Lcom/google/android/gms/internal/ft;
+    iget-object v0, p0, Lcom/google/android/gms/ads/AdActivity;->a:Lcom/google/android/gms/internal/ft;
 
     invoke-interface {v0}, Lcom/google/android/gms/internal/ft;->d()V
     :try_end_0
@@ -185,7 +180,7 @@
 
     invoke-static {v1, v0}, Lcom/google/android/gms/internal/la;->c(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    # invoke-virtual {p0}, Lcom/google/android/gms/ads/AdActivity;->finish()V
+    invoke-virtual {p0}, Lcom/google/android/gms/ads/AdActivity;->finish()V
 
     goto :goto_0
 .end method
@@ -196,11 +191,11 @@
     invoke-super {p0}, Landroid/app/Activity;->onResume()V
 
     :try_start_0
-    #  iget-object v0, p0, Lcom/google/android/gms/ads/AdActivity;->a:Lcom/google/android/gms/internal/ft;
+    iget-object v0, p0, Lcom/google/android/gms/ads/AdActivity;->a:Lcom/google/android/gms/internal/ft;
 
     if-eqz v0, :cond_0
 
-    # iget-object v0, p0, Lcom/google/android/gms/ads/AdActivity;->a:Lcom/google/android/gms/internal/ft;
+    iget-object v0, p0, Lcom/google/android/gms/ads/AdActivity;->a:Lcom/google/android/gms/internal/ft;
 
     invoke-interface {v0}, Lcom/google/android/gms/internal/ft;->f()V
     :try_end_0
@@ -217,7 +212,7 @@
 
     invoke-static {v1, v0}, Lcom/google/android/gms/internal/la;->c(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    # invoke-virtual {p0}, Lcom/google/android/gms/ads/AdActivity;->finish()V
+    invoke-virtual {p0}, Lcom/google/android/gms/ads/AdActivity;->finish()V
 
     goto :goto_0
 .end method
@@ -225,13 +220,12 @@
 .method protected final onSaveInstanceState(Landroid/os/Bundle;)V
     .locals 2
 
-    const v0, 0x0
     :try_start_0
-    # iget-object v0, p0, Lcom/google/android/gms/ads/AdActivity;->a:Lcom/google/android/gms/internal/ft;
+    iget-object v0, p0, Lcom/google/android/gms/ads/AdActivity;->a:Lcom/google/android/gms/internal/ft;
 
     if-eqz v0, :cond_0
 
-    # iget-object v0, p0, Lcom/google/android/gms/ads/AdActivity;->a:Lcom/google/android/gms/internal/ft;
+    iget-object v0, p0, Lcom/google/android/gms/ads/AdActivity;->a:Lcom/google/android/gms/internal/ft;
 
     invoke-interface {v0, p1}, Lcom/google/android/gms/internal/ft;->b(Landroid/os/Bundle;)V
     :try_end_0
@@ -250,7 +244,7 @@
 
     invoke-static {v1, v0}, Lcom/google/android/gms/internal/la;->c(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    # invoke-virtual {p0}, Lcom/google/android/gms/ads/AdActivity;->finish()V
+    invoke-virtual {p0}, Lcom/google/android/gms/ads/AdActivity;->finish()V
 
     goto :goto_0
 .end method
@@ -259,14 +253,13 @@
     .locals 2
 
     invoke-super {p0}, Landroid/app/Activity;->onStart()V
-    const v0, 0x0
 
     :try_start_0
-    # iget-object v0, p0, Lcom/google/android/gms/ads/AdActivity;->a:Lcom/google/android/gms/internal/ft;
+    iget-object v0, p0, Lcom/google/android/gms/ads/AdActivity;->a:Lcom/google/android/gms/internal/ft;
 
     if-eqz v0, :cond_0
 
-    # iget-object v0, p0, Lcom/google/android/gms/ads/AdActivity;->a:Lcom/google/android/gms/internal/ft;
+    iget-object v0, p0, Lcom/google/android/gms/ads/AdActivity;->a:Lcom/google/android/gms/internal/ft;
 
     invoke-interface {v0}, Lcom/google/android/gms/internal/ft;->e()V
     :try_end_0
@@ -283,7 +276,7 @@
 
     invoke-static {v1, v0}, Lcom/google/android/gms/internal/la;->c(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    # invoke-virtual {p0}, Lcom/google/android/gms/ads/AdActivity;->finish()V
+    invoke-virtual {p0}, Lcom/google/android/gms/ads/AdActivity;->finish()V
 
     goto :goto_0
 .end method
@@ -292,12 +285,11 @@
     .locals 2
 
     :try_start_0
-    # iget-object v0, p0, Lcom/google/android/gms/ads/AdActivity;->a:Lcom/google/android/gms/internal/ft;
+    iget-object v0, p0, Lcom/google/android/gms/ads/AdActivity;->a:Lcom/google/android/gms/internal/ft;
 
-    const v0, 0x0
     if-eqz v0, :cond_0
 
-    # iget-object v0, p0, Lcom/google/android/gms/ads/AdActivity;->a:Lcom/google/android/gms/internal/ft;
+    iget-object v0, p0, Lcom/google/android/gms/ads/AdActivity;->a:Lcom/google/android/gms/internal/ft;
 
     invoke-interface {v0}, Lcom/google/android/gms/internal/ft;->h()V
     :try_end_0
@@ -316,7 +308,7 @@
 
     invoke-static {v1, v0}, Lcom/google/android/gms/internal/la;->c(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    # invoke-virtual {p0}, Lcom/google/android/gms/ads/AdActivity;->finish()V
+    invoke-virtual {p0}, Lcom/google/android/gms/ads/AdActivity;->finish()V
 
     goto :goto_0
 .end method
@@ -326,7 +318,7 @@
 
     invoke-super {p0, p1}, Landroid/app/Activity;->setContentView(I)V
 
-    # invoke-direct {p0}, Lcom/google/android/gms/ads/AdActivity;->a()V
+    invoke-direct {p0}, Lcom/google/android/gms/ads/AdActivity;->a()V
 
     return-void
 .end method
@@ -336,7 +328,7 @@
 
     invoke-super {p0, p1}, Landroid/app/Activity;->setContentView(Landroid/view/View;)V
 
-    # invoke-direct {p0}, Lcom/google/android/gms/ads/AdActivity;->a()V
+    invoke-direct {p0}, Lcom/google/android/gms/ads/AdActivity;->a()V
 
     return-void
 .end method
@@ -346,7 +338,7 @@
 
     invoke-super {p0, p1, p2}, Landroid/app/Activity;->setContentView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
 
-    # invoke-direct {p0}, Lcom/google/android/gms/ads/AdActivity;->a()V
+    invoke-direct {p0}, Lcom/google/android/gms/ads/AdActivity;->a()V
 
     return-void
 .end method

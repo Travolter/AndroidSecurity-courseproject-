@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="widget_focused_color">#ff339bc1</color>
+    <color name="widget_pressed_color">#ff48ceff</color>
+    <color name="black">#ff000000</color>
+    <color name="graybg">#ff212121</color>
+    <color name="liveblue">#ff1565c0</color>
+</resources>

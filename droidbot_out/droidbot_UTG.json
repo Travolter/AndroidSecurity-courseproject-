@@ -1,0 +1,16 @@
+[
+  {
+    "eventType": "keyEvent", 
+    "endState": "homescreen", 
+    "startState": "start", 
+    "event": "KEYCODE_HOME", 
+    "id": 1
+  }, 
+  {
+    "eventType": "startActivity", 
+    "endState": "2016-11-27_193155", 
+    "startState": "homescreen", 
+    "event": "de.mobinauten.smsspy", 
+    "id": 2
+  }
+]

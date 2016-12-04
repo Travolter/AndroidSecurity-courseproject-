@@ -57,42 +57,59 @@ This shows that following permissions were used:
 
   \item android.permission.WAKE\_LOCK: requested in manifest 
 \end{itemize}
+\newpage
 
-\section{Step 3}
-Flowdroid found following sinks and sources:
+I did the same for malware application
+\texttt{4f4ee687c683e889f204b1a0c86878f198380513}.
+
+Following permissions are defined in the manifest:
+
+\begin{figure}[h]
+  \includegraphics[width=0.7\textwidth]{manifest2}
+\end{figure}
+
+Following permissions are used by the application:
 \begin{itemize}
-  \item \begin{verbatim}<android.util.Log: int
-    i(java.lang.String,java.lang.String)>("SMSSPY",$r7)\end{verbatim}
-    from the following sources:
-    \begin{itemize}
-	\item \begin{verbatim} android.content.Intent (in 
-          <de.mobinauten.smsspy.EmergencyService: int 
-          onStartCommand(android.content.Intent,int,int)>)\end{verbatim}
-    \end{itemize}
-
-  \item \begin{verbatim}virtualinvoke <android.content.Context:
-  android.content.ComponentName startService(android.content.Intent)>($r2)\end{verbatim}
-    from the following sources:
-    \begin{itemize}
-      \item \begin{verbatim}android.content.Context (in
-      <de.mobinauten.smsspy.EmergencyBroadcastReceiver: void
-        onReceive(android.content.Context,android.content.Intent)>)\end{verbatim}
-      \item  \begin{verbatim}android.content.Intent (in
-      <de.mobinauten.smsspy.EmergencyBroadcastReceiver: void
-        onReceive(android.content.Context,android.content.Intent)>)\end{verbatim}
-    \end{itemize}
-
-  \item \begin{verbatim}staticinvoke <android.util.Log: int
-  i(java.lang.String,java.lang.String)>("SMSSPY", $r5)\end{verbatim}
-  from the following sources:
-    \begin{itemize}
-      \item \begin{verbatim}android.content.Intent (in
-      <de.mobinauten.smsspy.EmergencyBroadcastReceiver: void
-        onReceive(android.content.Context,android.content.Intent)>)\end{verbatim}
-    \end{itemize}
-
+  \item android.permission.VIBRATE
+  \item android.permission.INTERNET
+  \item android.permission.USE\_CREDENTIALS
+  \item android.permission.MANAGE\_ACCOUNTS
+  \item android.permission.READ\_PHONE\_STATE
+  \item android.permission.GET\_ACCOUNTS
+  \item android.permission.WAKE\_LOCK
 \end{itemize}
 
+The malware application seems to be underpriviliged, as for example ethe
+MANAGE\_ACCOUNTS and USE\_CREDENTIALS permissions are not listed in the
+maniffest.
+
+
+\section{Step 3}
+
+\begin{verbatim}
+Found a flow to sink specialinvoke $r5.<java.net.URL: void <init>(java.lang.String)>($r1)
+from the following sources:
+	- $r4 = virtualinvoke $r3.<android.os.Bundle: java.lang.String getString(java.lang.String)>("referrer") 
+        (in <com.typ3studios.airhorn.MyReferrerReceiver: 
+        void onReceive(android.content.Context,android.content.Intent)>)
+	- $r9 = virtualinvoke $r8.<android.accounts.AccountManager: 
+        android.accounts.Account[] getAccounts()>() 
+        (in <com.typ3studios.airhorn.MyReferrerReceiver: void getUserInfo(android.content.Context)>)
+	- $r3 = virtualinvoke $r6.<android.telephony.TelephonyManager: 
+        java.lang.String getLine1Number()>() 
+        (in <com.typ3studios.airhorn.MyReferrerReceiver: void getUserInfo(android.content.Context)>)
+	- $r1 := @parameter0: android.content.Context 
+        (in <com.typ3studios.airhorn.MyReferrerReceiver:
+        void onReceive(android.content.Context,android.content.Intent)>)
+	- $r3 = virtualinvoke $r6.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() 
+        (in <com.typ3studios.airhorn.MyReferrerReceiver: void getUserInfo(android.content.Context)>)
+
+Sink virtualinvoke $r1.<android.content.Context: android.content.ComponentName
+startService(android.content.Intent)>($r2)
+from the following sources:
+	- $r1 := @parameter0: android.content.Context (in <com.and.snd.StartAtBootServiceReceiver: 
+        void onReceive(android.content.Context,android.content.Intent)>)
+\end{verbatim}
 
 \begin{thebibliography}{9}
   

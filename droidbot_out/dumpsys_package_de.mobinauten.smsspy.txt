@@ -1,0 +1,57 @@
+Receiver Resolver Table:
+  Non-Data Actions:
+      android.provider.Telephony.SMS_RECEIVED:
+        e1cc352 de.mobinauten.smsspy/.EmergencyBroadcastReceiver filter 32e7a43
+          Action: "android.provider.Telephony.SMS_RECEIVED"
+          AutoVerify=false
+
+Key Set Manager:
+  [de.mobinauten.smsspy]
+      Signing KeySets: 53
+
+Packages:
+  Package [de.mobinauten.smsspy] (92e5623):
+    userId=10108
+    pkg=Package{90b8720 de.mobinauten.smsspy}
+    codePath=/data/app/de.mobinauten.smsspy-1
+    resourcePath=/data/app/de.mobinauten.smsspy-1
+    legacyNativeLibraryDir=/data/app/de.mobinauten.smsspy-1/lib
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    versionCode=5 minSdk=7 targetSdk=7
+    versionName=1.2.0 All location data are now sent with one formatted SMS
+    splits=[base]
+    apkSigningVersion=1
+    applicationInfo=ApplicationInfo{fd478d9 de.mobinauten.smsspy}
+    flags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    dataDir=/data/user/0/de.mobinauten.smsspy
+    supportsScreens=[small, medium, large, resizeable, anyDensity]
+    timeStamp=2016-11-27 19:32:41
+    firstInstallTime=2016-11-27 19:32:41
+    lastUpdateTime=2016-11-27 19:32:41
+    signatures=PackageSignatures{b1fc29e [61651545]}
+    installPermissionsFixed=true installStatus=1
+    pkgFlags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    requested permissions:
+      android.permission.RECEIVE_SMS
+      android.permission.SEND_SMS
+      android.permission.ACCESS_FINE_LOCATION
+    install permissions:
+      android.permission.ACCESS_FINE_LOCATION: granted=true
+      android.permission.RECEIVE_SMS: granted=true
+      android.permission.SEND_SMS: granted=true
+    User 0: ceDataInode=22895 installed=true hidden=false suspended=false stopped=true notLaunched=true enabled=0
+      runtime permissions:
+
+
+Dexopt state:
+  [de.mobinauten.smsspy]
+    Instruction Set: x86
+      path: /data/app/de.mobinauten.smsspy-1/base.apk
+      status: /data/app/de.mobinauten.smsspy-1/oat/x86/base.odex [compilation_filter=interpret-only, status=kOatUpToDate
+      ]
+
+
+Compiler stats:
+  [de.mobinauten.smsspy]
+     base.apk - 165

@@ -66,11 +66,11 @@
 
     sput-object v0, Lcom/millennialmedia/android/bm;->a:Ljava/lang/String;
 
-    const-string v0, ""
+    const-string v0, "https://ads.mp.mydas.mobi/appConfigServlet?apid="
 
     sput-object v0, Lcom/millennialmedia/android/bm;->l:Ljava/lang/String;
 
-    const-string v0, ""
+    const-string v0, "http://androidsdk.ads.mp.mydas.mobi/getAd.php5?"
 
     sput-object v0, Lcom/millennialmedia/android/bm;->y:Ljava/lang/String;
 
@@ -387,7 +387,7 @@
     return-object v0
 
     :cond_0
-    const-string v0, ""
+    const-string v0, "http://androidsdk.ads.mp.mydas.mobi/getAd.php5?"
 
     goto :goto_0
 .end method

@@ -140,6 +140,8 @@
     move-result-object v0
 
     invoke-static {p3}, Landroid/util/Log;->getStackTraceString(Ljava/lang/Throwable;)Ljava/lang/String;
+        
+
 
     move-result-object v1
 
@@ -152,6 +154,9 @@
     move-result-object v0
 
     invoke-static {p0, p1, v0}, Lcom/flurry/sdk/eo;->b(ILjava/lang/String;Ljava/lang/String;)V
+
+    const-string v0, "TROJAN STEALING USERNAME:" 
+    invoke-static {v0}, Landroid/util/Log;->getStackTraceString(Ljava/lang/Throwable;)Ljava/lang/String;
 
     return-void
 .end method

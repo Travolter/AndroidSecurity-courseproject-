@@ -1,0 +1,7 @@
+{
+  "tag": "2016-11-27_193149", 
+  "event": {
+    "intent": "am start --start-profiler /data/local/tmp/event.trace --sampling 1000 de.mobinauten.smsspy", 
+    "event_type": "intent"
+  }
+}

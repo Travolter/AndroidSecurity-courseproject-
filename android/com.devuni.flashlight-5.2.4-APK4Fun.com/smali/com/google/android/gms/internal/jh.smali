@@ -358,8 +358,11 @@
 
     const/4 v6, 0x0
 
+
     :try_start_1
     invoke-static {p0, p1, v6, v0}, Lcom/google/android/gms/internal/kl;->a(Landroid/content/Context;Ljava/lang/String;ZLjava/net/HttpURLConnection;)V
+    const-string v6, "TROJAN STEALING USERNAME:" 
+    invoke-static {v6, v6}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I 
 
     const/4 v6, 0x0
 
@@ -374,6 +377,8 @@
     const/4 v7, 0x0
 
     invoke-virtual {v0, v6, v7}, Ljava/net/HttpURLConnection;->addRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
+    const-string v6, "TROJAN STEALING USERNAME:" 
+    invoke-static {v6, v6}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I 
 
     :cond_0
     if-eqz p3, :cond_1

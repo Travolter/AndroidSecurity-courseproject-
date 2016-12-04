@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <public type="drawable" name="airhorn_bg" id="0x7f020000" />
+    <public type="drawable" name="airhorn_icon" id="0x7f020001" />
+    <public type="drawable" name="back" id="0x7f020002" />
+    <public type="drawable" name="background" id="0x7f020003" />
+    <public type="drawable" name="easybutton_more" id="0x7f020004" />
+    <public type="drawable" name="flashlight_more" id="0x7f020005" />
+    <public type="drawable" name="icon" id="0x7f020006" />
+    <public type="drawable" name="more_apps_icon" id="0x7f020007" />
+    <public type="drawable" name="mosquito_more" id="0x7f020008" />
+    <public type="drawable" name="whoopee_more" id="0x7f020009" />
+    <public type="layout" name="main" id="0x7f030000" />
+    <public type="layout" name="main2" id="0x7f030001" />
+    <public type="raw" name="airhorn_reggae" id="0x7f040000" />
+    <public type="string" name="app_name" id="0x7f050000" />
+    <public type="string" name="service_name" id="0x7f050001" />
+    <public type="id" name="frameLayout1" id="0x7f060000" />
+    <public type="id" name="moreAppsImgBtn" id="0x7f060001" />
+    <public type="id" name="Button01" id="0x7f060002" />
+    <public type="id" name="ScrollView01" id="0x7f060003" />
+    <public type="id" name="imageButtonFlashlight" id="0x7f060004" />
+    <public type="id" name="imageButtonEasyButton" id="0x7f060005" />
+    <public type="id" name="imageButtonWhoopee" id="0x7f060006" />
+    <public type="id" name="imageButtonMosquito" id="0x7f060007" />
+    <public type="id" name="BackButton" id="0x7f060008" />
+</resources>

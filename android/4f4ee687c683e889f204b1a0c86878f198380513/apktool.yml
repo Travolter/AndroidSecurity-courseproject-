@@ -1,0 +1,21 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: 4f4ee687c683e889f204b1a0c86878f198380513.apk
+compressionType: false
+doNotCompress:
+- arsc
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '7'
+sharedLibrary: false
+unknownFiles: {}
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.2.1
+versionInfo:
+  versionCode: '7'
+  versionName: '1.3'

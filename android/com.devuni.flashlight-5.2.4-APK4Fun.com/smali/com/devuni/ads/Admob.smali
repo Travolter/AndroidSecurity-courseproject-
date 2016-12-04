@@ -42,7 +42,7 @@
 .method public final b()V
     .locals 2
 
-    #invoke-super {p0}, Lcom/devuni/ads/h;->b()V
+    invoke-super {p0}, Lcom/devuni/ads/h;->b()V
 
     :try_start_0
     new-instance v1, Lcom/google/android/gms/ads/e;
@@ -125,7 +125,6 @@
 
     iget-object v0, p0, Lcom/devuni/ads/Admob;->b:Lcom/google/android/gms/ads/e;
 
-    const v0, 0x0
     if-eqz v0, :cond_0
 
     iget-object v0, p0, Lcom/devuni/ads/Admob;->b:Lcom/google/android/gms/ads/e;
@@ -140,8 +139,6 @@
     .locals 1
 
     iget-object v0, p0, Lcom/devuni/ads/Admob;->b:Lcom/google/android/gms/ads/e;
-
-    const v0, 0x0
 
     if-eqz v0, :cond_0
 
@@ -160,7 +157,6 @@
 
     iget-object v0, p0, Lcom/devuni/ads/Admob;->b:Lcom/google/android/gms/ads/e;
 
-    const v0, 0x0
     if-eqz v0, :cond_0
 
     :try_start_0

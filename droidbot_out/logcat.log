@@ -1,0 +1,814 @@
+--------- beginning of main
+11-27 19:32:40.103 11744 11744 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-27 19:32:40.104 11744 11744 D AndroidRuntime: CheckJNI is ON
+11-27 19:32:40.104 11744 11744 E cutils-trace: Error opening trace file: Permission denied (13)
+11-27 19:32:40.153 11744 11744 W art     : Unexpected CPU variant for X86 using defaults: x86
+11-27 19:32:40.157 11744 11744 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+11-27 19:32:40.167 11744 11744 E memtrack: Couldn't load memtrack module (No such file or directory)
+11-27 19:32:40.167 11744 11744 E android.os.Debug: failed to load memtrack module: -2
+11-27 19:32:40.167 11744 11744 I Radio-JNI: register_android_hardware_Radio DONE
+11-27 19:32:40.172 11744 11744 D AndroidRuntime: Calling main entry com.android.commands.input.Input
+11-27 19:32:40.173 11744 11744 I Input   : injectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=3382898, downTime=3382898, deviceId=-1, source=0x101 }
+11-27 19:32:40.174 11744 11744 I Input   : injectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=3382898, downTime=3382898, deviceId=-1, source=0x101 }
+11-27 19:32:40.176 11744 11744 D AndroidRuntime: Shutting down VM
+11-27 19:32:40.605 11757 11757 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-27 19:32:40.606 11757 11757 D AndroidRuntime: CheckJNI is ON
+11-27 19:32:40.606 11757 11757 E cutils-trace: Error opening trace file: Permission denied (13)
+11-27 19:32:40.666 11757 11757 W art     : Unexpected CPU variant for X86 using defaults: x86
+11-27 19:32:40.669 11757 11757 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+11-27 19:32:40.679 11757 11757 E memtrack: Couldn't load memtrack module (No such file or directory)
+11-27 19:32:40.679 11757 11757 E android.os.Debug: failed to load memtrack module: -2
+11-27 19:32:40.679 11757 11757 I Radio-JNI: register_android_hardware_Radio DONE
+11-27 19:32:40.685 11757 11757 D AndroidRuntime: Calling main entry com.android.commands.input.Input
+11-27 19:32:40.686 11757 11757 I Input   : injectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=3383410, downTime=3383410, deviceId=-1, source=0x101 }
+11-27 19:32:40.687 11757 11757 I Input   : injectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=3383410, downTime=3383410, deviceId=-1, source=0x101 }
+11-27 19:32:40.688 11757 11757 D AndroidRuntime: Shutting down VM
+11-27 19:32:40.710  1932  2071 W OpenGLRenderer: Incorrectly called buildLayer on View: Hotseat, destroying layer...
+11-27 19:32:40.710  1932  2071 W OpenGLRenderer: Incorrectly called buildLayer on View: PageIndicatorLineCaret, destroying layer...
+11-27 19:32:40.710  1932  2071 W OpenGLRenderer: Incorrectly called buildLayer on View: SuperGContainerView, destroying layer...
+11-27 19:32:41.043  1256  1256 I         : free_cache(16661) avail 648470528
+11-27 19:32:41.188  1423  1481 I PackageManager.DexOptimizer: Running dexopt (dex2oat) on: /data/app/vmdl1243071901.tmp/base.apk pkg=de.mobinauten.smsspy isa=x86 vmSafeMode=false debuggable=true target-filter=interpret-only oatDir = /data/app/vmdl1243071901.tmp/oat sharedLibraries=null
+11-27 19:32:41.213 11781 11781 W dex2oat : Unexpected CPU variant for X86 using defaults: x86
+11-27 19:32:41.213 11781 11781 W dex2oat : Mismatch between dex2oat instruction set features (ISA: X86 Feature string: smp,-ssse3,-sse4.1,-sse4.2,-avx,-avx2,-lock_add,-popcnt) and those of dex2oat executable (ISA: X86 Feature string: smp,ssse3,-sse4.1,-sse4.2,-avx,-avx2,-lock_add,-popcnt) for the command line:
+11-27 19:32:41.213 11781 11781 W dex2oat : /system/bin/dex2oat --zip-fd=6 --zip-location=base.apk --oat-fd=7 --oat-location=/data/app/vmdl1243071901.tmp/oat/x86/base.odex --instruction-set=x86 --instruction-set-variant=x86 --instruction-set-features=default --runtime-arg -Xms64m --runtime-arg -Xmx512m --compiler-filter=interpret-only --swap-fd=9 --debuggable
+11-27 19:32:41.216 11781 11781 I dex2oat : /system/bin/dex2oat --compiler-filter=interpret-only --debuggable
+11-27 19:32:41.216 11781 11781 E cutils-trace: Error opening trace file: Permission denied (13)
+11-27 19:32:41.351 11781 11781 I dex2oat : dex2oat took 137.448ms (threads: 2) arena alloc=1576B (1576B) java alloc=72KB (74384B) native alloc=883KB (904880B) free=1164KB (1192272B)
+11-27 19:32:41.529  1256  1256 D installd: Detected label change from u:object_r:system_data_file:s0 to u:object_r:app_data_file:s0:c512,c768 at /data/data/de.mobinauten.smsspy; running recursive restorecon
+11-27 19:32:41.530  1256  1256 D installd: Detected label change from u:object_r:system_data_file:s0 to u:object_r:app_data_file:s0:c512,c768 at /data/user_de/0/de.mobinauten.smsspy; running recursive restorecon
+--------- beginning of system
+11-27 19:32:41.533  1423  1481 V BackupManagerService: restoreAtInstall pkg=de.mobinauten.smsspy token=f restoreSet=0
+11-27 19:32:41.533  1423  1481 W BackupManagerService: Requested unavailable transport: android/com.android.internal.backup.LocalTransport
+11-27 19:32:41.533  1423  1481 W BackupManagerService: No transport
+11-27 19:32:41.533  1423  1481 V BackupManagerService: Finishing install immediately
+11-27 19:32:41.534  1423  1481 I art     : Starting a blocking GC Explicit
+11-27 19:32:41.570  1423  1481 I art     : Explicit concurrent mark sweep GC freed 28855(1697KB) AllocSpace objects, 8(160KB) LOS objects, 25% free, 11MB/15MB, paused 308us total 36.267ms
+11-27 19:32:41.571  1256  1256 E         : Couldn't opendir /data/app/vmdl1243071901.tmp: No such file or directory
+11-27 19:32:41.582  1423  1565 I InputReader: Reconfiguring input devices.  changes=0x00000010
+11-27 19:32:41.593  1731  1731 D CarrierSvcBindHelper: No carrier app for: 0
+11-27 19:32:41.593  1731  1731 D CarrierConfigLoader: mHandler: 9 phoneId: 0
+11-27 19:32:41.632  2214  2214 E ChimeraRcvrProxy: Chimera config error, ComponentInfo{com.google.android.gms/com.google.android.gms.games.chimera.GamesSystemBroadcastReceiverProxy} dropping broadcast android.intent.action.PACKAGE_ADDED: com.google.android.chimera.config.InvalidConfigException: No registered Chimera receiver impl for ComponentInfo{com.google.android.gms/com.google.android.gms.games.chimera.GamesSystemBroadcastReceiverProxy}
+11-27 19:32:41.667  2019 11796 I UpdateIcingCorporaServi: Updating corpora: APPS=de.mobinauten.smsspy, CONTACTS=MAYBE
+11-27 19:32:41.673  2214  2606 I Icing   : Usage reports 0 indexed 0 rejected 0 imm upload false
+11-27 19:32:41.676  2214  2606 I Icing   : Usage reports 0 indexed 0 rejected 0 imm upload false
+11-27 19:32:41.676  2019 11796 I UpdateIcingCorporaServi: UpdateCorporaTask done [took 9 ms] updated apps [took 9 ms] 
+11-27 19:32:41.679  2214 11804 W IcingInternalCorpora: getNumBytesRead when not calculated.
+11-27 19:32:41.805 11793 11793 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-27 19:32:41.806 11793 11793 D AndroidRuntime: CheckJNI is ON
+11-27 19:32:41.806 11793 11793 E cutils-trace: Error opening trace file: Permission denied (13)
+11-27 19:32:41.842 11793 11793 W art     : Unexpected CPU variant for X86 using defaults: x86
+11-27 19:32:41.845 11793 11793 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+11-27 19:32:41.854 11793 11793 E memtrack: Couldn't load memtrack module (No such file or directory)
+11-27 19:32:41.854 11793 11793 E android.os.Debug: failed to load memtrack module: -2
+11-27 19:32:41.855 11793 11793 I Radio-JNI: register_android_hardware_Radio DONE
+11-27 19:32:41.860 11793 11793 D AndroidRuntime: Calling main entry com.android.commands.input.Input
+11-27 19:32:41.861 11793 11793 I Input   : injectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_HOME, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=3384586, downTime=3384586, deviceId=-1, source=0x101 }
+11-27 19:32:41.862 11793 11793 I Input   : injectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_HOME, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=3384586, downTime=3384586, deviceId=-1, source=0x101 }
+11-27 19:32:41.863  1423  1564 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.google.android.apps.nexuslauncher/.NexusLauncherActivity (has extras)} from uid 1000 on display 0
+11-27 19:32:41.866 11793 11793 D AndroidRuntime: Shutting down VM
+11-27 19:32:42.725  2214  2606 I Icing   : Indexing EDE34DBA766D2EACABCAB0AAFE91641BAADA9C17 from com.google.android.gms
+11-27 19:32:42.734  2214  2606 I Icing   : Indexing done EDE34DBA766D2EACABCAB0AAFE91641BAADA9C17
+11-27 19:32:43.353  2019  2019 I MicroDetectionWorker: Micro detection mode: [mDetectionMode: [1]].
+11-27 19:32:43.353  2019  2019 I AudioController: Using mInputStreamFactoryBuilder
+11-27 19:32:43.359  2019 11817 I MicroRecognitionRunner: Starting detection.
+11-27 19:32:43.360  2019  4132 I MicrophoneInputStream: mic_starting com.google.android.apps.gsa.staticplugins.z.c@71f2443
+11-27 19:32:43.361  1253  1253 W APM_AudioPolicyManager: getInputForAttr() failed opening input: samplingRate 16000, format 1, channelMask 10
+11-27 19:32:43.361  2019  4132 E AudioRecord: Could not get audio input for session 5417, record source 1999, sample rate 16000, format 0x1, channel mask 0x10, flags 0
+11-27 19:32:43.363  2019  4132 E AudioRecord-JNI: Error creating AudioRecord instance: initialization check failed with status -22.
+11-27 19:32:43.363  2019  4132 E android.media.AudioRecord: Error code -20 when initializing native AudioRecord object.
+11-27 19:32:43.363  2019  4132 I MicrophoneInputStream: mic_started com.google.android.apps.gsa.staticplugins.z.c@71f2443
+11-27 19:32:43.364  2019  4132 E ActivityThread: Failed to find provider info for com.google.android.apps.gsa.testing.ui.audio.recorded
+11-27 19:32:43.364  2019  2019 I MicroDetectionWorker: onReady
+11-27 19:32:43.390  2019  4132 I MicrophoneInputStream: mic_close com.google.android.apps.gsa.staticplugins.z.c@71f2443
+11-27 19:32:43.391  2019 11817 I MicroRecognitionRunner: Detection finished
+11-27 19:32:43.391  2019 11817 W ErrorReporter: reportError [type: 211, code: 524300]: Error reading from input stream
+11-27 19:32:43.393  2019  2180 I MicroRecognitionRunner: Stopping hotword detection.
+11-27 19:32:43.395  2019 11817 W ErrorProcessor: onFatalError, processing error from engine(4)
+11-27 19:32:43.395  2019 11817 W ErrorProcessor: com.google.android.apps.gsa.shared.speech.a.g: Error reading from input stream
+11-27 19:32:43.395  2019 11817 W ErrorProcessor: 	at com.google.android.apps.gsa.staticplugins.recognizer.i.a.a(SourceFile:342)
+11-27 19:32:43.395  2019 11817 W ErrorProcessor: 	at com.google.android.apps.gsa.staticplugins.recognizer.i.a$1.run(SourceFile:1367)
+11-27 19:32:43.395  2019 11817 W ErrorProcessor: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:428)
+11-27 19:32:43.395  2019 11817 W ErrorProcessor: 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+11-27 19:32:43.395  2019 11817 W ErrorProcessor: 	at com.google.android.apps.gsa.shared.util.concurrent.a.ak.run(SourceFile:66)
+11-27 19:32:43.395  2019 11817 W ErrorProcessor: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1133)
+11-27 19:32:43.395  2019 11817 W ErrorProcessor: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:607)
+11-27 19:32:43.395  2019 11817 W ErrorProcessor: 	at java.lang.Thread.run(Thread.java:761)
+11-27 19:32:43.395  2019 11817 W ErrorProcessor: 	at com.google.android.apps.gsa.shared.util.concurrent.a.ad$1.run(SourceFile:85)
+11-27 19:32:43.395  2019 11817 W ErrorProcessor: Caused by: com.google.android.apps.gsa.shared.exception.GsaIOException: Error code: 393238 | Buffer overflow, no available space.
+11-27 19:32:43.395  2019 11817 W ErrorProcessor: 	at com.google.android.apps.gsa.speech.audio.Tee.g(SourceFile:2531)
+11-27 19:32:43.395  2019 11817 W ErrorProcessor: 	at com.google.android.apps.gsa.speech.audio.ap.read(SourceFile:555)
+11-27 19:32:43.395  2019 11817 W ErrorProcessor: 	at java.io.InputStream.read(InputStream.java:101)
+11-27 19:32:43.395  2019 11817 W ErrorProcessor: 	at com.google.android.apps.gsa.speech.audio.al.run(SourceFile:362)
+11-27 19:32:43.395  2019 11817 W ErrorProcessor: 	at com.google.android.apps.gsa.speech.audio.ak$1.run(SourceFile:471)
+11-27 19:32:43.395  2019 11817 W ErrorProcessor: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:428)
+11-27 19:32:43.395  2019 11817 W ErrorProcessor: 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+11-27 19:32:43.395  2019 11817 W ErrorProcessor: 	at com.google.android.apps.gsa.shared.util.concurrent.a.ak.run(SourceFile:66)
+11-27 19:32:43.395  2019 11817 W ErrorProcessor: 	at com.google.android.apps.gsa.shared.util.concurrent.a.ax.run(SourceFile:139)
+11-27 19:32:43.395  2019 11817 W ErrorProcessor: 	at com.google.android.apps.gsa.shared.util.concurrent.a.ax.run(SourceFile:139)
+11-27 19:32:43.395  2019 11817 W ErrorProcessor: 	... 4 more
+11-27 19:32:43.395  2019 11817 I AudioController: internalShutdown
+11-27 19:32:43.397  2019  2019 I MicroDetector: Keeping mic open: false
+11-27 19:32:43.397  2019  2019 I MicroDetectionWorker: #onError(false)
+11-27 19:32:43.398  2019 11816 I DeviceStateChecker: DeviceStateChecker cancelled
+11-27 19:32:44.137 11821 11821 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-27 19:32:44.138 11821 11821 D AndroidRuntime: CheckJNI is ON
+11-27 19:32:44.138 11821 11821 E cutils-trace: Error opening trace file: Permission denied (13)
+11-27 19:32:44.186 11821 11821 W art     : Unexpected CPU variant for X86 using defaults: x86
+11-27 19:32:44.188 11821 11821 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+11-27 19:32:44.197 11821 11821 E memtrack: Couldn't load memtrack module (No such file or directory)
+11-27 19:32:44.197 11821 11821 E android.os.Debug: failed to load memtrack module: -2
+11-27 19:32:44.197 11821 11821 I Radio-JNI: register_android_hardware_Radio DONE
+11-27 19:32:44.202 11821 11821 D AndroidRuntime: Calling main entry com.android.commands.am.Am
+11-27 19:32:44.204  1423  1862 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 pkg=de.mobinauten.smsspy} from uid 2000 on display 0
+11-27 19:32:44.204 11821 11821 D AndroidRuntime: Shutting down VM
+11-27 19:32:46.415  2019  2019 I GrammarCompilationSvcCt: #startService for null, APP_NAMES.
+11-27 19:32:46.416  2019 11837 I ContextCompilationHandl: Compiling grammar for: en-US, type=APP_NAMES
+11-27 19:32:46.417  2019 11837 I ContextCompilationHandl: No grammar compilation resources for VOICE_ACTIONS_COMPILER, aborting. 
+11-27 19:32:46.435 11835 11835 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-27 19:32:46.437 11835 11835 D AndroidRuntime: CheckJNI is ON
+11-27 19:32:46.437 11835 11835 E cutils-trace: Error opening trace file: Permission denied (13)
+11-27 19:32:46.479 11835 11835 W art     : Unexpected CPU variant for X86 using defaults: x86
+11-27 19:32:46.482 11835 11835 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+11-27 19:32:46.491 11835 11835 E memtrack: Couldn't load memtrack module (No such file or directory)
+11-27 19:32:46.491 11835 11835 E android.os.Debug: failed to load memtrack module: -2
+11-27 19:32:46.492 11835 11835 I Radio-JNI: register_android_hardware_Radio DONE
+11-27 19:32:46.497 11835 11835 D AndroidRuntime: Calling main entry com.android.commands.am.Am
+11-27 19:32:46.500  1423  1931 W ActivityManager: Permission Denial: not allowed to send broadcast android.provider.Telephony.SMS_RECEIVED from pid=11835, uid=2000
+11-27 19:32:46.502 11835 11835 I art     : System.exit called, status: 1
+11-27 19:32:46.502 11835 11835 I AndroidRuntime: VM exiting with result code 1.
+11-27 19:32:46.895 11853 11853 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-27 19:32:46.896 11853 11853 D AndroidRuntime: CheckJNI is ON
+11-27 19:32:46.896 11853 11853 E cutils-trace: Error opening trace file: Permission denied (13)
+11-27 19:32:46.932 11853 11853 W art     : Unexpected CPU variant for X86 using defaults: x86
+11-27 19:32:46.934 11853 11853 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+11-27 19:32:46.943 11853 11853 E memtrack: Couldn't load memtrack module (No such file or directory)
+11-27 19:32:46.943 11853 11853 E android.os.Debug: failed to load memtrack module: -2
+11-27 19:32:46.944 11853 11853 I Radio-JNI: register_android_hardware_Radio DONE
+11-27 19:32:46.949 11853 11853 D AndroidRuntime: Calling main entry com.android.commands.am.Am
+11-27 19:32:46.951  1423  8420 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 pkg=de.mobinauten.smsspy} from uid 2000 on display 0
+11-27 19:32:46.951 11853 11853 D AndroidRuntime: Shutting down VM
+11-27 19:32:46.952 11853 11862 W art     : Thread attaching while runtime is shutting down: Binder:11853_2
+11-27 19:32:46.952 11853 11862 I AndroidRuntime: NOTE: attach of thread 'Binder:11853_2' failed
+11-27 19:32:48.401  2019  2019 I MicroDetectionWorker: Micro detection mode: [mDetectionMode: [1]].
+11-27 19:32:48.401  2019  2019 I AudioController: Using mInputStreamFactoryBuilder
+11-27 19:32:48.406  2019 11866 I MicroRecognitionRunner: Starting detection.
+11-27 19:32:48.415  2019  4132 I MicrophoneInputStream: mic_starting com.google.android.apps.gsa.staticplugins.z.c@a100f1c
+11-27 19:32:48.415  1253  1587 W APM_AudioPolicyManager: getInputForAttr() failed opening input: samplingRate 16000, format 1, channelMask 10
+11-27 19:32:48.415  2019  4132 E AudioRecord: Could not get audio input for session 5425, record source 1999, sample rate 16000, format 0x1, channel mask 0x10, flags 0
+11-27 19:32:48.417  2019  4132 E AudioRecord-JNI: Error creating AudioRecord instance: initialization check failed with status -22.
+11-27 19:32:48.417  2019  4132 E android.media.AudioRecord: Error code -20 when initializing native AudioRecord object.
+11-27 19:32:48.417  2019  4132 I MicrophoneInputStream: mic_started com.google.android.apps.gsa.staticplugins.z.c@a100f1c
+11-27 19:32:48.417  2019  4132 E ActivityThread: Failed to find provider info for com.google.android.apps.gsa.testing.ui.audio.recorded
+11-27 19:32:48.417  2019  2019 I MicroDetectionWorker: onReady
+11-27 19:32:48.422  2019  4132 I MicrophoneInputStream: mic_close com.google.android.apps.gsa.staticplugins.z.c@a100f1c
+11-27 19:32:48.422  2019 11866 I MicroRecognitionRunner: Detection finished
+11-27 19:32:48.422  2019 11866 W ErrorReporter: reportError [type: 211, code: 524300]: Error reading from input stream
+11-27 19:32:48.422  2019  2180 I MicroRecognitionRunner: Stopping hotword detection.
+11-27 19:32:48.422  2019 11866 W ErrorProcessor: onFatalError, processing error from engine(4)
+11-27 19:32:48.422  2019 11866 W ErrorProcessor: com.google.android.apps.gsa.shared.speech.a.g: Error reading from input stream
+11-27 19:32:48.422  2019 11866 W ErrorProcessor: 	at com.google.android.apps.gsa.staticplugins.recognizer.i.a.a(SourceFile:342)
+11-27 19:32:48.422  2019 11866 W ErrorProcessor: 	at com.google.android.apps.gsa.staticplugins.recognizer.i.a$1.run(SourceFile:1367)
+11-27 19:32:48.422  2019 11866 W ErrorProcessor: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:428)
+11-27 19:32:48.422  2019 11866 W ErrorProcessor: 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+11-27 19:32:48.422  2019 11866 W ErrorProcessor: 	at com.google.android.apps.gsa.shared.util.concurrent.a.ak.run(SourceFile:66)
+11-27 19:32:48.422  2019 11866 W ErrorProcessor: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1133)
+11-27 19:32:48.422  2019 11866 W ErrorProcessor: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:607)
+11-27 19:32:48.422  2019 11866 W ErrorProcessor: 	at java.lang.Thread.run(Thread.java:761)
+11-27 19:32:48.422  2019 11866 W ErrorProcessor: 	at com.google.android.apps.gsa.shared.util.concurrent.a.ad$1.run(SourceFile:85)
+11-27 19:32:48.422  2019 11866 W ErrorProcessor: Caused by: com.google.android.apps.gsa.shared.exception.GsaIOException: Error code: 393238 | Buffer overflow, no available space.
+11-27 19:32:48.422  2019 11866 W ErrorProcessor: 	at com.google.android.apps.gsa.speech.audio.Tee.g(SourceFile:2531)
+11-27 19:32:48.422  2019 11866 W ErrorProcessor: 	at com.google.android.apps.gsa.speech.audio.ap.read(SourceFile:555)
+11-27 19:32:48.422  2019 11866 W ErrorProcessor: 	at java.io.InputStream.read(InputStream.java:101)
+11-27 19:32:48.422  2019 11866 W ErrorProcessor: 	at com.google.android.apps.gsa.speech.audio.al.run(SourceFile:362)
+11-27 19:32:48.422  2019 11866 W ErrorProcessor: 	at com.google.android.apps.gsa.speech.audio.ak$1.run(SourceFile:471)
+11-27 19:32:48.422  2019 11866 W ErrorProcessor: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:428)
+11-27 19:32:48.422  2019 11866 W ErrorProcessor: 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+11-27 19:32:48.422  2019 11866 W ErrorProcessor: 	at com.google.android.apps.gsa.shared.util.concurrent.a.ak.run(SourceFile:66)
+11-27 19:32:48.422  2019 11866 W ErrorProcessor: 	at com.google.android.apps.gsa.shared.util.concurrent.a.ax.run(SourceFile:139)
+11-27 19:32:48.422  2019 11866 W ErrorProcessor: 	at com.google.android.apps.gsa.shared.util.concurrent.a.ax.run(SourceFile:139)
+11-27 19:32:48.422  2019 11866 W ErrorProcessor: 	... 4 more
+11-27 19:32:48.422  2019 11866 I AudioController: internalShutdown
+11-27 19:32:48.426  2019  2019 I MicroDetector: Keeping mic open: false
+11-27 19:32:48.426  2019  2019 I MicroDetectionWorker: #onError(false)
+11-27 19:32:48.427  2019 11865 I DeviceStateChecker: DeviceStateChecker cancelled
+11-27 19:32:49.224 11874 11874 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-27 19:32:49.225 11874 11874 D AndroidRuntime: CheckJNI is ON
+11-27 19:32:49.225 11874 11874 E cutils-trace: Error opening trace file: Permission denied (13)
+11-27 19:32:49.269 11874 11874 W art     : Unexpected CPU variant for X86 using defaults: x86
+11-27 19:32:49.272 11874 11874 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+11-27 19:32:49.280 11874 11874 E memtrack: Couldn't load memtrack module (No such file or directory)
+11-27 19:32:49.280 11874 11874 E android.os.Debug: failed to load memtrack module: -2
+11-27 19:32:49.281 11874 11874 I Radio-JNI: register_android_hardware_Radio DONE
+11-27 19:32:49.286 11874 11874 D AndroidRuntime: Calling main entry com.android.commands.am.Am
+11-27 19:32:49.288  1423  1435 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 pkg=de.mobinauten.smsspy} from uid 2000 on display 0
+11-27 19:32:49.289 11874 11874 D AndroidRuntime: Shutting down VM
+11-27 19:32:51.532 11892 11892 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-27 19:32:51.533 11892 11892 D AndroidRuntime: CheckJNI is ON
+11-27 19:32:51.533 11892 11892 E cutils-trace: Error opening trace file: Permission denied (13)
+11-27 19:32:51.570 11892 11892 W art     : Unexpected CPU variant for X86 using defaults: x86
+11-27 19:32:51.572 11892 11892 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+11-27 19:32:51.581 11892 11892 E memtrack: Couldn't load memtrack module (No such file or directory)
+11-27 19:32:51.581 11892 11892 E android.os.Debug: failed to load memtrack module: -2
+11-27 19:32:51.582 11892 11892 I Radio-JNI: register_android_hardware_Radio DONE
+11-27 19:32:51.588 11892 11892 D AndroidRuntime: Calling main entry com.android.commands.am.Am
+11-27 19:32:51.590  1423  8421 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 pkg=de.mobinauten.smsspy} from uid 2000 on display 0
+11-27 19:32:51.591 11892 11892 D AndroidRuntime: Shutting down VM
+11-27 19:32:53.432  2019  2019 I MicroDetectionWorker: Micro detection mode: [mDetectionMode: [1]].
+11-27 19:32:53.432  2019  2019 I AudioController: Using mInputStreamFactoryBuilder
+11-27 19:32:53.440  2019 11907 I MicroRecognitionRunner: Starting detection.
+11-27 19:32:53.441  2019  4132 I MicrophoneInputStream: mic_starting com.google.android.apps.gsa.staticplugins.z.c@4a3bcaa
+11-27 19:32:53.442  1253  1253 W APM_AudioPolicyManager: getInputForAttr() failed opening input: samplingRate 16000, format 1, channelMask 10
+11-27 19:32:53.443  2019  4132 E AudioRecord: Could not get audio input for session 5433, record source 1999, sample rate 16000, format 0x1, channel mask 0x10, flags 0
+11-27 19:32:53.443  2019  4132 E AudioRecord-JNI: Error creating AudioRecord instance: initialization check failed with status -22.
+11-27 19:32:53.443  2019  4132 E android.media.AudioRecord: Error code -20 when initializing native AudioRecord object.
+11-27 19:32:53.444  2019  4132 I MicrophoneInputStream: mic_started com.google.android.apps.gsa.staticplugins.z.c@4a3bcaa
+11-27 19:32:53.445  2019  4132 E ActivityThread: Failed to find provider info for com.google.android.apps.gsa.testing.ui.audio.recorded
+11-27 19:32:53.445  2019  2019 I MicroDetectionWorker: onReady
+11-27 19:32:53.464  2019  4132 I MicrophoneInputStream: mic_close com.google.android.apps.gsa.staticplugins.z.c@4a3bcaa
+11-27 19:32:53.464  2019 11907 I MicroRecognitionRunner: Detection finished
+11-27 19:32:53.464  2019 11907 W ErrorReporter: reportError [type: 211, code: 524300]: Error reading from input stream
+11-27 19:32:53.465  2019  2180 I MicroRecognitionRunner: Stopping hotword detection.
+11-27 19:32:53.466  2019 11907 W ErrorProcessor: onFatalError, processing error from engine(4)
+11-27 19:32:53.466  2019 11907 W ErrorProcessor: com.google.android.apps.gsa.shared.speech.a.g: Error reading from input stream
+11-27 19:32:53.466  2019 11907 W ErrorProcessor: 	at com.google.android.apps.gsa.staticplugins.recognizer.i.a.a(SourceFile:342)
+11-27 19:32:53.466  2019 11907 W ErrorProcessor: 	at com.google.android.apps.gsa.staticplugins.recognizer.i.a$1.run(SourceFile:1367)
+11-27 19:32:53.466  2019 11907 W ErrorProcessor: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:428)
+11-27 19:32:53.466  2019 11907 W ErrorProcessor: 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+11-27 19:32:53.466  2019 11907 W ErrorProcessor: 	at com.google.android.apps.gsa.shared.util.concurrent.a.ak.run(SourceFile:66)
+11-27 19:32:53.466  2019 11907 W ErrorProcessor: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1133)
+11-27 19:32:53.466  2019 11907 W ErrorProcessor: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:607)
+11-27 19:32:53.466  2019 11907 W ErrorProcessor: 	at java.lang.Thread.run(Thread.java:761)
+11-27 19:32:53.466  2019 11907 W ErrorProcessor: 	at com.google.android.apps.gsa.shared.util.concurrent.a.ad$1.run(SourceFile:85)
+11-27 19:32:53.466  2019 11907 W ErrorProcessor: Caused by: com.google.android.apps.gsa.shared.exception.GsaIOException: Error code: 393238 | Buffer overflow, no available space.
+11-27 19:32:53.466  2019 11907 W ErrorProcessor: 	at com.google.android.apps.gsa.speech.audio.Tee.g(SourceFile:2531)
+11-27 19:32:53.466  2019 11907 W ErrorProcessor: 	at com.google.android.apps.gsa.speech.audio.ap.read(SourceFile:555)
+11-27 19:32:53.466  2019 11907 W ErrorProcessor: 	at java.io.InputStream.read(InputStream.java:101)
+11-27 19:32:53.466  2019 11907 W ErrorProcessor: 	at com.google.android.apps.gsa.speech.audio.al.run(SourceFile:362)
+11-27 19:32:53.466  2019 11907 W ErrorProcessor: 	at com.google.android.apps.gsa.speech.audio.ak$1.run(SourceFile:471)
+11-27 19:32:53.466  2019 11907 W ErrorProcessor: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:428)
+11-27 19:32:53.466  2019 11907 W ErrorProcessor: 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+11-27 19:32:53.466  2019 11907 W ErrorProcessor: 	at com.google.android.apps.gsa.shared.util.concurrent.a.ak.run(SourceFile:66)
+11-27 19:32:53.466  2019 11907 W ErrorProcessor: 	at com.google.android.apps.gsa.shared.util.concurrent.a.ax.run(SourceFile:139)
+11-27 19:32:53.466  2019 11907 W ErrorProcessor: 	at com.google.android.apps.gsa.shared.util.concurrent.a.ax.run(SourceFile:139)
+11-27 19:32:53.466  2019 11907 W ErrorProcessor: 	... 4 more
+11-27 19:32:53.466  2019 11907 I AudioController: internalShutdown
+11-27 19:32:53.467  2019  2019 I MicroDetector: Keeping mic open: false
+11-27 19:32:53.467  2019  2019 I MicroDetectionWorker: #onError(false)
+11-27 19:32:53.467  2019 11906 I DeviceStateChecker: DeviceStateChecker cancelled
+11-27 19:32:53.847 11913 11913 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-27 19:32:53.848 11913 11913 D AndroidRuntime: CheckJNI is ON
+11-27 19:32:53.848 11913 11913 E cutils-trace: Error opening trace file: Permission denied (13)
+11-27 19:32:53.887 11913 11913 W art     : Unexpected CPU variant for X86 using defaults: x86
+11-27 19:32:53.890 11913 11913 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+11-27 19:32:53.899 11913 11913 E memtrack: Couldn't load memtrack module (No such file or directory)
+11-27 19:32:53.899 11913 11913 E android.os.Debug: failed to load memtrack module: -2
+11-27 19:32:53.899 11913 11913 I Radio-JNI: register_android_hardware_Radio DONE
+11-27 19:32:53.905 11913 11913 D AndroidRuntime: Calling main entry com.android.commands.am.Am
+11-27 19:32:53.907  1423  1931 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 pkg=de.mobinauten.smsspy} from uid 2000 on display 0
+11-27 19:32:53.908 11913 11913 D AndroidRuntime: Shutting down VM
+11-27 19:32:56.161 11931 11931 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-27 19:32:56.162 11931 11931 D AndroidRuntime: CheckJNI is ON
+11-27 19:32:56.163 11931 11931 E cutils-trace: Error opening trace file: Permission denied (13)
+11-27 19:32:56.206 11931 11931 W art     : Unexpected CPU variant for X86 using defaults: x86
+11-27 19:32:56.209 11931 11931 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+11-27 19:32:56.218 11931 11931 E memtrack: Couldn't load memtrack module (No such file or directory)
+11-27 19:32:56.218 11931 11931 E android.os.Debug: failed to load memtrack module: -2
+11-27 19:32:56.219 11931 11931 I Radio-JNI: register_android_hardware_Radio DONE
+11-27 19:32:56.224 11931 11931 D AndroidRuntime: Calling main entry com.android.commands.am.Am
+11-27 19:32:56.226  1423  8430 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 pkg=de.mobinauten.smsspy} from uid 2000 on display 0
+11-27 19:32:56.227 11931 11931 D AndroidRuntime: Shutting down VM
+11-27 19:32:58.459 11945 11945 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-27 19:32:58.460 11945 11945 D AndroidRuntime: CheckJNI is ON
+11-27 19:32:58.460 11945 11945 E cutils-trace: Error opening trace file: Permission denied (13)
+11-27 19:32:58.472  2019  2019 I MicroDetectionWorker: Micro detection mode: [mDetectionMode: [1]].
+11-27 19:32:58.472  2019  2019 I AudioController: Using mInputStreamFactoryBuilder
+11-27 19:32:58.474  2019 11948 I MicroRecognitionRunner: Starting detection.
+11-27 19:32:58.474  2019  4132 I MicrophoneInputStream: mic_starting com.google.android.apps.gsa.staticplugins.z.c@9cda368
+11-27 19:32:58.475  1253  1310 W APM_AudioPolicyManager: getInputForAttr() failed opening input: samplingRate 16000, format 1, channelMask 10
+11-27 19:32:58.475  2019  4132 E AudioRecord: Could not get audio input for session 5441, record source 1999, sample rate 16000, format 0x1, channel mask 0x10, flags 0
+11-27 19:32:58.475  2019  4132 E AudioRecord-JNI: Error creating AudioRecord instance: initialization check failed with status -22.
+11-27 19:32:58.475  2019  4132 E android.media.AudioRecord: Error code -20 when initializing native AudioRecord object.
+11-27 19:32:58.475  2019  4132 I MicrophoneInputStream: mic_started com.google.android.apps.gsa.staticplugins.z.c@9cda368
+11-27 19:32:58.476  2019  4132 E ActivityThread: Failed to find provider info for com.google.android.apps.gsa.testing.ui.audio.recorded
+11-27 19:32:58.476  2019  2019 I MicroDetectionWorker: onReady
+11-27 19:32:58.479  2019  4132 I MicrophoneInputStream: mic_close com.google.android.apps.gsa.staticplugins.z.c@9cda368
+11-27 19:32:58.480  2019 11948 I MicroRecognitionRunner: Detection finished
+11-27 19:32:58.480  2019 11948 W ErrorReporter: reportError [type: 211, code: 524300]: Error reading from input stream
+11-27 19:32:58.480  2019  2180 I MicroRecognitionRunner: Stopping hotword detection.
+11-27 19:32:58.481  2019 11948 W ErrorProcessor: onFatalError, processing error from engine(4)
+11-27 19:32:58.481  2019 11948 W ErrorProcessor: com.google.android.apps.gsa.shared.speech.a.g: Error reading from input stream
+11-27 19:32:58.481  2019 11948 W ErrorProcessor: 	at com.google.android.apps.gsa.staticplugins.recognizer.i.a.a(SourceFile:342)
+11-27 19:32:58.481  2019 11948 W ErrorProcessor: 	at com.google.android.apps.gsa.staticplugins.recognizer.i.a$1.run(SourceFile:1367)
+11-27 19:32:58.481  2019 11948 W ErrorProcessor: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:428)
+11-27 19:32:58.481  2019 11948 W ErrorProcessor: 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+11-27 19:32:58.481  2019 11948 W ErrorProcessor: 	at com.google.android.apps.gsa.shared.util.concurrent.a.ak.run(SourceFile:66)
+11-27 19:32:58.481  2019 11948 W ErrorProcessor: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1133)
+11-27 19:32:58.481  2019 11948 W ErrorProcessor: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:607)
+11-27 19:32:58.481  2019 11948 W ErrorProcessor: 	at java.lang.Thread.run(Thread.java:761)
+11-27 19:32:58.481  2019 11948 W ErrorProcessor: 	at com.google.android.apps.gsa.shared.util.concurrent.a.ad$1.run(SourceFile:85)
+11-27 19:32:58.481  2019 11948 W ErrorProcessor: Caused by: com.google.android.apps.gsa.shared.exception.GsaIOException: Error code: 393238 | Buffer overflow, no available space.
+11-27 19:32:58.481  2019 11948 W ErrorProcessor: 	at com.google.android.apps.gsa.speech.audio.Tee.g(SourceFile:2531)
+11-27 19:32:58.481  2019 11948 W ErrorProcessor: 	at com.google.android.apps.gsa.speech.audio.ap.read(SourceFile:555)
+11-27 19:32:58.481  2019 11948 W ErrorProcessor: 	at java.io.InputStream.read(InputStream.java:101)
+11-27 19:32:58.481  2019 11948 W ErrorProcessor: 	at com.google.android.apps.gsa.speech.audio.al.run(SourceFile:362)
+11-27 19:32:58.481  2019 11948 W ErrorProcessor: 	at com.google.android.apps.gsa.speech.audio.ak$1.run(SourceFile:471)
+11-27 19:32:58.481  2019 11948 W ErrorProcessor: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:428)
+11-27 19:32:58.481  2019 11948 W ErrorProcessor: 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+11-27 19:32:58.481  2019 11948 W ErrorProcessor: 	at com.google.android.apps.gsa.shared.util.concurrent.a.ak.run(SourceFile:66)
+11-27 19:32:58.481  2019 11948 W ErrorProcessor: 	at com.google.android.apps.gsa.shared.util.concurrent.a.ax.run(SourceFile:139)
+11-27 19:32:58.481  2019 11948 W ErrorProcessor: 	at com.google.android.apps.gsa.shared.util.concurrent.a.ax.run(SourceFile:139)
+11-27 19:32:58.481  2019 11948 W ErrorProcessor: 	... 4 more
+11-27 19:32:58.481  2019 11948 I AudioController: internalShutdown
+11-27 19:32:58.493  2019  2019 I MicroDetector: Keeping mic open: false
+11-27 19:32:58.493  2019  2019 I MicroDetectionWorker: #onError(false)
+11-27 19:32:58.494  2019 11947 I DeviceStateChecker: DeviceStateChecker cancelled
+11-27 19:32:58.511 11945 11945 W art     : Unexpected CPU variant for X86 using defaults: x86
+11-27 19:32:58.514 11945 11945 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+11-27 19:32:58.523 11945 11945 E memtrack: Couldn't load memtrack module (No such file or directory)
+11-27 19:32:58.523 11945 11945 E android.os.Debug: failed to load memtrack module: -2
+11-27 19:32:58.524 11945 11945 I Radio-JNI: register_android_hardware_Radio DONE
+11-27 19:32:58.529 11945 11945 D AndroidRuntime: Calling main entry com.android.commands.am.Am
+11-27 19:32:58.531  1423  8423 W ActivityManager: Permission Denial: not allowed to send broadcast android.provider.Telephony.SMS_RECEIVED from pid=11945, uid=2000
+11-27 19:32:58.537 11945 11945 I art     : System.exit called, status: 1
+11-27 19:32:58.537 11945 11945 I AndroidRuntime: VM exiting with result code 1.
+11-27 19:32:58.772 11965 11965 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-27 19:32:58.774 11965 11965 D AndroidRuntime: CheckJNI is ON
+11-27 19:32:58.774 11965 11965 E cutils-trace: Error opening trace file: Permission denied (13)
+11-27 19:32:58.816 11965 11965 W art     : Unexpected CPU variant for X86 using defaults: x86
+11-27 19:32:58.819 11965 11965 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+11-27 19:32:58.829 11965 11965 E memtrack: Couldn't load memtrack module (No such file or directory)
+11-27 19:32:58.829 11965 11965 E android.os.Debug: failed to load memtrack module: -2
+11-27 19:32:58.829 11965 11965 I Radio-JNI: register_android_hardware_Radio DONE
+11-27 19:32:58.834 11965 11965 D AndroidRuntime: Calling main entry com.android.commands.am.Am
+11-27 19:32:58.836  1423  2057 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 pkg=de.mobinauten.smsspy} from uid 2000 on display 0
+11-27 19:32:58.837 11965 11965 D AndroidRuntime: Shutting down VM
+11-27 19:33:01.090 11983 11983 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-27 19:33:01.092 11983 11983 D AndroidRuntime: CheckJNI is ON
+11-27 19:33:01.092 11983 11983 E cutils-trace: Error opening trace file: Permission denied (13)
+11-27 19:33:01.143 11983 11983 W art     : Unexpected CPU variant for X86 using defaults: x86
+11-27 19:33:01.147 11983 11983 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+11-27 19:33:01.158 11983 11983 E memtrack: Couldn't load memtrack module (No such file or directory)
+11-27 19:33:01.158 11983 11983 E android.os.Debug: failed to load memtrack module: -2
+11-27 19:33:01.158 11983 11983 I Radio-JNI: register_android_hardware_Radio DONE
+11-27 19:33:01.163 11983 11983 D AndroidRuntime: Calling main entry com.android.commands.am.Am
+11-27 19:33:01.166  1423  1931 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 pkg=de.mobinauten.smsspy} from uid 2000 on display 0
+11-27 19:33:01.166 11983 11983 D AndroidRuntime: Shutting down VM
+11-27 19:33:02.058  2019  2019 I GrammarCompilationSvcCt: #startService for null, APP_NAMES.
+11-27 19:33:02.075  2019 11995 I ContextCompilationHandl: Compiling grammar for: en-US, type=APP_NAMES
+11-27 19:33:02.078  2019 11995 I ContextCompilationHandl: No grammar compilation resources for VOICE_ACTIONS_COMPILER, aborting. 
+11-27 19:33:03.399 12002 12002 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-27 19:33:03.400 12002 12002 D AndroidRuntime: CheckJNI is ON
+11-27 19:33:03.400 12002 12002 E cutils-trace: Error opening trace file: Permission denied (13)
+11-27 19:33:03.444 12002 12002 W art     : Unexpected CPU variant for X86 using defaults: x86
+11-27 19:33:03.446 12002 12002 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+11-27 19:33:03.456 12002 12002 E memtrack: Couldn't load memtrack module (No such file or directory)
+11-27 19:33:03.456 12002 12002 E android.os.Debug: failed to load memtrack module: -2
+11-27 19:33:03.456 12002 12002 I Radio-JNI: register_android_hardware_Radio DONE
+11-27 19:33:03.461 12002 12002 D AndroidRuntime: Calling main entry com.android.commands.am.Am
+11-27 19:33:03.463  1423  8427 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 pkg=de.mobinauten.smsspy} from uid 2000 on display 0
+11-27 19:33:03.464 12002 12002 D AndroidRuntime: Shutting down VM
+11-27 19:33:03.495  2019  2019 I MicroDetectionWorker: Micro detection mode: [mDetectionMode: [1]].
+11-27 19:33:03.496  2019  2019 I AudioController: Using mInputStreamFactoryBuilder
+11-27 19:33:03.500  2019 12013 I MicroRecognitionRunner: Starting detection.
+11-27 19:33:03.501  2019  4132 I MicrophoneInputStream: mic_starting com.google.android.apps.gsa.staticplugins.z.c@9cd92d
+11-27 19:33:03.501  1253  1587 W APM_AudioPolicyManager: getInputForAttr() failed opening input: samplingRate 16000, format 1, channelMask 10
+11-27 19:33:03.502  2019  4132 E AudioRecord: Could not get audio input for session 5449, record source 1999, sample rate 16000, format 0x1, channel mask 0x10, flags 0
+11-27 19:33:03.503  2019  4132 E AudioRecord-JNI: Error creating AudioRecord instance: initialization check failed with status -22.
+11-27 19:33:03.504  2019  4132 E android.media.AudioRecord: Error code -20 when initializing native AudioRecord object.
+11-27 19:33:03.504  2019  4132 I MicrophoneInputStream: mic_started com.google.android.apps.gsa.staticplugins.z.c@9cd92d
+11-27 19:33:03.505  2019  4132 E ActivityThread: Failed to find provider info for com.google.android.apps.gsa.testing.ui.audio.recorded
+11-27 19:33:03.506  2019  2019 I MicroDetectionWorker: onReady
+11-27 19:33:03.530  2019  4132 I MicrophoneInputStream: mic_close com.google.android.apps.gsa.staticplugins.z.c@9cd92d
+11-27 19:33:03.530  2019 12013 I MicroRecognitionRunner: Detection finished
+11-27 19:33:03.530  2019 12013 W ErrorReporter: reportError [type: 211, code: 524300]: Error reading from input stream
+11-27 19:33:03.530  2019  2180 I MicroRecognitionRunner: Stopping hotword detection.
+11-27 19:33:03.530  2019 12013 W ErrorProcessor: onFatalError, processing error from engine(4)
+11-27 19:33:03.530  2019 12013 W ErrorProcessor: com.google.android.apps.gsa.shared.speech.a.g: Error reading from input stream
+11-27 19:33:03.530  2019 12013 W ErrorProcessor: 	at com.google.android.apps.gsa.staticplugins.recognizer.i.a.a(SourceFile:342)
+11-27 19:33:03.530  2019 12013 W ErrorProcessor: 	at com.google.android.apps.gsa.staticplugins.recognizer.i.a$1.run(SourceFile:1367)
+11-27 19:33:03.530  2019 12013 W ErrorProcessor: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:428)
+11-27 19:33:03.530  2019 12013 W ErrorProcessor: 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+11-27 19:33:03.530  2019 12013 W ErrorProcessor: 	at com.google.android.apps.gsa.shared.util.concurrent.a.ak.run(SourceFile:66)
+11-27 19:33:03.530  2019 12013 W ErrorProcessor: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1133)
+11-27 19:33:03.530  2019 12013 W ErrorProcessor: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:607)
+11-27 19:33:03.530  2019 12013 W ErrorProcessor: 	at java.lang.Thread.run(Thread.java:761)
+11-27 19:33:03.530  2019 12013 W ErrorProcessor: 	at com.google.android.apps.gsa.shared.util.concurrent.a.ad$1.run(SourceFile:85)
+11-27 19:33:03.530  2019 12013 W ErrorProcessor: Caused by: com.google.android.apps.gsa.shared.exception.GsaIOException: Error code: 393238 | Buffer overflow, no available space.
+11-27 19:33:03.530  2019 12013 W ErrorProcessor: 	at com.google.android.apps.gsa.speech.audio.Tee.g(SourceFile:2531)
+11-27 19:33:03.530  2019 12013 W ErrorProcessor: 	at com.google.android.apps.gsa.speech.audio.ap.read(SourceFile:555)
+11-27 19:33:03.530  2019 12013 W ErrorProcessor: 	at java.io.InputStream.read(InputStream.java:101)
+11-27 19:33:03.530  2019 12013 W ErrorProcessor: 	at com.google.android.apps.gsa.speech.audio.al.run(SourceFile:362)
+11-27 19:33:03.530  2019 12013 W ErrorProcessor: 	at com.google.android.apps.gsa.speech.audio.ak$1.run(SourceFile:471)
+11-27 19:33:03.530  2019 12013 W ErrorProcessor: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:428)
+11-27 19:33:03.530  2019 12013 W ErrorProcessor: 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+11-27 19:33:03.530  2019 12013 W ErrorProcessor: 	at com.google.android.apps.gsa.shared.util.concurrent.a.ak.run(SourceFile:66)
+11-27 19:33:03.530  2019 12013 W ErrorProcessor: 	at com.google.android.apps.gsa.shared.util.concurrent.a.ax.run(SourceFile:139)
+11-27 19:33:03.530  2019 12013 W ErrorProcessor: 	at com.google.android.apps.gsa.shared.util.concurrent.a.ax.run(SourceFile:139)
+11-27 19:33:03.530  2019 12013 W ErrorProcessor: 	... 4 more
+11-27 19:33:03.530  2019 12013 I AudioController: internalShutdown
+11-27 19:33:03.531  2019  2019 I MicroDetector: Keeping mic open: false
+11-27 19:33:03.531  2019  2019 I MicroDetectionWorker: #onError(false)
+11-27 19:33:03.531  2019 12012 I DeviceStateChecker: DeviceStateChecker cancelled
+11-27 19:33:05.694 12019 12019 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-27 19:33:05.695 12019 12019 D AndroidRuntime: CheckJNI is ON
+11-27 19:33:05.695 12019 12019 E cutils-trace: Error opening trace file: Permission denied (13)
+11-27 19:33:05.733 12019 12019 W art     : Unexpected CPU variant for X86 using defaults: x86
+11-27 19:33:05.736 12019 12019 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+11-27 19:33:05.745 12019 12019 E memtrack: Couldn't load memtrack module (No such file or directory)
+11-27 19:33:05.745 12019 12019 E android.os.Debug: failed to load memtrack module: -2
+11-27 19:33:05.746 12019 12019 I Radio-JNI: register_android_hardware_Radio DONE
+11-27 19:33:05.750 12019 12019 D AndroidRuntime: Calling main entry com.android.commands.input.Input
+11-27 19:33:05.751 12019 12019 I Input   : injectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_UNKNOWN, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=3408476, downTime=3408476, deviceId=-1, source=0x101 }
+11-27 19:33:05.752 12019 12019 I Input   : injectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_UNKNOWN, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=3408476, downTime=3408476, deviceId=-1, source=0x101 }
+11-27 19:33:05.753 12019 12019 D AndroidRuntime: Shutting down VM
+11-27 19:33:08.026 12037 12037 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-27 19:33:08.027 12037 12037 D AndroidRuntime: CheckJNI is ON
+11-27 19:33:08.027 12037 12037 E cutils-trace: Error opening trace file: Permission denied (13)
+11-27 19:33:08.067 12037 12037 W art     : Unexpected CPU variant for X86 using defaults: x86
+11-27 19:33:08.070 12037 12037 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+11-27 19:33:08.079 12037 12037 E memtrack: Couldn't load memtrack module (No such file or directory)
+11-27 19:33:08.079 12037 12037 E android.os.Debug: failed to load memtrack module: -2
+11-27 19:33:08.079 12037 12037 I Radio-JNI: register_android_hardware_Radio DONE
+11-27 19:33:08.084 12037 12037 D AndroidRuntime: Calling main entry com.android.commands.am.Am
+11-27 19:33:08.086  1423  1630 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 pkg=de.mobinauten.smsspy} from uid 2000 on display 0
+11-27 19:33:08.087 12037 12037 D AndroidRuntime: Shutting down VM
+11-27 19:33:08.537  2019  2019 I MicroDetectionWorker: Micro detection mode: [mDetectionMode: [1]].
+11-27 19:33:08.538  2019  2019 I AudioController: Using mInputStreamFactoryBuilder
+11-27 19:33:08.545  2019 12050 I MicroRecognitionRunner: Starting detection.
+11-27 19:33:08.546  2019  4132 I MicrophoneInputStream: mic_starting com.google.android.apps.gsa.staticplugins.z.c@60007e3
+11-27 19:33:08.548  1253  1253 W APM_AudioPolicyManager: getInputForAttr() failed opening input: samplingRate 16000, format 1, channelMask 10
+11-27 19:33:08.548  2019  4132 E AudioRecord: Could not get audio input for session 5457, record source 1999, sample rate 16000, format 0x1, channel mask 0x10, flags 0
+11-27 19:33:08.549  2019  4132 E AudioRecord-JNI: Error creating AudioRecord instance: initialization check failed with status -22.
+11-27 19:33:08.549  2019  4132 E android.media.AudioRecord: Error code -20 when initializing native AudioRecord object.
+11-27 19:33:08.549  2019  4132 I MicrophoneInputStream: mic_started com.google.android.apps.gsa.staticplugins.z.c@60007e3
+11-27 19:33:08.551  2019  4132 E ActivityThread: Failed to find provider info for com.google.android.apps.gsa.testing.ui.audio.recorded
+11-27 19:33:08.552  2019  2019 I MicroDetectionWorker: onReady
+11-27 19:33:08.574  2019  4132 I MicrophoneInputStream: mic_close com.google.android.apps.gsa.staticplugins.z.c@60007e3
+11-27 19:33:08.575  2019 12050 I MicroRecognitionRunner: Detection finished
+11-27 19:33:08.575  2019 12050 W ErrorReporter: reportError [type: 211, code: 524300]: Error reading from input stream
+11-27 19:33:08.576  2019  2180 I MicroRecognitionRunner: Stopping hotword detection.
+11-27 19:33:08.577  2019 12050 W ErrorProcessor: onFatalError, processing error from engine(4)
+11-27 19:33:08.577  2019 12050 W ErrorProcessor: com.google.android.apps.gsa.shared.speech.a.g: Error reading from input stream
+11-27 19:33:08.577  2019 12050 W ErrorProcessor: 	at com.google.android.apps.gsa.staticplugins.recognizer.i.a.a(SourceFile:342)
+11-27 19:33:08.577  2019 12050 W ErrorProcessor: 	at com.google.android.apps.gsa.staticplugins.recognizer.i.a$1.run(SourceFile:1367)
+11-27 19:33:08.577  2019 12050 W ErrorProcessor: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:428)
+11-27 19:33:08.577  2019 12050 W ErrorProcessor: 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+11-27 19:33:08.577  2019 12050 W ErrorProcessor: 	at com.google.android.apps.gsa.shared.util.concurrent.a.ak.run(SourceFile:66)
+11-27 19:33:08.577  2019 12050 W ErrorProcessor: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1133)
+11-27 19:33:08.577  2019 12050 W ErrorProcessor: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:607)
+11-27 19:33:08.577  2019 12050 W ErrorProcessor: 	at java.lang.Thread.run(Thread.java:761)
+11-27 19:33:08.577  2019 12050 W ErrorProcessor: 	at com.google.android.apps.gsa.shared.util.concurrent.a.ad$1.run(SourceFile:85)
+11-27 19:33:08.577  2019 12050 W ErrorProcessor: Caused by: com.google.android.apps.gsa.shared.exception.GsaIOException: Error code: 393238 | Buffer overflow, no available space.
+11-27 19:33:08.577  2019 12050 W ErrorProcessor: 	at com.google.android.apps.gsa.speech.audio.Tee.g(SourceFile:2531)
+11-27 19:33:08.577  2019 12050 W ErrorProcessor: 	at com.google.android.apps.gsa.speech.audio.ap.read(SourceFile:555)
+11-27 19:33:08.577  2019 12050 W ErrorProcessor: 	at java.io.InputStream.read(InputStream.java:101)
+11-27 19:33:08.577  2019 12050 W ErrorProcessor: 	at com.google.android.apps.gsa.speech.audio.al.run(SourceFile:362)
+11-27 19:33:08.577  2019 12050 W ErrorProcessor: 	at com.google.android.apps.gsa.speech.audio.ak$1.run(SourceFile:471)
+11-27 19:33:08.577  2019 12050 W ErrorProcessor: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:428)
+11-27 19:33:08.577  2019 12050 W ErrorProcessor: 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+11-27 19:33:08.577  2019 12050 W ErrorProcessor: 	at com.google.android.apps.gsa.shared.util.concurrent.a.ak.run(SourceFile:66)
+11-27 19:33:08.577  2019 12050 W ErrorProcessor: 	at com.google.android.apps.gsa.shared.util.concurrent.a.ax.run(SourceFile:139)
+11-27 19:33:08.577  2019 12050 W ErrorProcessor: 	at com.google.android.apps.gsa.shared.util.concurrent.a.ax.run(SourceFile:139)
+11-27 19:33:08.577  2019 12050 W ErrorProcessor: 	... 4 more
+11-27 19:33:08.577  2019 12050 I AudioController: internalShutdown
+11-27 19:33:08.579  2019  2019 I MicroDetector: Keeping mic open: false
+11-27 19:33:08.579  2019  2019 I MicroDetectionWorker: #onError(false)
+11-27 19:33:08.579  2019 12049 I DeviceStateChecker: DeviceStateChecker cancelled
+11-27 19:33:10.282 12054 12054 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-27 19:33:10.284 12054 12054 D AndroidRuntime: CheckJNI is ON
+11-27 19:33:10.284 12054 12054 E cutils-trace: Error opening trace file: Permission denied (13)
+11-27 19:33:10.327 12054 12054 W art     : Unexpected CPU variant for X86 using defaults: x86
+11-27 19:33:10.329 12054 12054 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+11-27 19:33:10.338 12054 12054 E memtrack: Couldn't load memtrack module (No such file or directory)
+11-27 19:33:10.338 12054 12054 E android.os.Debug: failed to load memtrack module: -2
+11-27 19:33:10.339 12054 12054 I Radio-JNI: register_android_hardware_Radio DONE
+11-27 19:33:10.344 12054 12054 D AndroidRuntime: Calling main entry com.android.commands.input.Input
+11-27 19:33:10.345 12054 12054 I Input   : injectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_UNKNOWN, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=3413070, downTime=3413070, deviceId=-1, source=0x101 }
+11-27 19:33:10.346 12054 12054 I Input   : injectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_UNKNOWN, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=3413070, downTime=3413070, deviceId=-1, source=0x101 }
+11-27 19:33:10.347 12054 12054 D AndroidRuntime: Shutting down VM
+11-27 19:33:12.559 12068 12068 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-27 19:33:12.560 12068 12068 D AndroidRuntime: CheckJNI is ON
+11-27 19:33:12.560 12068 12068 E cutils-trace: Error opening trace file: Permission denied (13)
+11-27 19:33:12.597 12068 12068 W art     : Unexpected CPU variant for X86 using defaults: x86
+11-27 19:33:12.600 12068 12068 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+11-27 19:33:12.609 12068 12068 E memtrack: Couldn't load memtrack module (No such file or directory)
+11-27 19:33:12.609 12068 12068 E android.os.Debug: failed to load memtrack module: -2
+11-27 19:33:12.609 12068 12068 I Radio-JNI: register_android_hardware_Radio DONE
+11-27 19:33:12.614 12068 12068 D AndroidRuntime: Calling main entry com.android.commands.am.Am
+11-27 19:33:12.616  1423  8422 W ActivityManager: Permission Denial: not allowed to send broadcast android.provider.Telephony.SMS_RECEIVED from pid=12068, uid=2000
+11-27 19:33:12.618 12068 12068 I art     : System.exit called, status: 1
+11-27 19:33:12.618 12068 12068 I AndroidRuntime: VM exiting with result code 1.
+11-27 19:33:12.817 12085 12085 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-27 19:33:12.818 12085 12085 D AndroidRuntime: CheckJNI is ON
+11-27 19:33:12.818 12085 12085 E cutils-trace: Error opening trace file: Permission denied (13)
+11-27 19:33:12.868 12085 12085 W art     : Unexpected CPU variant for X86 using defaults: x86
+11-27 19:33:12.871 12085 12085 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+11-27 19:33:12.881 12085 12085 E memtrack: Couldn't load memtrack module (No such file or directory)
+11-27 19:33:12.881 12085 12085 E android.os.Debug: failed to load memtrack module: -2
+11-27 19:33:12.882 12085 12085 I Radio-JNI: register_android_hardware_Radio DONE
+11-27 19:33:12.887 12085 12085 D AndroidRuntime: Calling main entry com.android.commands.am.Am
+11-27 19:33:12.889  1423  1862 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 pkg=de.mobinauten.smsspy} from uid 2000 on display 0
+11-27 19:33:12.890 12085 12085 D AndroidRuntime: Shutting down VM
+11-27 19:33:13.583  2019  2019 I MicroDetectionWorker: Micro detection mode: [mDetectionMode: [1]].
+11-27 19:33:13.584  2019  2019 I AudioController: Using mInputStreamFactoryBuilder
+11-27 19:33:13.587  2019 12098 I MicroRecognitionRunner: Starting detection.
+11-27 19:33:13.594  2019  4132 I MicrophoneInputStream: mic_starting com.google.android.apps.gsa.staticplugins.z.c@cb12209
+11-27 19:33:13.594  1253  1310 W APM_AudioPolicyManager: getInputForAttr() failed opening input: samplingRate 16000, format 1, channelMask 10
+11-27 19:33:13.594  2019  4132 E AudioRecord: Could not get audio input for session 5465, record source 1999, sample rate 16000, format 0x1, channel mask 0x10, flags 0
+11-27 19:33:13.595  2019  4132 E AudioRecord-JNI: Error creating AudioRecord instance: initialization check failed with status -22.
+11-27 19:33:13.595  2019  4132 E android.media.AudioRecord: Error code -20 when initializing native AudioRecord object.
+11-27 19:33:13.595  2019  4132 I MicrophoneInputStream: mic_started com.google.android.apps.gsa.staticplugins.z.c@cb12209
+11-27 19:33:13.595  2019  4132 E ActivityThread: Failed to find provider info for com.google.android.apps.gsa.testing.ui.audio.recorded
+11-27 19:33:13.596  2019  2019 I MicroDetectionWorker: onReady
+11-27 19:33:13.601  2019  4132 I MicrophoneInputStream: mic_close com.google.android.apps.gsa.staticplugins.z.c@cb12209
+11-27 19:33:13.602  2019 12098 I MicroRecognitionRunner: Detection finished
+11-27 19:33:13.602  2019 12098 W ErrorReporter: reportError [type: 211, code: 524300]: Error reading from input stream
+11-27 19:33:13.602  2019  2180 I MicroRecognitionRunner: Stopping hotword detection.
+11-27 19:33:13.603  2019 12098 W ErrorProcessor: onFatalError, processing error from engine(4)
+11-27 19:33:13.603  2019 12098 W ErrorProcessor: com.google.android.apps.gsa.shared.speech.a.g: Error reading from input stream
+11-27 19:33:13.603  2019 12098 W ErrorProcessor: 	at com.google.android.apps.gsa.staticplugins.recognizer.i.a.a(SourceFile:342)
+11-27 19:33:13.603  2019 12098 W ErrorProcessor: 	at com.google.android.apps.gsa.staticplugins.recognizer.i.a$1.run(SourceFile:1367)
+11-27 19:33:13.603  2019 12098 W ErrorProcessor: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:428)
+11-27 19:33:13.603  2019 12098 W ErrorProcessor: 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+11-27 19:33:13.603  2019 12098 W ErrorProcessor: 	at com.google.android.apps.gsa.shared.util.concurrent.a.ak.run(SourceFile:66)
+11-27 19:33:13.603  2019 12098 W ErrorProcessor: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1133)
+11-27 19:33:13.603  2019 12098 W ErrorProcessor: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:607)
+11-27 19:33:13.603  2019 12098 W ErrorProcessor: 	at java.lang.Thread.run(Thread.java:761)
+11-27 19:33:13.603  2019 12098 W ErrorProcessor: 	at com.google.android.apps.gsa.shared.util.concurrent.a.ad$1.run(SourceFile:85)
+11-27 19:33:13.603  2019 12098 W ErrorProcessor: Caused by: com.google.android.apps.gsa.shared.exception.GsaIOException: Error code: 393238 | Buffer overflow, no available space.
+11-27 19:33:13.603  2019 12098 W ErrorProcessor: 	at com.google.android.apps.gsa.speech.audio.Tee.g(SourceFile:2531)
+11-27 19:33:13.603  2019 12098 W ErrorProcessor: 	at com.google.android.apps.gsa.speech.audio.ap.read(SourceFile:555)
+11-27 19:33:13.603  2019 12098 W ErrorProcessor: 	at java.io.InputStream.read(InputStream.java:101)
+11-27 19:33:13.603  2019 12098 W ErrorProcessor: 	at com.google.android.apps.gsa.speech.audio.al.run(SourceFile:362)
+11-27 19:33:13.603  2019 12098 W ErrorProcessor: 	at com.google.android.apps.gsa.speech.audio.ak$1.run(SourceFile:471)
+11-27 19:33:13.603  2019 12098 W ErrorProcessor: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:428)
+11-27 19:33:13.603  2019 12098 W ErrorProcessor: 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+11-27 19:33:13.603  2019 12098 W ErrorProcessor: 	at com.google.android.apps.gsa.shared.util.concurrent.a.ak.run(SourceFile:66)
+11-27 19:33:13.603  2019 12098 W ErrorProcessor: 	at com.google.android.apps.gsa.shared.util.concurrent.a.ax.run(SourceFile:139)
+11-27 19:33:13.603  2019 12098 W ErrorProcessor: 	at com.google.android.apps.gsa.shared.util.concurrent.a.ax.run(SourceFile:139)
+11-27 19:33:13.603  2019 12098 W ErrorProcessor: 	... 4 more
+11-27 19:33:13.603  2019 12098 I AudioController: internalShutdown
+11-27 19:33:13.610  2019  2019 I MicroDetector: Keeping mic open: false
+11-27 19:33:13.610  2019  2019 I MicroDetectionWorker: #onError(false)
+11-27 19:33:13.610  2019 12097 I DeviceStateChecker: DeviceStateChecker cancelled
+11-27 19:33:15.121 12102 12102 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-27 19:33:15.122 12102 12102 D AndroidRuntime: CheckJNI is ON
+11-27 19:33:15.122 12102 12102 E cutils-trace: Error opening trace file: Permission denied (13)
+11-27 19:33:15.169 12102 12102 W art     : Unexpected CPU variant for X86 using defaults: x86
+11-27 19:33:15.172 12102 12102 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+11-27 19:33:15.182 12102 12102 E memtrack: Couldn't load memtrack module (No such file or directory)
+11-27 19:33:15.182 12102 12102 E android.os.Debug: failed to load memtrack module: -2
+11-27 19:33:15.182 12102 12102 I Radio-JNI: register_android_hardware_Radio DONE
+11-27 19:33:15.187 12102 12102 D AndroidRuntime: Calling main entry com.android.commands.am.Am
+11-27 19:33:15.189  1423  8424 W ActivityManager: Permission Denial: not allowed to send broadcast android.provider.Telephony.SMS_RECEIVED from pid=12102, uid=2000
+11-27 19:33:15.191 12102 12102 I art     : System.exit called, status: 1
+11-27 19:33:15.192 12102 12102 I AndroidRuntime: VM exiting with result code 1.
+11-27 19:33:15.387 12117 12117 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-27 19:33:15.389 12117 12117 D AndroidRuntime: CheckJNI is ON
+11-27 19:33:15.389 12117 12117 E cutils-trace: Error opening trace file: Permission denied (13)
+11-27 19:33:15.430 12117 12117 W art     : Unexpected CPU variant for X86 using defaults: x86
+11-27 19:33:15.433 12117 12117 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+11-27 19:33:15.443 12117 12117 E memtrack: Couldn't load memtrack module (No such file or directory)
+11-27 19:33:15.443 12117 12117 E android.os.Debug: failed to load memtrack module: -2
+11-27 19:33:15.444 12117 12117 I Radio-JNI: register_android_hardware_Radio DONE
+11-27 19:33:15.449 12117 12117 D AndroidRuntime: Calling main entry com.android.commands.am.Am
+11-27 19:33:15.451  1423  2057 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 pkg=de.mobinauten.smsspy} from uid 2000 on display 0
+11-27 19:33:15.452 12117 12117 D AndroidRuntime: Shutting down VM
+11-27 19:33:16.928  1256  1256 I         : free_cache(16661) avail 648372224
+11-27 19:33:16.999  1423  1481 I PackageManager.DexOptimizer: Running dexopt (dex2oat) on: /data/app/vmdl1439114219.tmp/base.apk pkg=de.mobinauten.smsspy isa=x86 vmSafeMode=false debuggable=true target-filter=interpret-only oatDir = /data/app/vmdl1439114219.tmp/oat sharedLibraries=null
+11-27 19:33:17.010 12138 12138 W dex2oat : Unexpected CPU variant for X86 using defaults: x86
+11-27 19:33:17.010 12138 12138 W dex2oat : Mismatch between dex2oat instruction set features (ISA: X86 Feature string: smp,-ssse3,-sse4.1,-sse4.2,-avx,-avx2,-lock_add,-popcnt) and those of dex2oat executable (ISA: X86 Feature string: smp,ssse3,-sse4.1,-sse4.2,-avx,-avx2,-lock_add,-popcnt) for the command line:
+11-27 19:33:17.010 12138 12138 W dex2oat : /system/bin/dex2oat --zip-fd=6 --zip-location=base.apk --oat-fd=7 --oat-location=/data/app/vmdl1439114219.tmp/oat/x86/base.odex --instruction-set=x86 --instruction-set-variant=x86 --instruction-set-features=default --runtime-arg -Xms64m --runtime-arg -Xmx512m --compiler-filter=interpret-only --swap-fd=9 --debuggable
+11-27 19:33:17.010 12138 12138 I dex2oat : /system/bin/dex2oat --compiler-filter=interpret-only --debuggable
+11-27 19:33:17.010 12138 12138 E cutils-trace: Error opening trace file: Permission denied (13)
+11-27 19:33:17.122 12138 12138 I dex2oat : dex2oat took 112.505ms (threads: 2) arena alloc=1576B (1576B) java alloc=72KB (74384B) native alloc=903KB (925400B) free=1144KB (1171752B)
+11-27 19:33:17.129  1423  1451 I ActivityManager: Force stopping de.mobinauten.smsspy appid=10108 user=-1: installPackageLI
+11-27 19:33:17.129  1423  1481 W PackageManager: Attempt to re-install de.mobinauten.smsspy without first uninstalling.
+11-27 19:33:17.131  1256  1256 E         : Couldn't opendir /data/app/vmdl1439114219.tmp: No such file or directory
+11-27 19:33:17.133  1423  1435 D PackageInstaller: Ignoring abandon after commit relinquished control
+11-27 19:33:17.329  2019  2019 I GrammarCompilationSvcCt: #startService for null, APP_NAMES.
+11-27 19:33:17.336  2019 12141 I ContextCompilationHandl: Compiling grammar for: en-US, type=APP_NAMES
+11-27 19:33:17.337  2019 12141 I ContextCompilationHandl: No grammar compilation resources for VOICE_ACTIONS_COMPILER, aborting. 
+11-27 19:33:17.688 12142 12142 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-27 19:33:17.689 12142 12142 D AndroidRuntime: CheckJNI is ON
+11-27 19:33:17.689 12142 12142 E cutils-trace: Error opening trace file: Permission denied (13)
+11-27 19:33:17.744 12142 12142 W art     : Unexpected CPU variant for X86 using defaults: x86
+11-27 19:33:17.747 12142 12142 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+11-27 19:33:17.757 12142 12142 E memtrack: Couldn't load memtrack module (No such file or directory)
+11-27 19:33:17.757 12142 12142 E android.os.Debug: failed to load memtrack module: -2
+11-27 19:33:17.757 12142 12142 I Radio-JNI: register_android_hardware_Radio DONE
+11-27 19:33:17.762 12142 12142 D AndroidRuntime: Calling main entry com.android.commands.input.Input
+11-27 19:33:17.764 12142 12142 I Input   : injectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=3420488, downTime=3420488, deviceId=-1, source=0x101 }
+11-27 19:33:17.765 12142 12142 I Input   : injectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=3420488, downTime=3420488, deviceId=-1, source=0x101 }
+11-27 19:33:17.767 12142 12142 D AndroidRuntime: Shutting down VM
+11-27 19:33:18.611  2019  2019 I MicroDetectionWorker: Micro detection mode: [mDetectionMode: [1]].
+11-27 19:33:18.612  2019  2019 I AudioController: Using mInputStreamFactoryBuilder
+11-27 19:33:18.620  2019 12155 I MicroRecognitionRunner: Starting detection.
+11-27 19:33:18.621  2019  4132 I MicrophoneInputStream: mic_starting com.google.android.apps.gsa.staticplugins.z.c@dc89eca
+11-27 19:33:18.621  1253  1587 W APM_AudioPolicyManager: getInputForAttr() failed opening input: samplingRate 16000, format 1, channelMask 10
+11-27 19:33:18.623  2019  4132 E AudioRecord: Could not get audio input for session 5473, record source 1999, sample rate 16000, format 0x1, channel mask 0x10, flags 0
+11-27 19:33:18.623  2019  4132 E AudioRecord-JNI: Error creating AudioRecord instance: initialization check failed with status -22.
+11-27 19:33:18.623  2019  4132 E android.media.AudioRecord: Error code -20 when initializing native AudioRecord object.
+11-27 19:33:18.625  2019  4132 I MicrophoneInputStream: mic_started com.google.android.apps.gsa.staticplugins.z.c@dc89eca
+11-27 19:33:18.627  2019  4132 E ActivityThread: Failed to find provider info for com.google.android.apps.gsa.testing.ui.audio.recorded
+11-27 19:33:18.629  2019  2019 I MicroDetectionWorker: onReady
+11-27 19:33:18.652  2019  4132 I MicrophoneInputStream: mic_close com.google.android.apps.gsa.staticplugins.z.c@dc89eca
+11-27 19:33:18.652  2019 12155 I MicroRecognitionRunner: Detection finished
+11-27 19:33:18.652  2019 12155 W ErrorReporter: reportError [type: 211, code: 524300]: Error reading from input stream
+11-27 19:33:18.653  2019  2180 I MicroRecognitionRunner: Stopping hotword detection.
+11-27 19:33:18.653  2019 12155 W ErrorProcessor: onFatalError, processing error from engine(4)
+11-27 19:33:18.653  2019 12155 W ErrorProcessor: com.google.android.apps.gsa.shared.speech.a.g: Error reading from input stream
+11-27 19:33:18.653  2019 12155 W ErrorProcessor: 	at com.google.android.apps.gsa.staticplugins.recognizer.i.a.a(SourceFile:342)
+11-27 19:33:18.653  2019 12155 W ErrorProcessor: 	at com.google.android.apps.gsa.staticplugins.recognizer.i.a$1.run(SourceFile:1367)
+11-27 19:33:18.653  2019 12155 W ErrorProcessor: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:428)
+11-27 19:33:18.653  2019 12155 W ErrorProcessor: 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+11-27 19:33:18.653  2019 12155 W ErrorProcessor: 	at com.google.android.apps.gsa.shared.util.concurrent.a.ak.run(SourceFile:66)
+11-27 19:33:18.653  2019 12155 W ErrorProcessor: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1133)
+11-27 19:33:18.653  2019 12155 W ErrorProcessor: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:607)
+11-27 19:33:18.653  2019 12155 W ErrorProcessor: 	at java.lang.Thread.run(Thread.java:761)
+11-27 19:33:18.653  2019 12155 W ErrorProcessor: 	at com.google.android.apps.gsa.shared.util.concurrent.a.ad$1.run(SourceFile:85)
+11-27 19:33:18.653  2019 12155 W ErrorProcessor: Caused by: com.google.android.apps.gsa.shared.exception.GsaIOException: Error code: 393238 | Buffer overflow, no available space.
+11-27 19:33:18.653  2019 12155 W ErrorProcessor: 	at com.google.android.apps.gsa.speech.audio.Tee.g(SourceFile:2531)
+11-27 19:33:18.653  2019 12155 W ErrorProcessor: 	at com.google.android.apps.gsa.speech.audio.ap.read(SourceFile:555)
+11-27 19:33:18.653  2019 12155 W ErrorProcessor: 	at java.io.InputStream.read(InputStream.java:101)
+11-27 19:33:18.653  2019 12155 W ErrorProcessor: 	at com.google.android.apps.gsa.speech.audio.al.run(SourceFile:362)
+11-27 19:33:18.653  2019 12155 W ErrorProcessor: 	at com.google.android.apps.gsa.speech.audio.ak$1.run(SourceFile:471)
+11-27 19:33:18.653  2019 12155 W ErrorProcessor: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:428)
+11-27 19:33:18.653  2019 12155 W ErrorProcessor: 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+11-27 19:33:18.653  2019 12155 W ErrorProcessor: 	at com.google.android.apps.gsa.shared.util.concurrent.a.ak.run(SourceFile:66)
+11-27 19:33:18.653  2019 12155 W ErrorProcessor: 	at com.google.android.apps.gsa.shared.util.concurrent.a.ax.run(SourceFile:139)
+11-27 19:33:18.653  2019 12155 W ErrorProcessor: 	at com.google.android.apps.gsa.shared.util.concurrent.a.ax.run(SourceFile:139)
+11-27 19:33:18.653  2019 12155 W ErrorProcessor: 	... 4 more
+11-27 19:33:18.654  2019 12155 I AudioController: internalShutdown
+11-27 19:33:18.654  2019  2019 I MicroDetector: Keeping mic open: false
+11-27 19:33:18.654  2019  2019 I MicroDetectionWorker: #onError(false)
+11-27 19:33:18.654  2019 12154 I DeviceStateChecker: DeviceStateChecker cancelled
+11-27 19:33:19.998 12159 12159 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-27 19:33:19.999 12159 12159 D AndroidRuntime: CheckJNI is ON
+11-27 19:33:20.000 12159 12159 E cutils-trace: Error opening trace file: Permission denied (13)
+11-27 19:33:20.048 12159 12159 W art     : Unexpected CPU variant for X86 using defaults: x86
+11-27 19:33:20.052 12159 12159 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+11-27 19:33:20.067 12159 12159 E memtrack: Couldn't load memtrack module (No such file or directory)
+11-27 19:33:20.067 12159 12159 E android.os.Debug: failed to load memtrack module: -2
+11-27 19:33:20.068 12159 12159 I Radio-JNI: register_android_hardware_Radio DONE
+11-27 19:33:20.073 12159 12159 D AndroidRuntime: Calling main entry com.android.commands.am.Am
+11-27 19:33:20.075  1423  8422 W ActivityManager: Permission Denial: not allowed to send broadcast android.provider.Telephony.SMS_RECEIVED from pid=12159, uid=2000
+11-27 19:33:20.157 12159 12159 I art     : System.exit called, status: 1
+11-27 19:33:20.157 12159 12159 I AndroidRuntime: VM exiting with result code 1.
+11-27 19:33:20.363 12176 12176 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-27 19:33:20.364 12176 12176 D AndroidRuntime: CheckJNI is ON
+11-27 19:33:20.364 12176 12176 E cutils-trace: Error opening trace file: Permission denied (13)
+11-27 19:33:20.433 12176 12176 W art     : Unexpected CPU variant for X86 using defaults: x86
+11-27 19:33:20.436 12176 12176 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+11-27 19:33:20.446 12176 12176 E memtrack: Couldn't load memtrack module (No such file or directory)
+11-27 19:33:20.446 12176 12176 E android.os.Debug: failed to load memtrack module: -2
+11-27 19:33:20.446 12176 12176 I Radio-JNI: register_android_hardware_Radio DONE
+11-27 19:33:20.451 12176 12176 D AndroidRuntime: Calling main entry com.android.commands.am.Am
+11-27 19:33:20.454  1423  8420 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 pkg=de.mobinauten.smsspy} from uid 2000 on display 0
+11-27 19:33:20.454 12176 12176 D AndroidRuntime: Shutting down VM
+11-27 19:33:20.799  2019  2019 I GrammarCompilationSvcCt: #startService for null, APP_NAMES.
+11-27 19:33:20.807  2019 12186 I ContextCompilationHandl: Compiling grammar for: en-US, type=APP_NAMES
+11-27 19:33:20.808  2019 12186 I ContextCompilationHandl: No grammar compilation resources for VOICE_ACTIONS_COMPILER, aborting. 
+11-27 19:33:22.676 12195 12195 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-27 19:33:22.677 12195 12195 D AndroidRuntime: CheckJNI is ON
+11-27 19:33:22.677 12195 12195 E cutils-trace: Error opening trace file: Permission denied (13)
+11-27 19:33:22.715 12195 12195 W art     : Unexpected CPU variant for X86 using defaults: x86
+11-27 19:33:22.717 12195 12195 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+11-27 19:33:22.726 12195 12195 E memtrack: Couldn't load memtrack module (No such file or directory)
+11-27 19:33:22.726 12195 12195 E android.os.Debug: failed to load memtrack module: -2
+11-27 19:33:22.727 12195 12195 I Radio-JNI: register_android_hardware_Radio DONE
+11-27 19:33:22.732 12195 12195 D AndroidRuntime: Calling main entry com.android.commands.am.Am
+11-27 19:33:22.734  1423  8429 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 pkg=de.mobinauten.smsspy} from uid 2000 on display 0
+11-27 19:33:22.735 12195 12195 D AndroidRuntime: Shutting down VM
+11-27 19:33:23.658  2019  2019 I MicroDetectionWorker: Micro detection mode: [mDetectionMode: [1]].
+11-27 19:33:23.659  2019  2019 I AudioController: Using mInputStreamFactoryBuilder
+11-27 19:33:23.667  2019 12208 I MicroRecognitionRunner: Starting detection.
+11-27 19:33:23.667  2019  4132 I MicrophoneInputStream: mic_starting com.google.android.apps.gsa.staticplugins.z.c@a7f9a07
+11-27 19:33:23.668  1253  1253 W APM_AudioPolicyManager: getInputForAttr() failed opening input: samplingRate 16000, format 1, channelMask 10
+11-27 19:33:23.669  2019  4132 E AudioRecord: Could not get audio input for session 5481, record source 1999, sample rate 16000, format 0x1, channel mask 0x10, flags 0
+11-27 19:33:23.669  2019  4132 E AudioRecord-JNI: Error creating AudioRecord instance: initialization check failed with status -22.
+11-27 19:33:23.669  2019  4132 E android.media.AudioRecord: Error code -20 when initializing native AudioRecord object.
+11-27 19:33:23.670  2019  4132 I MicrophoneInputStream: mic_started com.google.android.apps.gsa.staticplugins.z.c@a7f9a07
+11-27 19:33:23.671  2019  4132 E ActivityThread: Failed to find provider info for com.google.android.apps.gsa.testing.ui.audio.recorded
+11-27 19:33:23.671  2019  2019 I MicroDetectionWorker: onReady
+11-27 19:33:23.697  2019  4132 I MicrophoneInputStream: mic_close com.google.android.apps.gsa.staticplugins.z.c@a7f9a07
+11-27 19:33:23.697  2019 12208 I MicroRecognitionRunner: Detection finished
+11-27 19:33:23.697  2019 12208 W ErrorReporter: reportError [type: 211, code: 524300]: Error reading from input stream
+11-27 19:33:23.698  2019  2180 I MicroRecognitionRunner: Stopping hotword detection.
+11-27 19:33:23.698  2019 12208 W ErrorProcessor: onFatalError, processing error from engine(4)
+11-27 19:33:23.698  2019 12208 W ErrorProcessor: com.google.android.apps.gsa.shared.speech.a.g: Error reading from input stream
+11-27 19:33:23.698  2019 12208 W ErrorProcessor: 	at com.google.android.apps.gsa.staticplugins.recognizer.i.a.a(SourceFile:342)
+11-27 19:33:23.698  2019 12208 W ErrorProcessor: 	at com.google.android.apps.gsa.staticplugins.recognizer.i.a$1.run(SourceFile:1367)
+11-27 19:33:23.698  2019 12208 W ErrorProcessor: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:428)
+11-27 19:33:23.698  2019 12208 W ErrorProcessor: 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+11-27 19:33:23.698  2019 12208 W ErrorProcessor: 	at com.google.android.apps.gsa.shared.util.concurrent.a.ak.run(SourceFile:66)
+11-27 19:33:23.698  2019 12208 W ErrorProcessor: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1133)
+11-27 19:33:23.698  2019 12208 W ErrorProcessor: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:607)
+11-27 19:33:23.698  2019 12208 W ErrorProcessor: 	at java.lang.Thread.run(Thread.java:761)
+11-27 19:33:23.698  2019 12208 W ErrorProcessor: 	at com.google.android.apps.gsa.shared.util.concurrent.a.ad$1.run(SourceFile:85)
+11-27 19:33:23.698  2019 12208 W ErrorProcessor: Caused by: com.google.android.apps.gsa.shared.exception.GsaIOException: Error code: 393238 | Buffer overflow, no available space.
+11-27 19:33:23.698  2019 12208 W ErrorProcessor: 	at com.google.android.apps.gsa.speech.audio.Tee.g(SourceFile:2531)
+11-27 19:33:23.698  2019 12208 W ErrorProcessor: 	at com.google.android.apps.gsa.speech.audio.ap.read(SourceFile:555)
+11-27 19:33:23.698  2019 12208 W ErrorProcessor: 	at java.io.InputStream.read(InputStream.java:101)
+11-27 19:33:23.698  2019 12208 W ErrorProcessor: 	at com.google.android.apps.gsa.speech.audio.al.run(SourceFile:362)
+11-27 19:33:23.698  2019 12208 W ErrorProcessor: 	at com.google.android.apps.gsa.speech.audio.ak$1.run(SourceFile:471)
+11-27 19:33:23.698  2019 12208 W ErrorProcessor: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:428)
+11-27 19:33:23.698  2019 12208 W ErrorProcessor: 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+11-27 19:33:23.698  2019 12208 W ErrorProcessor: 	at com.google.android.apps.gsa.shared.util.concurrent.a.ak.run(SourceFile:66)
+11-27 19:33:23.698  2019 12208 W ErrorProcessor: 	at com.google.android.apps.gsa.shared.util.concurrent.a.ax.run(SourceFile:139)
+11-27 19:33:23.698  2019 12208 W ErrorProcessor: 	at com.google.android.apps.gsa.shared.util.concurrent.a.ax.run(SourceFile:139)
+11-27 19:33:23.698  2019 12208 W ErrorProcessor: 	... 4 more
+11-27 19:33:23.698  2019 12208 I AudioController: internalShutdown
+11-27 19:33:23.699  2019  2019 I MicroDetector: Keeping mic open: false
+11-27 19:33:23.700  2019  2019 I MicroDetectionWorker: #onError(false)
+11-27 19:33:23.700  2019 12207 I DeviceStateChecker: DeviceStateChecker cancelled
+11-27 19:33:24.960 12212 12212 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-27 19:33:24.961 12212 12212 D AndroidRuntime: CheckJNI is ON
+11-27 19:33:24.961 12212 12212 E cutils-trace: Error opening trace file: Permission denied (13)
+11-27 19:33:24.999 12212 12212 W art     : Unexpected CPU variant for X86 using defaults: x86
+11-27 19:33:25.002 12212 12212 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+11-27 19:33:25.011 12212 12212 E memtrack: Couldn't load memtrack module (No such file or directory)
+11-27 19:33:25.011 12212 12212 E android.os.Debug: failed to load memtrack module: -2
+11-27 19:33:25.012 12212 12212 I Radio-JNI: register_android_hardware_Radio DONE
+11-27 19:33:25.018 12212 12212 D AndroidRuntime: Calling main entry com.android.commands.am.Am
+11-27 19:33:25.020  1423  8430 W ActivityManager: Permission Denial: not allowed to send broadcast android.provider.Telephony.SMS_RECEIVED from pid=12212, uid=2000
+11-27 19:33:25.022 12212 12212 I art     : System.exit called, status: 1
+11-27 19:33:25.022 12212 12212 I AndroidRuntime: VM exiting with result code 1.
+11-27 19:33:25.279 12227 12227 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-27 19:33:25.280 12227 12227 D AndroidRuntime: CheckJNI is ON
+11-27 19:33:25.280 12227 12227 E cutils-trace: Error opening trace file: Permission denied (13)
+11-27 19:33:25.401 12227 12227 W art     : Unexpected CPU variant for X86 using defaults: x86
+11-27 19:33:25.407 12227 12227 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+11-27 19:33:25.590 12227 12227 E memtrack: Couldn't load memtrack module (No such file or directory)
+11-27 19:33:25.590 12227 12227 E android.os.Debug: failed to load memtrack module: -2
+11-27 19:33:25.591 12227 12227 I Radio-JNI: register_android_hardware_Radio DONE
+11-27 19:33:25.625 12227 12227 D AndroidRuntime: Calling main entry com.android.commands.am.Am
+11-27 19:33:25.665  1423  8429 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 pkg=de.mobinauten.smsspy} from uid 2000 on display 0
+11-27 19:33:25.666 12227 12227 D AndroidRuntime: Shutting down VM
+11-27 19:33:25.667 12227 12238 W art     : Thread attaching while runtime is shutting down: Binder:12227_2
+11-27 19:33:25.667 12227 12238 I AndroidRuntime: NOTE: attach of thread 'Binder:12227_2' failed
+11-27 19:33:27.999 12241 12241 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-27 19:33:28.001 12241 12241 D AndroidRuntime: CheckJNI is ON
+11-27 19:33:28.001 12241 12241 E cutils-trace: Error opening trace file: Permission denied (13)
+11-27 19:33:28.052 12241 12241 W art     : Unexpected CPU variant for X86 using defaults: x86
+11-27 19:33:28.054 12241 12241 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+11-27 19:33:28.064 12241 12241 E memtrack: Couldn't load memtrack module (No such file or directory)
+11-27 19:33:28.064 12241 12241 E android.os.Debug: failed to load memtrack module: -2
+11-27 19:33:28.064 12241 12241 I Radio-JNI: register_android_hardware_Radio DONE
+11-27 19:33:28.070 12241 12241 D AndroidRuntime: Calling main entry com.android.commands.am.Am
+11-27 19:33:28.072  1423  1931 W ActivityManager: Permission Denial: not allowed to send broadcast android.provider.Telephony.SMS_RECEIVED from pid=12241, uid=2000
+11-27 19:33:28.081 12241 12241 I art     : System.exit called, status: 1
+11-27 19:33:28.081 12241 12241 I AndroidRuntime: VM exiting with result code 1.
+11-27 19:33:28.361 12258 12258 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-27 19:33:28.362 12258 12258 D AndroidRuntime: CheckJNI is ON
+11-27 19:33:28.363 12258 12258 E cutils-trace: Error opening trace file: Permission denied (13)
+11-27 19:33:28.398 12258 12258 W art     : Unexpected CPU variant for X86 using defaults: x86
+11-27 19:33:28.401 12258 12258 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+11-27 19:33:28.411 12258 12258 E memtrack: Couldn't load memtrack module (No such file or directory)
+11-27 19:33:28.411 12258 12258 E android.os.Debug: failed to load memtrack module: -2
+11-27 19:33:28.412 12258 12258 I Radio-JNI: register_android_hardware_Radio DONE
+11-27 19:33:28.417 12258 12258 D AndroidRuntime: Calling main entry com.android.commands.am.Am
+11-27 19:33:28.420  1423  1853 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 pkg=de.mobinauten.smsspy} from uid 2000 on display 0
+11-27 19:33:28.421 12258 12258 D AndroidRuntime: Shutting down VM
+11-27 19:33:28.705  2019  2019 I MicroDetectionWorker: Micro detection mode: [mDetectionMode: [1]].
+11-27 19:33:28.706  2019  2019 I AudioController: Using mInputStreamFactoryBuilder
+11-27 19:33:28.711  2019 12269 I MicroRecognitionRunner: Starting detection.
+11-27 19:33:28.712  2019  4132 I MicrophoneInputStream: mic_starting com.google.android.apps.gsa.staticplugins.z.c@13f73cd
+11-27 19:33:28.713  1253  1310 W APM_AudioPolicyManager: getInputForAttr() failed opening input: samplingRate 16000, format 1, channelMask 10
+11-27 19:33:28.713  2019  4132 E AudioRecord: Could not get audio input for session 5489, record source 1999, sample rate 16000, format 0x1, channel mask 0x10, flags 0
+11-27 19:33:28.714  2019  4132 E AudioRecord-JNI: Error creating AudioRecord instance: initialization check failed with status -22.
+11-27 19:33:28.714  2019  4132 E android.media.AudioRecord: Error code -20 when initializing native AudioRecord object.
+11-27 19:33:28.714  2019  4132 I MicrophoneInputStream: mic_started com.google.android.apps.gsa.staticplugins.z.c@13f73cd
+11-27 19:33:28.716  2019  4132 E ActivityThread: Failed to find provider info for com.google.android.apps.gsa.testing.ui.audio.recorded
+11-27 19:33:28.717  2019  2019 I MicroDetectionWorker: onReady
+11-27 19:33:28.731  2019  4132 I MicrophoneInputStream: mic_close com.google.android.apps.gsa.staticplugins.z.c@13f73cd
+11-27 19:33:28.731  2019 12269 I MicroRecognitionRunner: Detection finished
+11-27 19:33:28.731  2019 12269 W ErrorReporter: reportError [type: 211, code: 524300]: Error reading from input stream
+11-27 19:33:28.732  2019  2180 I MicroRecognitionRunner: Stopping hotword detection.
+11-27 19:33:28.732  2019 12269 W ErrorProcessor: onFatalError, processing error from engine(4)
+11-27 19:33:28.732  2019 12269 W ErrorProcessor: com.google.android.apps.gsa.shared.speech.a.g: Error reading from input stream
+11-27 19:33:28.732  2019 12269 W ErrorProcessor: 	at com.google.android.apps.gsa.staticplugins.recognizer.i.a.a(SourceFile:342)
+11-27 19:33:28.732  2019 12269 W ErrorProcessor: 	at com.google.android.apps.gsa.staticplugins.recognizer.i.a$1.run(SourceFile:1367)
+11-27 19:33:28.732  2019 12269 W ErrorProcessor: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:428)
+11-27 19:33:28.732  2019 12269 W ErrorProcessor: 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+11-27 19:33:28.732  2019 12269 W ErrorProcessor: 	at com.google.android.apps.gsa.shared.util.concurrent.a.ak.run(SourceFile:66)
+11-27 19:33:28.732  2019 12269 W ErrorProcessor: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1133)
+11-27 19:33:28.732  2019 12269 W ErrorProcessor: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:607)
+11-27 19:33:28.732  2019 12269 W ErrorProcessor: 	at java.lang.Thread.run(Thread.java:761)
+11-27 19:33:28.732  2019 12269 W ErrorProcessor: 	at com.google.android.apps.gsa.shared.util.concurrent.a.ad$1.run(SourceFile:85)
+11-27 19:33:28.732  2019 12269 W ErrorProcessor: Caused by: com.google.android.apps.gsa.shared.exception.GsaIOException: Error code: 393238 | Buffer overflow, no available space.
+11-27 19:33:28.732  2019 12269 W ErrorProcessor: 	at com.google.android.apps.gsa.speech.audio.Tee.g(SourceFile:2531)
+11-27 19:33:28.732  2019 12269 W ErrorProcessor: 	at com.google.android.apps.gsa.speech.audio.ap.read(SourceFile:555)
+11-27 19:33:28.732  2019 12269 W ErrorProcessor: 	at java.io.InputStream.read(InputStream.java:101)
+11-27 19:33:28.732  2019 12269 W ErrorProcessor: 	at com.google.android.apps.gsa.speech.audio.al.run(SourceFile:362)
+11-27 19:33:28.732  2019 12269 W ErrorProcessor: 	at com.google.android.apps.gsa.speech.audio.ak$1.run(SourceFile:471)
+11-27 19:33:28.732  2019 12269 W ErrorProcessor: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:428)
+11-27 19:33:28.732  2019 12269 W ErrorProcessor: 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+11-27 19:33:28.732  2019 12269 W ErrorProcessor: 	at com.google.android.apps.gsa.shared.util.concurrent.a.ak.run(SourceFile:66)
+11-27 19:33:28.732  2019 12269 W ErrorProcessor: 	at com.google.android.apps.gsa.shared.util.concurrent.a.ax.run(SourceFile:139)
+11-27 19:33:28.732  2019 12269 W ErrorProcessor: 	at com.google.android.apps.gsa.shared.util.concurrent.a.ax.run(SourceFile:139)
+11-27 19:33:28.732  2019 12269 W ErrorProcessor: 	... 4 more
+11-27 19:33:28.732  2019 12269 I AudioController: internalShutdown
+11-27 19:33:28.733  2019  2019 I MicroDetector: Keeping mic open: false
+11-27 19:33:28.733  2019  2019 I MicroDetectionWorker: #onError(false)
+11-27 19:33:28.734  2019 12268 I DeviceStateChecker: DeviceStateChecker cancelled

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="frameLayout1">false</item>
+    <item type="id" name="moreAppsImgBtn">false</item>
+    <item type="id" name="Button01">false</item>
+    <item type="id" name="ScrollView01">false</item>
+    <item type="id" name="imageButtonFlashlight">false</item>
+    <item type="id" name="imageButtonEasyButton">false</item>
+    <item type="id" name="imageButtonWhoopee">false</item>
+    <item type="id" name="imageButtonMosquito">false</item>
+    <item type="id" name="BackButton">false</item>
+</resources>

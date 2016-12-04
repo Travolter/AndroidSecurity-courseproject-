@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="widget_bg_container">false</item>
+    <item type="id" name="widget_bg_view">false</item>
+    <item type="id" name="widget_text">false</item>
+    <item type="id" name="not_bat_i">false</item>
+    <item type="id" name="not_bat_per">false</item>
+    <item type="id" name="not_bat_stat">false</item>
+    <item type="id" name="not_bat_left">false</item>
+    <item type="id" name="not_b_2">false</item>
+    <item type="id" name="not_b_1">false</item>
+    <item type="id" name="not_b_3">false</item>
+    <item type="id" name="not_tv_tf">false</item>
+</resources>

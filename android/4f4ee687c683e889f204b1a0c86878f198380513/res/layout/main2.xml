@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/ScrollView01" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="#ffc0c0c0" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/imageButtonFlashlight" android:background="@drawable/flashlight_more" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ImageView android:id="@id/imageButtonEasyButton" android:background="@drawable/easybutton_more" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ImageView android:id="@id/imageButtonWhoopee" android:background="@drawable/whoopee_more" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ImageView android:id="@id/imageButtonMosquito" android:background="@drawable/mosquito_more" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ImageView android:id="@id/BackButton" android:background="@drawable/back" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>

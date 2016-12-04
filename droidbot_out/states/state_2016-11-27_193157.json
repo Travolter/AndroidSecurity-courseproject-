@@ -1,0 +1,293 @@
+{
+  "background_services": [
+    "com.devuni.flashlight/notification.CuttingEdgeNotificationService", 
+    "com.android.systemui/keyguard.KeyguardService", 
+    "com.android.systemui/ImageWallpaper", 
+    "com.google.android.gms/om.google.android.location.geocode.GeocodeService", 
+    "com.google.android.gms/nearby.discovery.service.ScreenOnListenerService", 
+    "com.google.android.gms/auth.setup.devicesignals.LockScreenService", 
+    "com.google.android.gms/gcm.GcmService", 
+    "com.android.inputmethod.latin/LatinIME", 
+    "com.google.android.googlequicksearchbox/om.google.android.apps.gsa.sidekick.main.remoteservice.NowService", 
+    "com.google.android.googlequicksearchbox/om.google.android.apps.gsa.nowoverlayservice.DrawerOverlayService", 
+    "com.google.android.gms/om.google.android.location.fused.FusedLocationService", 
+    "com.google.android.gms/om.google.android.location.geofencer.service.GeofenceProviderService", 
+    "com.android.systemui/SystemUIService", 
+    "android/hardware.location.GeofenceHardwareService", 
+    "com.google.android.googlequicksearchbox/om.google.android.apps.gsa.search.core.service.SearchService", 
+    "com.google.android.gms/om.google.android.location.internal.server.GoogleLocationService", 
+    "com.google.android.gms/om.google.android.location.network.NetworkLocationService", 
+    "com.google.android.gms/om.google.android.location.internal.GoogleLocationManagerService", 
+    "com.android.server.telecom/components.TelecomService", 
+    "com.google.android.gms/deviceconnection.service.DeviceConnectionServiceBroker", 
+    "com.google.android.googlequicksearchbox/om.google.android.voiceinteraction.GsaVoiceInteractionService", 
+    "android/om.android.server.content.SyncJobService", 
+    "com.google.android.gms/common.stats.GmsCoreStatsService", 
+    "com.google.android.gms/clearcut.service.ClearcutLoggerService", 
+    "com.google.android.gms/om.google.android.location.internal.server.HardwareArProviderService", 
+    "com.android.mms.service/MmsService", 
+    "com.android.phone/TelephonyDebugService", 
+    "android.ext.services/notification.Ranker"
+  ], 
+  "views": [
+    {
+      "temp_id": 0, 
+      "parent": null, 
+      "resource_id": "", 
+      "text": "", 
+      "view_str": "class:android.widget.FrameLayout,resource_id:,size:1080*1776,text:", 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          0
+        ], 
+        [
+          1080, 
+          1776
+        ]
+      ], 
+      "class": "android.widget.FrameLayout", 
+      "focused": false, 
+      "children": [
+        1, 
+        6, 
+        7, 
+        8
+      ], 
+      "size": "1080*1776"
+    }, 
+    {
+      "temp_id": 1, 
+      "parent": 0, 
+      "resource_id": "com.google.android.apps.nexuslauncher:id/workspace", 
+      "text": "", 
+      "view_str": "class:com.android.launcher3.Workspace,resource_id:com.google.android.apps.nexuslauncher:id/workspace,size:1080*1776,text:", 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          0
+        ], 
+        [
+          1080, 
+          1776
+        ]
+      ], 
+      "class": "com.android.launcher3.Workspace", 
+      "focused": false, 
+      "children": [
+        2, 
+        5
+      ], 
+      "size": "1080*1776"
+    }, 
+    {
+      "temp_id": 2, 
+      "parent": 1, 
+      "resource_id": "com.google.android.apps.nexuslauncher:id/workspace_blocked_row", 
+      "text": "", 
+      "view_str": "class:android.widget.FrameLayout,resource_id:com.google.android.apps.nexuslauncher:id/workspace_blocked_row,size:1032*330,text:", 
+      "enabled": true, 
+      "bounds": [
+        [
+          24, 
+          108
+        ], 
+        [
+          1056, 
+          438
+        ]
+      ], 
+      "class": "android.widget.FrameLayout", 
+      "focused": false, 
+      "children": [
+        3, 
+        4
+      ], 
+      "size": "1032*330"
+    }, 
+    {
+      "temp_id": 3, 
+      "parent": 2, 
+      "resource_id": "com.google.android.apps.nexuslauncher:id/date_text1", 
+      "text": "November 27", 
+      "view_str": "class:android.widget.TextView,resource_id:com.google.android.apps.nexuslauncher:id/date_text1,size:512*114,text:November 27", 
+      "enabled": true, 
+      "bounds": [
+        [
+          502, 
+          186
+        ], 
+        [
+          1014, 
+          300
+        ]
+      ], 
+      "class": "android.widget.TextView", 
+      "focused": false, 
+      "children": [], 
+      "size": "512*114"
+    }, 
+    {
+      "temp_id": 4, 
+      "parent": 2, 
+      "resource_id": "com.google.android.apps.nexuslauncher:id/date_text2", 
+      "text": "SUNDAY, 2016", 
+      "view_str": "class:android.widget.TextView,resource_id:com.google.android.apps.nexuslauncher:id/date_text2,size:228*59,text:SUNDAY, 2016", 
+      "enabled": true, 
+      "bounds": [
+        [
+          786, 
+          300
+        ], 
+        [
+          1014, 
+          359
+        ]
+      ], 
+      "class": "android.widget.TextView", 
+      "focused": false, 
+      "children": [], 
+      "size": "228*59"
+    }, 
+    {
+      "temp_id": 5, 
+      "parent": 1, 
+      "resource_id": "", 
+      "text": "Maps", 
+      "view_str": "class:android.widget.TextView,resource_id:,size:258*330,text:Maps", 
+      "enabled": true, 
+      "bounds": [
+        [
+          24, 
+          1098
+        ], 
+        [
+          282, 
+          1428
+        ]
+      ], 
+      "class": "android.widget.TextView", 
+      "focused": true, 
+      "children": [], 
+      "size": "258*330"
+    }, 
+    {
+      "temp_id": 6, 
+      "parent": 0, 
+      "resource_id": "com.google.android.apps.nexuslauncher:id/g_icon", 
+      "text": "", 
+      "view_str": "class:android.widget.ImageView,resource_id:com.google.android.apps.nexuslauncher:id/g_icon,size:258*168,text:", 
+      "enabled": true, 
+      "bounds": [
+        [
+          24, 
+          189
+        ], 
+        [
+          282, 
+          357
+        ]
+      ], 
+      "class": "android.widget.ImageView", 
+      "focused": false, 
+      "children": [], 
+      "size": "258*168"
+    }, 
+    {
+      "temp_id": 7, 
+      "parent": 0, 
+      "resource_id": "com.google.android.apps.nexuslauncher:id/all_apps_handle", 
+      "text": "", 
+      "view_str": "class:android.widget.ImageView,resource_id:com.google.android.apps.nexuslauncher:id/all_apps_handle,size:144*84,text:", 
+      "enabled": true, 
+      "bounds": [
+        [
+          468, 
+          1428
+        ], 
+        [
+          612, 
+          1512
+        ]
+      ], 
+      "class": "android.widget.ImageView", 
+      "focused": false, 
+      "children": [], 
+      "size": "144*84"
+    }, 
+    {
+      "temp_id": 8, 
+      "parent": 0, 
+      "resource_id": "com.google.android.apps.nexuslauncher:id/layout", 
+      "text": "", 
+      "view_str": "class:android.view.ViewGroup,resource_id:com.google.android.apps.nexuslauncher:id/layout,size:1080*264,text:", 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          1512
+        ], 
+        [
+          1080, 
+          1776
+        ]
+      ], 
+      "class": "android.view.ViewGroup", 
+      "focused": false, 
+      "children": [
+        9, 
+        10
+      ], 
+      "size": "1080*264"
+    }, 
+    {
+      "temp_id": 9, 
+      "parent": 8, 
+      "resource_id": "", 
+      "text": "Messenger", 
+      "view_str": "class:android.widget.TextView,resource_id:,size:258*240,text:Messenger", 
+      "enabled": true, 
+      "bounds": [
+        [
+          282, 
+          1536
+        ], 
+        [
+          540, 
+          1776
+        ]
+      ], 
+      "class": "android.widget.TextView", 
+      "focused": false, 
+      "children": [], 
+      "size": "258*240"
+    }, 
+    {
+      "temp_id": 10, 
+      "parent": 8, 
+      "resource_id": "", 
+      "text": "Chrome", 
+      "view_str": "class:android.widget.TextView,resource_id:,size:258*240,text:Chrome", 
+      "enabled": true, 
+      "bounds": [
+        [
+          798, 
+          1536
+        ], 
+        [
+          1056, 
+          1776
+        ]
+      ], 
+      "class": "android.widget.TextView", 
+      "focused": false, 
+      "children": [], 
+      "size": "258*240"
+    }
+  ], 
+  "tag": "2016-11-27_193157", 
+  "foreground_activity": "com.google.android.apps.nexuslauncher/.NexusLauncherActivity", 
+  "view_str": "activity:com.google.android.apps.nexuslauncher/.NexusLauncherActivity,com.google.android.apps.nexuslauncher:id/all_apps_handle,com.google.android.apps.nexuslauncher:id/date_text1,com.google.android.apps.nexuslauncher:id/date_text2,com.google.android.apps.nexuslauncher:id/g_icon,com.google.android.apps.nexuslauncher:id/layout,com.google.android.apps.nexuslauncher:id/workspace,com.google.android.apps.nexuslauncher:id/workspace_blocked_row"
+}
