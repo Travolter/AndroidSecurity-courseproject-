@@ -13,7 +13,7 @@
 \begin{document}
 \maketitle
 
-\section{Step 1: Application analysis}
+\section{Application analysis}
 For this first step I have chosen the application tiny flashlight
 \cite{playlink1}\cite{apklink1}\\
 Using apktool to decompile the apk following permissions were found in the
@@ -25,7 +25,7 @@ Using apktool to decompile the apk following permissions were found in the
 I used the included \texttt{pyparser.py} script I have written to first parse the
 \texttt{ALL\_API\_CALLS.txt} file and then look through all the smali files
 using a series of \texttt{grep} operations. The result of this script can be
-found in the file called \texttt{result}.\\
+found in the file called \texttt{used\_apicalls}.\\
 This shows that following permissions were used:
 \begin{itemize}
   \item android.permission.READ\_SMS: this seems to be used for reading
@@ -68,23 +68,32 @@ Following permissions are defined in the manifest:
   \includegraphics[width=0.7\textwidth]{manifest2}
 \end{figure}
 
-Following permissions are used by the application:
+Following permissions are used by the application (see:
+\texttt{used\_apicalls\_mallware}:
 \begin{itemize}
-  \item android.permission.VIBRATE
-  \item android.permission.INTERNET
-  \item android.permission.USE\_CREDENTIALS
-  \item android.permission.MANAGE\_ACCOUNTS
-  \item android.permission.READ\_PHONE\_STATE
-  \item android.permission.GET\_ACCOUNTS
-  \item android.permission.WAKE\_LOCK
+  \item android.permission.VIBRATE: used by the notitication component
+  \item android.permission.INTERNET: used by a notifier 
+  \item android.permission.USE\_CREDENTIALS: feels like this is the malware part
+    of the app
+  \item android.permission.MANAGE\_ACCOUNTS: also part of the malware, trying to
+    steal all kinds of account information.
+  \item android.permission.READ\_PHONE\_STATE: stealing the phone information
+    (deviceId for example)
+  \item android.permission.GET\_ACCOUNTS: more information to steal.
+  \item android.permission.WAKE\_LOCK: anysnchronous component of the app.
 \end{itemize}
 
 The malware application seems to be underpriviliged, as for example ethe
 MANAGE\_ACCOUNTS and USE\_CREDENTIALS permissions are not listed in the
 maniffest.
 
+\section{Reverse engineering}
+To remove the calls to the advertisement library I have removed the
+\texttt{AdActivity} call from the \texttt{AndroidManifest}. Included apk file
+\texttt{flashlight\_no\_ads.apk} demonstrates the result.
 
-\section{Step 3}
+
+\section{Static analysis}
 
 \begin{verbatim}
 Found a flow to sink specialinvoke $r5.<java.net.URL: void <init>(java.lang.String)>($r1)
@@ -111,6 +120,10 @@ from the following sources:
         void onReceive(android.content.Context,android.content.Intent)>)
 \end{verbatim}
 
+\section{Instrumentation for dynamic analysis}
+\section{Testin and triggering}
+I used monkey to do automated testing, running the \texttt{adb monkey} command
+with my application installed on the emulator.
 \begin{thebibliography}{9}
   
   \bibitem{playlink1}

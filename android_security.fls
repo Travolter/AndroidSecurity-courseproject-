@@ -1,4 +1,4 @@
-PWD /home/travolter/Documents/capita_selecta
+PWD /home/travolter/capita_slecta
 INPUT /usr/share/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
 INPUT android_security.tex

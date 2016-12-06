@@ -1,0 +1,1325 @@
+==========================
+grep -Ri Transaction ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i process
+PERMISSION: Permission:android.permission.CHANGE_WIFI_STATE
+
+SEARCHED: Transaction & process
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/gc.smali:    const-string v0, "Timeout waiting for pending transaction to be processed."
+==========================
+==========================
+grep -Ri DownloadManager$4 ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i run
+PERMISSION: Permission:android.permission.READ_SMS
+
+SEARCHED: DownloadManager$4 & run
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/ew.smali:    invoke-virtual {v3, v1}, Landroid/app/DownloadManager$Request;->setShowRunningNotification(Z)Landroid/app/DownloadManager$Request;
+==========================
+==========================
+grep -Ri ThreadPool$Job ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i run
+PERMISSION: Permission:android.permission.NFC
+
+SEARCHED: ThreadPool$Job & run
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/eg$2.smali:.method public rejectedExecution(Ljava/lang/Runnable;Ljava/util/concurrent/ThreadPoolExecutor;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/eg$2.smali:    invoke-super {p0, p1, p2}, Ljava/util/concurrent/ThreadPoolExecutor$DiscardPolicy;->rejectedExecution(Ljava/lang/Runnable;Ljava/util/concurrent/ThreadPoolExecutor;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/eg$1.smali:    invoke-super {p0, p1, p2}, Ljava/util/concurrent/ThreadPoolExecutor;->afterExecute(Ljava/lang/Runnable;Ljava/lang/Throwable;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/eg$1.smali:    invoke-super {p0, p1, p2}, Ljava/util/concurrent/ThreadPoolExecutor;->beforeExecute(Ljava/lang/Thread;Ljava/lang/Runnable;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/eg.smali:    invoke-virtual {v0, p2}, Ljava/util/concurrent/ThreadPoolExecutor;->submit(Ljava/lang/Runnable;)Ljava/util/concurrent/Future;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/millennialmedia/android/h.smali:    invoke-virtual {v1, v0}, Ljava/util/concurrent/ThreadPoolExecutor;->execute(Ljava/lang/Runnable;)V
+==========================
+==========================
+grep -Ri ThreadPool$Worker ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i run
+PERMISSION: Permission:android.permission.NFC
+
+SEARCHED: ThreadPool$Worker & run
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/eg$2.smali:.method public rejectedExecution(Ljava/lang/Runnable;Ljava/util/concurrent/ThreadPoolExecutor;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/eg$2.smali:    invoke-super {p0, p1, p2}, Ljava/util/concurrent/ThreadPoolExecutor$DiscardPolicy;->rejectedExecution(Ljava/lang/Runnable;Ljava/util/concurrent/ThreadPoolExecutor;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/eg$1.smali:    invoke-super {p0, p1, p2}, Ljava/util/concurrent/ThreadPoolExecutor;->afterExecute(Ljava/lang/Runnable;Ljava/lang/Throwable;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/eg$1.smali:    invoke-super {p0, p1, p2}, Ljava/util/concurrent/ThreadPoolExecutor;->beforeExecute(Ljava/lang/Thread;Ljava/lang/Runnable;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/eg.smali:    invoke-virtual {v0, p2}, Ljava/util/concurrent/ThreadPoolExecutor;->submit(Ljava/lang/Runnable;)Ljava/util/concurrent/Future;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/millennialmedia/android/h.smali:    invoke-virtual {v1, v0}, Ljava/util/concurrent/ThreadPoolExecutor;->execute(Ljava/lang/Runnable;)V
+==========================
+==========================
+grep -Ri Vibrator ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i vibrate
+PERMISSION: Permission:android.permission.VIBRATE
+
+SEARCHED: Vibrator & vibrate
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/helper/o.smali:    invoke-virtual {v0, v2, v3}, Landroid/os/Vibrator;->vibrate(J)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/millennialmedia/android/bb.smali:    invoke-virtual {v0, v4, v5}, Landroid/os/Vibrator;->vibrate(J)V
+==========================
+==========================
+grep -Ri Ringer ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i ring
+PERMISSION: Permission:android.permission.VIBRATE
+
+SEARCHED: Ringer & ring
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/js.smali:    invoke-virtual {v0}, Landroid/media/AudioManager;->getRingerMode()I
+==========================
+==========================
+grep -Ri NotificationManager ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i notify
+PERMISSION: Permission:android.permission.VIBRATE
+
+SEARCHED: NotificationManager & notify
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/f/b.smali:    invoke-virtual {v0, v4, p1}, Landroid/app/NotificationManager;->notify(ILandroid/app/Notification;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/f/b.smali:    invoke-virtual {v0, v1, p1}, Landroid/app/NotificationManager;->notify(ILandroid/app/Notification;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/light/LightService.smali:    invoke-virtual {v0, v7, v1}, Landroid/app/NotificationManager;->notify(ILandroid/app/Notification;)V
+==========================
+==========================
+grep -Ri Tab$3 ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i onExceededDatabaseQuota
+PERMISSION: Permission:android.permission.VIBRATE
+
+SEARCHED: Tab$3 & onExceededDatabaseQuota
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/lh.smali:.method public final onExceededDatabaseQuota(Ljava/lang/String;Ljava/lang/String;JJJLandroid/webkit/WebStorage$QuotaUpdater;)V
+==========================
+==========================
+grep -Ri DownloadManager ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i enqueue
+PERMISSION: Permission:android.permission.VIBRATE
+
+SEARCHED: DownloadManager & enqueue
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/ew.smali:    invoke-virtual {v0, v3}, Landroid/app/DownloadManager;->enqueue(Landroid/app/DownloadManager$Request;)J
+==========================
+==========================
+grep -Ri UI ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i onOptionsItemSelected
+PERMISSION: Permission:com.android.browser.permission.READ_HISTORY_BOOKMARKS
+
+SEARCHED: UI & onOptionsItemSelected
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/flashlight/a.smali:.method public onOptionsItemSelected(Landroid/view/MenuItem;)Z
+==========================
+==========================
+grep -Ri Camera ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i open
+PERMISSION: Permission:android.permission.CAMERA
+
+SEARCHED: Camera & open
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/light/o.smali:    invoke-static {}, Landroid/hardware/Camera;->open()Landroid/hardware/Camera;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/light/c.smali:    invoke-static {}, Landroid/hardware/Camera;->open()Landroid/hardware/Camera;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/light/j.smali:    invoke-static {}, Landroid/hardware/Camera;->open()Landroid/hardware/Camera;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/light/e.smali:    invoke-static {}, Landroid/hardware/Camera;->open()Landroid/hardware/Camera;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/light/LightCameraNew.smali:    invoke-static {}, Landroid/hardware/Camera;->open()Landroid/hardware/Camera;
+==========================
+==========================
+grep -Ri HttpURLConnection ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i connect
+PERMISSION: Permission:android.permission.INTERNET
+
+SEARCHED: HttpURLConnection & connect
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/en$2.smali:    invoke-static {v0}, Lcom/flurry/sdk/en;->a(Lcom/flurry/sdk/en;)Ljava/net/HttpURLConnection;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/en$2.smali:    invoke-static {v0}, Lcom/flurry/sdk/en;->a(Lcom/flurry/sdk/en;)Ljava/net/HttpURLConnection;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/en$2.smali:    invoke-virtual {v0}, Ljava/net/HttpURLConnection;->disconnect()V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/en.smali:.field private m:Ljava/net/HttpURLConnection;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/en.smali:.method static synthetic a(Lcom/flurry/sdk/en;)Ljava/net/HttpURLConnection;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/en.smali:    iget-object v0, p0, Lcom/flurry/sdk/en;->m:Ljava/net/HttpURLConnection;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/en.smali:    check-cast v1, Ljava/net/HttpURLConnection;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/en.smali:    iput-object v1, p0, Lcom/flurry/sdk/en;->m:Ljava/net/HttpURLConnection;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/en.smali:    iget-object v1, p0, Lcom/flurry/sdk/en;->m:Ljava/net/HttpURLConnection;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/en.smali:    invoke-virtual {v1, v2}, Ljava/net/HttpURLConnection;->setConnectTimeout(I)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/en.smali:    iget-object v1, p0, Lcom/flurry/sdk/en;->m:Ljava/net/HttpURLConnection;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/en.smali:    invoke-virtual {v1, v2}, Ljava/net/HttpURLConnection;->setReadTimeout(I)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/en.smali:    iget-object v1, p0, Lcom/flurry/sdk/en;->m:Ljava/net/HttpURLConnection;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/en.smali:    invoke-virtual {v1, v2}, Ljava/net/HttpURLConnection;->setRequestMethod(Ljava/lang/String;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/en.smali:    iget-object v1, p0, Lcom/flurry/sdk/en;->m:Ljava/net/HttpURLConnection;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/en.smali:    invoke-virtual {v1, v2}, Ljava/net/HttpURLConnection;->setInstanceFollowRedirects(Z)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/en.smali:    iget-object v1, p0, Lcom/flurry/sdk/en;->m:Ljava/net/HttpURLConnection;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/en.smali:    invoke-virtual {v1, v2}, Ljava/net/HttpURLConnection;->setDoOutput(Z)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/en.smali:    iget-object v1, p0, Lcom/flurry/sdk/en;->m:Ljava/net/HttpURLConnection;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/en.smali:    invoke-virtual {v1, v2}, Ljava/net/HttpURLConnection;->setDoInput(Z)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/en.smali:    iget-object v1, p0, Lcom/flurry/sdk/en;->m:Ljava/net/HttpURLConnection;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/en.smali:    iget-object v1, p0, Lcom/flurry/sdk/en;->m:Ljava/net/HttpURLConnection;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/en.smali:    iget-object v5, p0, Lcom/flurry/sdk/en;->m:Ljava/net/HttpURLConnection;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/en.smali:    invoke-virtual {v5, v2, v1}, Ljava/net/HttpURLConnection;->addRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/en.smali:    iget-object v1, p0, Lcom/flurry/sdk/en;->m:Ljava/net/HttpURLConnection;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/en.smali:    invoke-virtual {v1, v2, v4}, Ljava/net/HttpURLConnection;->setRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/en.smali:    iget-object v1, p0, Lcom/flurry/sdk/en;->m:Ljava/net/HttpURLConnection;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/en.smali:    invoke-virtual {v1}, Ljava/net/HttpURLConnection;->getOutputStream()Ljava/io/OutputStream;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/en.smali:    iget-object v1, p0, Lcom/flurry/sdk/en;->m:Ljava/net/HttpURLConnection;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/en.smali:    invoke-virtual {v1}, Ljava/net/HttpURLConnection;->getResponseCode()I
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/en.smali:    iget-object v1, p0, Lcom/flurry/sdk/en;->m:Ljava/net/HttpURLConnection;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/en.smali:    invoke-virtual {v1}, Ljava/net/HttpURLConnection;->getHeaderFields()Ljava/util/Map;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/en.smali:    iget-object v1, p0, Lcom/flurry/sdk/en;->m:Ljava/net/HttpURLConnection;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/en.smali:    invoke-virtual {v1}, Ljava/net/HttpURLConnection;->getInputStream()Ljava/io/InputStream;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/en.smali:    iget-object v0, p0, Lcom/flurry/sdk/en;->m:Ljava/net/HttpURLConnection;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/en.smali:    iget-object v0, p0, Lcom/flurry/sdk/en;->m:Ljava/net/HttpURLConnection;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/en.smali:    invoke-virtual {v0}, Ljava/net/HttpURLConnection;->disconnect()V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/en.smali:    iget-object v0, p0, Lcom/flurry/sdk/en;->m:Ljava/net/HttpURLConnection;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/jh.smali:    check-cast v0, Ljava/net/HttpURLConnection;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/jh.smali:    invoke-static {p0, p1, v6, v0}, Lcom/google/android/gms/internal/kl;->a(Landroid/content/Context;Ljava/lang/String;ZLjava/net/HttpURLConnection;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/jh.smali:    invoke-virtual {v0, v6, v7}, Ljava/net/HttpURLConnection;->addRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/jh.smali:    invoke-virtual {v0, v6}, Ljava/net/HttpURLConnection;->setDoOutput(Z)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/jh.smali:    invoke-virtual {v0, v7}, Ljava/net/HttpURLConnection;->setFixedLengthStreamingMode(I)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/jh.smali:    invoke-virtual {v0}, Ljava/net/HttpURLConnection;->getOutputStream()Ljava/io/OutputStream;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/jh.smali:    invoke-virtual {v0}, Ljava/net/HttpURLConnection;->getResponseCode()I
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/jh.smali:    invoke-virtual {v0}, Ljava/net/HttpURLConnection;->getHeaderFields()Ljava/util/Map;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/jh.smali:    invoke-virtual {v0}, Ljava/net/HttpURLConnection;->getInputStream()Ljava/io/InputStream;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/jh.smali:    invoke-virtual {v0}, Ljava/net/HttpURLConnection;->disconnect()V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/jh.smali:    invoke-virtual {v0, v2}, Ljava/net/HttpURLConnection;->getHeaderField(Ljava/lang/String;)Ljava/lang/String;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/jh.smali:    invoke-virtual {v0}, Ljava/net/HttpURLConnection;->disconnect()V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/jh.smali:    invoke-virtual {v0}, Ljava/net/HttpURLConnection;->disconnect()V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/jh.smali:    invoke-virtual {v0}, Ljava/net/HttpURLConnection;->disconnect()V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/jh.smali:    invoke-virtual {v0}, Ljava/net/HttpURLConnection;->disconnect()V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/jh.smali:    invoke-virtual {v0}, Ljava/net/HttpURLConnection;->disconnect()V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/lp.smali:    check-cast v0, Ljava/net/HttpURLConnection;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/lp.smali:    invoke-static {p0, p1, v1, v0, v2}, Lcom/google/android/gms/internal/kl;->a(Landroid/content/Context;Ljava/lang/String;ZLjava/net/HttpURLConnection;Z)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/lp.smali:    invoke-virtual {v0, v1, v2}, Ljava/net/HttpURLConnection;->addRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/lp.smali:    invoke-virtual {v0}, Ljava/net/HttpURLConnection;->connect()V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/lp.smali:    invoke-virtual {v0}, Ljava/net/HttpURLConnection;->getInputStream()Ljava/io/InputStream;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/lp.smali:    invoke-virtual {v0}, Ljava/net/HttpURLConnection;->disconnect()V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/lp.smali:    invoke-virtual {v0}, Ljava/net/HttpURLConnection;->disconnect()V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/ky.smali:    check-cast v0, Ljava/net/HttpURLConnection;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/ky.smali:    invoke-static {v1, v2, v3, v0}, Lcom/google/android/gms/internal/kl;->a(Landroid/content/Context;Ljava/lang/String;ZLjava/net/HttpURLConnection;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/ky.smali:    invoke-virtual {v0}, Ljava/net/HttpURLConnection;->getResponseCode()I
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/ky.smali:    invoke-virtual {v0}, Ljava/net/HttpURLConnection;->disconnect()V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/ky.smali:    invoke-static {v0, v1}, Lcom/google/android/gms/internal/kl;->a(Ljava/net/HttpURLConnection;Ljava/lang/String;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/ky.smali:    invoke-virtual {v0}, Ljava/net/HttpURLConnection;->disconnect()V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/kw.smali:    check-cast v0, Ljava/net/HttpURLConnection;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/kw.smali:    invoke-virtual {v0}, Ljava/net/HttpURLConnection;->connect()V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/kw.smali:    invoke-virtual {v0}, Ljava/net/HttpURLConnection;->getResponseCode()I
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/kw.smali:    invoke-virtual {v0}, Ljava/net/HttpURLConnection;->getInputStream()Ljava/io/InputStream;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/kw.smali:    invoke-virtual {v0}, Ljava/net/HttpURLConnection;->disconnect()V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/kw.smali:    invoke-virtual {v0}, Ljava/net/HttpURLConnection;->disconnect()V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/kw.smali:    invoke-virtual {v1}, Ljava/net/HttpURLConnection;->disconnect()V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/kw.smali:    invoke-virtual {v1}, Ljava/net/HttpURLConnection;->disconnect()V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/kw.smali:    invoke-virtual {v1}, Ljava/net/HttpURLConnection;->disconnect()V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/kl.smali:.method public static a(Landroid/content/Context;Ljava/lang/String;ZLjava/net/HttpURLConnection;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/kl.smali:    invoke-static {p0, p1, p2, p3, v0}, Lcom/google/android/gms/internal/kl;->a(Landroid/content/Context;Ljava/lang/String;ZLjava/net/HttpURLConnection;Z)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/kl.smali:.method public static a(Landroid/content/Context;Ljava/lang/String;ZLjava/net/HttpURLConnection;Z)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/kl.smali:    invoke-virtual {p3, v0}, Ljava/net/HttpURLConnection;->setConnectTimeout(I)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/kl.smali:    invoke-virtual {p3, p2}, Ljava/net/HttpURLConnection;->setInstanceFollowRedirects(Z)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/kl.smali:    invoke-virtual {p3, v0}, Ljava/net/HttpURLConnection;->setReadTimeout(I)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/kl.smali:    invoke-virtual {p3, v0, v1}, Ljava/net/HttpURLConnection;->setRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/kl.smali:    invoke-virtual {p3, p4}, Ljava/net/HttpURLConnection;->setUseCaches(Z)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/kl.smali:.method public static a(Ljava/net/HttpURLConnection;Ljava/lang/String;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/kl.smali:    invoke-virtual {p0, v1}, Ljava/net/HttpURLConnection;->setConnectTimeout(I)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/kl.smali:    invoke-virtual {p0, v0}, Ljava/net/HttpURLConnection;->setInstanceFollowRedirects(Z)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/kl.smali:    invoke-virtual {p0, v1}, Ljava/net/HttpURLConnection;->setReadTimeout(I)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/kl.smali:    invoke-virtual {p0, v0, p1}, Ljava/net/HttpURLConnection;->setRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/kl.smali:    invoke-virtual {p0, v0}, Ljava/net/HttpURLConnection;->setUseCaches(Z)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/millennialmedia/android/bw.smali:    invoke-static {v0}, Ljava/net/HttpURLConnection;->setFollowRedirects(Z)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/millennialmedia/android/bw.smali:    check-cast v0, Ljava/net/HttpURLConnection;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/millennialmedia/android/bw.smali:    invoke-virtual {v0, v3}, Ljava/net/HttpURLConnection;->setConnectTimeout(I)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/millennialmedia/android/bw.smali:    invoke-virtual {v0, v3}, Ljava/net/HttpURLConnection;->setRequestMethod(Ljava/lang/String;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/millennialmedia/android/bw.smali:    invoke-virtual {v0}, Ljava/net/HttpURLConnection;->connect()V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/millennialmedia/android/bw.smali:    invoke-virtual {v0}, Ljava/net/HttpURLConnection;->getResponseCode()I
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/millennialmedia/android/bw.smali:    invoke-virtual {v0, v4}, Ljava/net/HttpURLConnection;->getHeaderField(Ljava/lang/String;)Ljava/lang/String;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/millennialmedia/android/a.smali:    invoke-static {v3}, Ljava/net/HttpURLConnection;->setFollowRedirects(Z)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/millennialmedia/android/a.smali:    check-cast v0, Ljava/net/HttpURLConnection;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/millennialmedia/android/a.smali:    invoke-virtual {v0, v3}, Ljava/net/HttpURLConnection;->setConnectTimeout(I)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/millennialmedia/android/a.smali:    invoke-virtual {v0, v3}, Ljava/net/HttpURLConnection;->setRequestMethod(Ljava/lang/String;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/millennialmedia/android/a.smali:    invoke-virtual {v0}, Ljava/net/HttpURLConnection;->connect()V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/millennialmedia/android/a.smali:    invoke-virtual {v0}, Ljava/net/HttpURLConnection;->getInputStream()Ljava/io/InputStream;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/millennialmedia/android/a.smali:    invoke-virtual {v0, v2}, Ljava/net/HttpURLConnection;->getHeaderField(Ljava/lang/String;)Ljava/lang/String;
+==========================
+==========================
+grep -Ri URL ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i openConnection
+PERMISSION: Permission:android.permission.INTERNET
+
+SEARCHED: URL & openConnection
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/en.smali:    invoke-virtual {v1}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/jh.smali:    invoke-virtual {v2}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/lp.smali:    invoke-virtual {v0}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/ky.smali:    invoke-virtual {v0}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/kw.smali:    invoke-virtual {v0}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/millennialmedia/android/bw.smali:    invoke-virtual {v2}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/millennialmedia/android/a.smali:    invoke-virtual {v0}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;
+==========================
+==========================
+grep -Ri URLConnection ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i connect
+PERMISSION: Permission:android.permission.INTERNET
+
+SEARCHED: URLConnection & connect
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/en$2.smali:    invoke-static {v0}, Lcom/flurry/sdk/en;->a(Lcom/flurry/sdk/en;)Ljava/net/HttpURLConnection;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/en$2.smali:    invoke-static {v0}, Lcom/flurry/sdk/en;->a(Lcom/flurry/sdk/en;)Ljava/net/HttpURLConnection;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/en$2.smali:    invoke-virtual {v0}, Ljava/net/HttpURLConnection;->disconnect()V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/en.smali:.field private m:Ljava/net/HttpURLConnection;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/en.smali:.method static synthetic a(Lcom/flurry/sdk/en;)Ljava/net/HttpURLConnection;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/en.smali:    iget-object v0, p0, Lcom/flurry/sdk/en;->m:Ljava/net/HttpURLConnection;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/en.smali:    invoke-virtual {v1}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/en.smali:    check-cast v1, Ljava/net/HttpURLConnection;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/en.smali:    iput-object v1, p0, Lcom/flurry/sdk/en;->m:Ljava/net/HttpURLConnection;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/en.smali:    iget-object v1, p0, Lcom/flurry/sdk/en;->m:Ljava/net/HttpURLConnection;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/en.smali:    invoke-virtual {v1, v2}, Ljava/net/HttpURLConnection;->setConnectTimeout(I)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/en.smali:    iget-object v1, p0, Lcom/flurry/sdk/en;->m:Ljava/net/HttpURLConnection;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/en.smali:    invoke-virtual {v1, v2}, Ljava/net/HttpURLConnection;->setReadTimeout(I)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/en.smali:    iget-object v1, p0, Lcom/flurry/sdk/en;->m:Ljava/net/HttpURLConnection;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/en.smali:    invoke-virtual {v1, v2}, Ljava/net/HttpURLConnection;->setRequestMethod(Ljava/lang/String;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/en.smali:    iget-object v1, p0, Lcom/flurry/sdk/en;->m:Ljava/net/HttpURLConnection;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/en.smali:    invoke-virtual {v1, v2}, Ljava/net/HttpURLConnection;->setInstanceFollowRedirects(Z)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/en.smali:    iget-object v1, p0, Lcom/flurry/sdk/en;->m:Ljava/net/HttpURLConnection;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/en.smali:    invoke-virtual {v1, v2}, Ljava/net/HttpURLConnection;->setDoOutput(Z)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/en.smali:    iget-object v1, p0, Lcom/flurry/sdk/en;->m:Ljava/net/HttpURLConnection;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/en.smali:    invoke-virtual {v1, v2}, Ljava/net/HttpURLConnection;->setDoInput(Z)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/en.smali:    iget-object v1, p0, Lcom/flurry/sdk/en;->m:Ljava/net/HttpURLConnection;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/en.smali:    instance-of v1, v1, Ljavax/net/ssl/HttpsURLConnection;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/en.smali:    iget-object v1, p0, Lcom/flurry/sdk/en;->m:Ljava/net/HttpURLConnection;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/en.smali:    check-cast v1, Ljavax/net/ssl/HttpsURLConnection;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/en.smali:    invoke-virtual {v1, v2}, Ljavax/net/ssl/HttpsURLConnection;->setHostnameVerifier(Ljavax/net/ssl/HostnameVerifier;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/en.smali:    invoke-virtual {v1, v2}, Ljavax/net/ssl/HttpsURLConnection;->setSSLSocketFactory(Ljavax/net/ssl/SSLSocketFactory;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/en.smali:    iget-object v5, p0, Lcom/flurry/sdk/en;->m:Ljava/net/HttpURLConnection;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/en.smali:    invoke-virtual {v5, v2, v1}, Ljava/net/HttpURLConnection;->addRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/en.smali:    iget-object v1, p0, Lcom/flurry/sdk/en;->m:Ljava/net/HttpURLConnection;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/en.smali:    invoke-virtual {v1, v2, v4}, Ljava/net/HttpURLConnection;->setRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/en.smali:    iget-object v1, p0, Lcom/flurry/sdk/en;->m:Ljava/net/HttpURLConnection;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/en.smali:    invoke-virtual {v1}, Ljava/net/HttpURLConnection;->getOutputStream()Ljava/io/OutputStream;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/en.smali:    iget-object v1, p0, Lcom/flurry/sdk/en;->m:Ljava/net/HttpURLConnection;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/en.smali:    invoke-virtual {v1}, Ljava/net/HttpURLConnection;->getResponseCode()I
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/en.smali:    iget-object v1, p0, Lcom/flurry/sdk/en;->m:Ljava/net/HttpURLConnection;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/en.smali:    invoke-virtual {v1}, Ljava/net/HttpURLConnection;->getHeaderFields()Ljava/util/Map;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/en.smali:    iget-object v1, p0, Lcom/flurry/sdk/en;->m:Ljava/net/HttpURLConnection;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/en.smali:    invoke-virtual {v1}, Ljava/net/HttpURLConnection;->getInputStream()Ljava/io/InputStream;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/en.smali:    iget-object v0, p0, Lcom/flurry/sdk/en;->m:Ljava/net/HttpURLConnection;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/en.smali:    iget-object v0, p0, Lcom/flurry/sdk/en;->m:Ljava/net/HttpURLConnection;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/en.smali:    invoke-virtual {v0}, Ljava/net/HttpURLConnection;->disconnect()V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/en.smali:    iget-object v0, p0, Lcom/flurry/sdk/en;->m:Ljava/net/HttpURLConnection;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/jh.smali:    invoke-virtual {v2}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/jh.smali:    check-cast v0, Ljava/net/HttpURLConnection;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/jh.smali:    invoke-static {p0, p1, v6, v0}, Lcom/google/android/gms/internal/kl;->a(Landroid/content/Context;Ljava/lang/String;ZLjava/net/HttpURLConnection;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/jh.smali:    invoke-virtual {v0, v6, v7}, Ljava/net/HttpURLConnection;->addRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/jh.smali:    invoke-virtual {v0, v6}, Ljava/net/HttpURLConnection;->setDoOutput(Z)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/jh.smali:    invoke-virtual {v0, v7}, Ljava/net/HttpURLConnection;->setFixedLengthStreamingMode(I)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/jh.smali:    invoke-virtual {v0}, Ljava/net/HttpURLConnection;->getOutputStream()Ljava/io/OutputStream;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/jh.smali:    invoke-virtual {v0}, Ljava/net/HttpURLConnection;->getResponseCode()I
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/jh.smali:    invoke-virtual {v0}, Ljava/net/HttpURLConnection;->getHeaderFields()Ljava/util/Map;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/jh.smali:    invoke-virtual {v0}, Ljava/net/HttpURLConnection;->getInputStream()Ljava/io/InputStream;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/jh.smali:    invoke-virtual {v0}, Ljava/net/HttpURLConnection;->disconnect()V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/jh.smali:    invoke-virtual {v0, v2}, Ljava/net/HttpURLConnection;->getHeaderField(Ljava/lang/String;)Ljava/lang/String;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/jh.smali:    invoke-virtual {v0}, Ljava/net/HttpURLConnection;->disconnect()V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/jh.smali:    invoke-virtual {v0}, Ljava/net/HttpURLConnection;->disconnect()V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/jh.smali:    invoke-virtual {v0}, Ljava/net/HttpURLConnection;->disconnect()V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/jh.smali:    invoke-virtual {v0}, Ljava/net/HttpURLConnection;->disconnect()V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/jh.smali:    invoke-virtual {v0}, Ljava/net/HttpURLConnection;->disconnect()V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/lp.smali:    invoke-virtual {v0}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/lp.smali:    check-cast v0, Ljava/net/HttpURLConnection;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/lp.smali:    invoke-static {p0, p1, v1, v0, v2}, Lcom/google/android/gms/internal/kl;->a(Landroid/content/Context;Ljava/lang/String;ZLjava/net/HttpURLConnection;Z)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/lp.smali:    invoke-virtual {v0, v1, v2}, Ljava/net/HttpURLConnection;->addRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/lp.smali:    invoke-virtual {v0}, Ljava/net/HttpURLConnection;->connect()V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/lp.smali:    invoke-virtual {v0}, Ljava/net/HttpURLConnection;->getInputStream()Ljava/io/InputStream;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/lp.smali:    invoke-virtual {v0}, Ljava/net/HttpURLConnection;->disconnect()V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/lp.smali:    invoke-virtual {v0}, Ljava/net/HttpURLConnection;->disconnect()V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/ky.smali:    invoke-virtual {v0}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/ky.smali:    check-cast v0, Ljava/net/HttpURLConnection;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/ky.smali:    invoke-static {v1, v2, v3, v0}, Lcom/google/android/gms/internal/kl;->a(Landroid/content/Context;Ljava/lang/String;ZLjava/net/HttpURLConnection;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/ky.smali:    invoke-virtual {v0}, Ljava/net/HttpURLConnection;->getResponseCode()I
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/ky.smali:    invoke-virtual {v0}, Ljava/net/HttpURLConnection;->disconnect()V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/ky.smali:    invoke-static {v0, v1}, Lcom/google/android/gms/internal/kl;->a(Ljava/net/HttpURLConnection;Ljava/lang/String;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/ky.smali:    invoke-virtual {v0}, Ljava/net/HttpURLConnection;->disconnect()V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/kw.smali:    invoke-virtual {v0}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/kw.smali:    check-cast v0, Ljava/net/HttpURLConnection;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/kw.smali:    invoke-virtual {v0}, Ljava/net/HttpURLConnection;->connect()V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/kw.smali:    invoke-virtual {v0}, Ljava/net/HttpURLConnection;->getResponseCode()I
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/kw.smali:    invoke-virtual {v0}, Ljava/net/HttpURLConnection;->getInputStream()Ljava/io/InputStream;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/kw.smali:    invoke-virtual {v0}, Ljava/net/HttpURLConnection;->disconnect()V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/kw.smali:    invoke-virtual {v0}, Ljava/net/HttpURLConnection;->disconnect()V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/kw.smali:    invoke-virtual {v1}, Ljava/net/HttpURLConnection;->disconnect()V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/kw.smali:    invoke-virtual {v1}, Ljava/net/HttpURLConnection;->disconnect()V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/kw.smali:    invoke-virtual {v1}, Ljava/net/HttpURLConnection;->disconnect()V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/kl.smali:.method public static a(Landroid/content/Context;Ljava/lang/String;ZLjava/net/HttpURLConnection;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/kl.smali:    invoke-static {p0, p1, p2, p3, v0}, Lcom/google/android/gms/internal/kl;->a(Landroid/content/Context;Ljava/lang/String;ZLjava/net/HttpURLConnection;Z)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/kl.smali:.method public static a(Landroid/content/Context;Ljava/lang/String;ZLjava/net/HttpURLConnection;Z)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/kl.smali:    invoke-virtual {p3, v0}, Ljava/net/HttpURLConnection;->setConnectTimeout(I)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/kl.smali:    invoke-virtual {p3, p2}, Ljava/net/HttpURLConnection;->setInstanceFollowRedirects(Z)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/kl.smali:    invoke-virtual {p3, v0}, Ljava/net/HttpURLConnection;->setReadTimeout(I)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/kl.smali:    invoke-virtual {p3, v0, v1}, Ljava/net/HttpURLConnection;->setRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/kl.smali:    invoke-virtual {p3, p4}, Ljava/net/HttpURLConnection;->setUseCaches(Z)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/kl.smali:.method public static a(Ljava/net/HttpURLConnection;Ljava/lang/String;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/kl.smali:    invoke-virtual {p0, v1}, Ljava/net/HttpURLConnection;->setConnectTimeout(I)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/kl.smali:    invoke-virtual {p0, v0}, Ljava/net/HttpURLConnection;->setInstanceFollowRedirects(Z)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/kl.smali:    invoke-virtual {p0, v1}, Ljava/net/HttpURLConnection;->setReadTimeout(I)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/kl.smali:    invoke-virtual {p0, v0, p1}, Ljava/net/HttpURLConnection;->setRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/kl.smali:    invoke-virtual {p0, v0}, Ljava/net/HttpURLConnection;->setUseCaches(Z)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/millennialmedia/android/bw.smali:    invoke-static {v0}, Ljava/net/HttpURLConnection;->setFollowRedirects(Z)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/millennialmedia/android/bw.smali:    invoke-virtual {v2}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/millennialmedia/android/bw.smali:    check-cast v0, Ljava/net/HttpURLConnection;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/millennialmedia/android/bw.smali:    invoke-virtual {v0, v3}, Ljava/net/HttpURLConnection;->setConnectTimeout(I)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/millennialmedia/android/bw.smali:    invoke-virtual {v0, v3}, Ljava/net/HttpURLConnection;->setRequestMethod(Ljava/lang/String;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/millennialmedia/android/bw.smali:    invoke-virtual {v0}, Ljava/net/HttpURLConnection;->connect()V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/millennialmedia/android/bw.smali:    invoke-virtual {v0}, Ljava/net/HttpURLConnection;->getResponseCode()I
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/millennialmedia/android/bw.smali:    invoke-virtual {v0, v4}, Ljava/net/HttpURLConnection;->getHeaderField(Ljava/lang/String;)Ljava/lang/String;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/millennialmedia/android/a.smali:    invoke-static {v3}, Ljava/net/HttpURLConnection;->setFollowRedirects(Z)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/millennialmedia/android/a.smali:    invoke-virtual {v0}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/millennialmedia/android/a.smali:    check-cast v0, Ljava/net/HttpURLConnection;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/millennialmedia/android/a.smali:    invoke-virtual {v0, v3}, Ljava/net/HttpURLConnection;->setConnectTimeout(I)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/millennialmedia/android/a.smali:    invoke-virtual {v0, v3}, Ljava/net/HttpURLConnection;->setRequestMethod(Ljava/lang/String;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/millennialmedia/android/a.smali:    invoke-virtual {v0}, Ljava/net/HttpURLConnection;->connect()V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/millennialmedia/android/a.smali:    invoke-virtual {v0}, Ljava/net/HttpURLConnection;->getInputStream()Ljava/io/InputStream;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/millennialmedia/android/a.smali:    invoke-virtual {v0, v2}, Ljava/net/HttpURLConnection;->getHeaderField(Ljava/lang/String;)Ljava/lang/String;
+==========================
+==========================
+grep -Ri URLConnection ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i getInputStream
+PERMISSION: Permission:android.permission.INTERNET
+
+SEARCHED: URLConnection & getInputStream
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/en.smali:    invoke-virtual {v1}, Ljava/net/HttpURLConnection;->getInputStream()Ljava/io/InputStream;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/jh.smali:    invoke-virtual {v0}, Ljava/net/HttpURLConnection;->getInputStream()Ljava/io/InputStream;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/lp.smali:    invoke-virtual {v0}, Ljava/net/HttpURLConnection;->getInputStream()Ljava/io/InputStream;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/kw.smali:    invoke-virtual {v0}, Ljava/net/HttpURLConnection;->getInputStream()Ljava/io/InputStream;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/millennialmedia/android/a.smali:    invoke-virtual {v0}, Ljava/net/HttpURLConnection;->getInputStream()Ljava/io/InputStream;
+==========================
+==========================
+grep -Ri DefaultHttpClient ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i execute
+PERMISSION: Permission:android.permission.INTERNET
+
+SEARCHED: DefaultHttpClient & execute
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/millennialmedia/android/et.smali:    invoke-virtual {v1, v0}, Lorg/apache/http/impl/client/DefaultHttpClient;->execute(Lorg/apache/http/client/methods/HttpUriRequest;)Lorg/apache/http/HttpResponse;
+==========================
+==========================
+grep -Ri Utils$UsabilityStudyLogUtils$2 ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i run
+PERMISSION: Permission:android.permission.WRITE_EXTERNAL_STORAGE
+
+SEARCHED: Utils$UsabilityStudyLogUtils$2 & run
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/flashlight/misc/i.smali:    invoke-virtual {v1, v2}, Landroid/widget/Button;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {v7, v10}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+==========================
+==========================
+grep -Ri MediaProvider ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i getAlbumArtOutputUri
+PERMISSION: Permission:android.permission.WRITE_EXTERNAL_STORAGE
+
+SEARCHED: MediaProvider & getAlbumArtOutputUri
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/flashlight/misc/i.smali:    invoke-virtual {v1, v2}, Landroid/widget/Button;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {v7, v10}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+==========================
+==========================
+grep -Ri MediaProvider ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i makeThumbInternal
+PERMISSION: Permission:android.permission.WRITE_EXTERNAL_STORAGE
+
+SEARCHED: MediaProvider & makeThumbInternal
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/flashlight/misc/i.smali:    invoke-virtual {v1, v2}, Landroid/widget/Button;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {v7, v10}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+==========================
+==========================
+grep -Ri MediaProvider ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i access$1200
+PERMISSION: Permission:android.permission.WRITE_EXTERNAL_STORAGE
+
+SEARCHED: MediaProvider & access$1200
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/flashlight/misc/i.smali:    invoke-virtual {v1, v2}, Landroid/widget/Button;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {v7, v10}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+==========================
+==========================
+grep -Ri MediaProvider ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i getThumb
+PERMISSION: Permission:android.permission.WRITE_EXTERNAL_STORAGE
+
+SEARCHED: MediaProvider & getThumb
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/flashlight/misc/i.smali:    invoke-virtual {v1, v2}, Landroid/widget/Button;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {v7, v10}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+==========================
+==========================
+grep -Ri StorageManager ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i trimDatabase
+PERMISSION: Permission:android.permission.WRITE_EXTERNAL_STORAGE
+
+SEARCHED: StorageManager & trimDatabase
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/flashlight/misc/i.smali:    invoke-virtual {v1, v2}, Landroid/widget/Button;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {v7, v10}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+==========================
+==========================
+grep -Ri StorageManager ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i access$100
+PERMISSION: Permission:android.permission.WRITE_EXTERNAL_STORAGE
+
+SEARCHED: StorageManager & access$100
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/flashlight/misc/i.smali:    invoke-virtual {v1, v2}, Landroid/widget/Button;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {v7, v10}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+==========================
+==========================
+grep -Ri StorageManager$1 ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i run
+PERMISSION: Permission:android.permission.WRITE_EXTERNAL_STORAGE
+
+SEARCHED: StorageManager$1 & run
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/flashlight/misc/i.smali:    invoke-virtual {v1, v2}, Landroid/widget/Button;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {v7, v10}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+==========================
+==========================
+grep -Ri DownloadManager ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i getUriForDownloadedFile
+PERMISSION: Permission:android.permission.WRITE_EXTERNAL_STORAGE
+
+SEARCHED: DownloadManager & getUriForDownloadedFile
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/flashlight/misc/i.smali:    invoke-virtual {v1, v2}, Landroid/widget/Button;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {v7, v10}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+==========================
+==========================
+grep -Ri OpenDownloadReceiver ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i onReceiveAsync
+PERMISSION: Permission:android.permission.WRITE_EXTERNAL_STORAGE
+
+SEARCHED: OpenDownloadReceiver & onReceiveAsync
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/flashlight/misc/i.smali:    invoke-virtual {v1, v2}, Landroid/widget/Button;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {v7, v10}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+==========================
+==========================
+grep -Ri AttachmentUtilities ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i saveAttachment
+PERMISSION: Permission:android.permission.WRITE_EXTERNAL_STORAGE
+
+SEARCHED: AttachmentUtilities & saveAttachment
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/flashlight/misc/i.smali:    invoke-virtual {v1, v2}, Landroid/widget/Button;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {v7, v10}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+==========================
+==========================
+grep -Ri OpenDownloadReceiver ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i access$000
+PERMISSION: Permission:android.permission.WRITE_EXTERNAL_STORAGE
+
+SEARCHED: OpenDownloadReceiver & access$000
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/flashlight/misc/i.smali:    invoke-virtual {v1, v2}, Landroid/widget/Button;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {v7, v10}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+==========================
+==========================
+grep -Ri OpenDownloadReceiver$1 ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i run
+PERMISSION: Permission:android.permission.WRITE_EXTERNAL_STORAGE
+
+SEARCHED: OpenDownloadReceiver$1 & run
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/flashlight/misc/i.smali:    invoke-virtual {v1, v2}, Landroid/widget/Button;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {v7, v10}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+==========================
+==========================
+grep -Ri DownloadService$1 ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i scanCompleted
+PERMISSION: Permission:android.permission.WRITE_EXTERNAL_STORAGE
+
+SEARCHED: DownloadService$1 & scanCompleted
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/flashlight/misc/i.smali:    invoke-virtual {v1, v2}, Landroid/widget/Button;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {v7, v10}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+==========================
+==========================
+grep -Ri IMediaScannerListener$Stub$Proxy ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i scanCompleted
+PERMISSION: Permission:android.permission.WRITE_EXTERNAL_STORAGE
+
+SEARCHED: IMediaScannerListener$Stub$Proxy & scanCompleted
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/flashlight/misc/i.smali:    invoke-virtual {v1, v2}, Landroid/widget/Button;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {v7, v10}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+==========================
+==========================
+grep -Ri IMediaScannerListener$Stub ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i scanCompleted
+PERMISSION: Permission:android.permission.WRITE_EXTERNAL_STORAGE
+
+SEARCHED: IMediaScannerListener$Stub & scanCompleted
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/flashlight/misc/i.smali:    invoke-virtual {v1, v2}, Landroid/widget/Button;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {v7, v10}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+==========================
+==========================
+grep -Ri IMediaScannerListener$Stub ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i onTransact
+PERMISSION: Permission:android.permission.WRITE_EXTERNAL_STORAGE
+
+SEARCHED: IMediaScannerListener$Stub & onTransact
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/flashlight/misc/i.smali:    invoke-virtual {v1, v2}, Landroid/widget/Button;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {v7, v10}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+==========================
+==========================
+grep -Ri IMediaScannerListener ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i scanCompleted
+PERMISSION: Permission:android.permission.WRITE_EXTERNAL_STORAGE
+
+SEARCHED: IMediaScannerListener & scanCompleted
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/flashlight/misc/i.smali:    invoke-virtual {v1, v2}, Landroid/widget/Button;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {v7, v10}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+==========================
+==========================
+grep -Ri MediaScannerConnection$1 ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i onTransact
+PERMISSION: Permission:android.permission.WRITE_EXTERNAL_STORAGE
+
+SEARCHED: MediaScannerConnection$1 & onTransact
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/flashlight/misc/i.smali:    invoke-virtual {v1, v2}, Landroid/widget/Button;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {v7, v10}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+==========================
+==========================
+grep -Ri DownloadService$1 ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i onTransact
+PERMISSION: Permission:android.permission.WRITE_EXTERNAL_STORAGE
+
+SEARCHED: DownloadService$1 & onTransact
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/flashlight/misc/i.smali:    invoke-virtual {v1, v2}, Landroid/widget/Button;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {v7, v10}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+==========================
+==========================
+grep -Ri StorageManager ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i discardPurgeableFiles
+PERMISSION: Permission:android.permission.WRITE_EXTERNAL_STORAGE
+
+SEARCHED: StorageManager & discardPurgeableFiles
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/flashlight/misc/i.smali:    invoke-virtual {v1, v2}, Landroid/widget/Button;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {v7, v10}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+==========================
+==========================
+grep -Ri StorageManager ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i findSpace
+PERMISSION: Permission:android.permission.WRITE_EXTERNAL_STORAGE
+
+SEARCHED: StorageManager & findSpace
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/flashlight/misc/i.smali:    invoke-virtual {v1, v2}, Landroid/widget/Button;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {v7, v10}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+==========================
+==========================
+grep -Ri StorageManager ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i verifySpace
+PERMISSION: Permission:android.permission.WRITE_EXTERNAL_STORAGE
+
+SEARCHED: StorageManager & verifySpace
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/flashlight/misc/i.smali:    invoke-virtual {v1, v2}, Landroid/widget/Button;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {v7, v10}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+==========================
+==========================
+grep -Ri DownloadThread ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i writeDataToDestination
+PERMISSION: Permission:android.permission.WRITE_EXTERNAL_STORAGE
+
+SEARCHED: DownloadThread & writeDataToDestination
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/flashlight/misc/i.smali:    invoke-virtual {v1, v2}, Landroid/widget/Button;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {v7, v10}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+==========================
+==========================
+grep -Ri Helpers ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i generateSaveFile
+PERMISSION: Permission:android.permission.WRITE_EXTERNAL_STORAGE
+
+SEARCHED: Helpers & generateSaveFile
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/flashlight/misc/i.smali:    invoke-virtual {v1, v2}, Landroid/widget/Button;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {v7, v10}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+==========================
+==========================
+grep -Ri StorageManager ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i verifySpaceBeforeWritingToFile
+PERMISSION: Permission:android.permission.WRITE_EXTERNAL_STORAGE
+
+SEARCHED: StorageManager & verifySpaceBeforeWritingToFile
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/flashlight/misc/i.smali:    invoke-virtual {v1, v2}, Landroid/widget/Button;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {v7, v10}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+==========================
+==========================
+grep -Ri DownloadThread ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i transferData
+PERMISSION: Permission:android.permission.WRITE_EXTERNAL_STORAGE
+
+SEARCHED: DownloadThread & transferData
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/flashlight/misc/i.smali:    invoke-virtual {v1, v2}, Landroid/widget/Button;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {v7, v10}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+==========================
+==========================
+grep -Ri DownloadThread ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i processResponseHeaders
+PERMISSION: Permission:android.permission.WRITE_EXTERNAL_STORAGE
+
+SEARCHED: DownloadThread & processResponseHeaders
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/flashlight/misc/i.smali:    invoke-virtual {v1, v2}, Landroid/widget/Button;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {v7, v10}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+==========================
+==========================
+grep -Ri DownloadThread ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i executeDownload
+PERMISSION: Permission:android.permission.WRITE_EXTERNAL_STORAGE
+
+SEARCHED: DownloadThread & executeDownload
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/flashlight/misc/i.smali:    invoke-virtual {v1, v2}, Landroid/widget/Button;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {v7, v10}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+==========================
+==========================
+grep -Ri DownloadThread ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i run
+PERMISSION: Permission:android.permission.WRITE_EXTERNAL_STORAGE
+
+SEARCHED: DownloadThread & run
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/flashlight/misc/i.smali:    invoke-virtual {v1, v2}, Landroid/widget/Button;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {v7, v10}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+==========================
+==========================
+grep -Ri DownloadInfo ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i getMyDownloadsUri
+PERMISSION: Permission:android.permission.WRITE_EXTERNAL_STORAGE
+
+SEARCHED: DownloadInfo & getMyDownloadsUri
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/flashlight/misc/i.smali:    invoke-virtual {v1, v2}, Landroid/widget/Button;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {v7, v10}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+==========================
+==========================
+grep -Ri DownloadInfo ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i sendIntentIfRequested
+PERMISSION: Permission:android.permission.WRITE_EXTERNAL_STORAGE
+
+SEARCHED: DownloadInfo & sendIntentIfRequested
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/flashlight/misc/i.smali:    invoke-virtual {v1, v2}, Landroid/widget/Button;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {v7, v10}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+==========================
+==========================
+grep -Ri DownloadThread ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i notifyDownloadCompleted
+PERMISSION: Permission:android.permission.WRITE_EXTERNAL_STORAGE
+
+SEARCHED: DownloadThread & notifyDownloadCompleted
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/flashlight/misc/i.smali:    invoke-virtual {v1, v2}, Landroid/widget/Button;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {v7, v10}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+==========================
+==========================
+grep -Ri DownloadService$UpdateThread ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i run
+PERMISSION: Permission:android.permission.WRITE_EXTERNAL_STORAGE
+
+SEARCHED: DownloadService$UpdateThread & run
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/flashlight/misc/i.smali:    invoke-virtual {v1, v2}, Landroid/widget/Button;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {v7, v10}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+==========================
+==========================
+grep -Ri DownloadManager ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i addCompletedDownload
+PERMISSION: Permission:android.permission.WRITE_EXTERNAL_STORAGE
+
+SEARCHED: DownloadManager & addCompletedDownload
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/flashlight/misc/i.smali:    invoke-virtual {v1, v2}, Landroid/widget/Button;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {v7, v10}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+==========================
+==========================
+grep -Ri Controller$Download ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i saveDataUri
+PERMISSION: Permission:android.permission.WRITE_EXTERNAL_STORAGE
+
+SEARCHED: Controller$Download & saveDataUri
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/flashlight/misc/i.smali:    invoke-virtual {v1, v2}, Landroid/widget/Button;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {v7, v10}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+==========================
+==========================
+grep -Ri MessageViewFragmentBase ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i performAttachmentSave
+PERMISSION: Permission:android.permission.WRITE_EXTERNAL_STORAGE
+
+SEARCHED: MessageViewFragmentBase & performAttachmentSave
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/flashlight/misc/i.smali:    invoke-virtual {v1, v2}, Landroid/widget/Button;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {v7, v10}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+==========================
+==========================
+grep -Ri Controller$Download ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i onMenuItemClick
+PERMISSION: Permission:android.permission.WRITE_EXTERNAL_STORAGE
+
+SEARCHED: Controller$Download & onMenuItemClick
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/flashlight/misc/i.smali:    invoke-virtual {v1, v2}, Landroid/widget/Button;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {v7, v10}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+==========================
+==========================
+grep -Ri MessageFileViewFragment ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i performAttachmentSave
+PERMISSION: Permission:android.permission.WRITE_EXTERNAL_STORAGE
+
+SEARCHED: MessageFileViewFragment & performAttachmentSave
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/flashlight/misc/i.smali:    invoke-virtual {v1, v2}, Landroid/widget/Button;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {v7, v10}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+==========================
+==========================
+grep -Ri MessageViewFragmentBase ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i onOpenAttachment
+PERMISSION: Permission:android.permission.WRITE_EXTERNAL_STORAGE
+
+SEARCHED: MessageViewFragmentBase & onOpenAttachment
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/flashlight/misc/i.smali:    invoke-virtual {v1, v2}, Landroid/widget/Button;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {v7, v10}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+==========================
+==========================
+grep -Ri MessageViewFragmentBase ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i onSaveAttachment
+PERMISSION: Permission:android.permission.WRITE_EXTERNAL_STORAGE
+
+SEARCHED: MessageViewFragmentBase & onSaveAttachment
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/flashlight/misc/i.smali:    invoke-virtual {v1, v2}, Landroid/widget/Button;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {v7, v10}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+==========================
+==========================
+grep -Ri MessageViewFragment ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i performAttachmentSave
+PERMISSION: Permission:android.permission.WRITE_EXTERNAL_STORAGE
+
+SEARCHED: MessageViewFragment & performAttachmentSave
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/flashlight/misc/i.smali:    invoke-virtual {v1, v2}, Landroid/widget/Button;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {v7, v10}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+==========================
+==========================
+grep -Ri MessageFileViewFragment ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i onOpenAttachment
+PERMISSION: Permission:android.permission.WRITE_EXTERNAL_STORAGE
+
+SEARCHED: MessageFileViewFragment & onOpenAttachment
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/flashlight/misc/i.smali:    invoke-virtual {v1, v2}, Landroid/widget/Button;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {v7, v10}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+==========================
+==========================
+grep -Ri MessageViewFragmentBase ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i onClick
+PERMISSION: Permission:android.permission.WRITE_EXTERNAL_STORAGE
+
+SEARCHED: MessageViewFragmentBase & onClick
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/flashlight/misc/i.smali:    invoke-virtual {v1, v2}, Landroid/widget/Button;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {v7, v10}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+==========================
+==========================
+grep -Ri MessageViewFragment ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i onOpenAttachment
+PERMISSION: Permission:android.permission.WRITE_EXTERNAL_STORAGE
+
+SEARCHED: MessageViewFragment & onOpenAttachment
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/flashlight/misc/i.smali:    invoke-virtual {v1, v2}, Landroid/widget/Button;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {v7, v10}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+==========================
+==========================
+grep -Ri MessageFileViewFragment ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i onSaveAttachment
+PERMISSION: Permission:android.permission.WRITE_EXTERNAL_STORAGE
+
+SEARCHED: MessageFileViewFragment & onSaveAttachment
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/flashlight/misc/i.smali:    invoke-virtual {v1, v2}, Landroid/widget/Button;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {v7, v10}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+==========================
+==========================
+grep -Ri MessageViewFragment ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i onSaveAttachment
+PERMISSION: Permission:android.permission.WRITE_EXTERNAL_STORAGE
+
+SEARCHED: MessageViewFragment & onSaveAttachment
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/flashlight/misc/i.smali:    invoke-virtual {v1, v2}, Landroid/widget/Button;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {v7, v10}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+==========================
+==========================
+grep -Ri MessageFileViewFragment ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i onClick
+PERMISSION: Permission:android.permission.WRITE_EXTERNAL_STORAGE
+
+SEARCHED: MessageFileViewFragment & onClick
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/flashlight/misc/i.smali:    invoke-virtual {v1, v2}, Landroid/widget/Button;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {v7, v10}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+==========================
+==========================
+grep -Ri MessageViewFragment ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i onClick
+PERMISSION: Permission:android.permission.WRITE_EXTERNAL_STORAGE
+
+SEARCHED: MessageViewFragment & onClick
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/flashlight/misc/i.smali:    invoke-virtual {v1, v2}, Landroid/widget/Button;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {v7, v10}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+==========================
+==========================
+grep -Ri DownloadManager ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i enqueue
+PERMISSION: Permission:android.permission.WRITE_EXTERNAL_STORAGE
+
+SEARCHED: DownloadManager & enqueue
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/flashlight/misc/i.smali:    invoke-virtual {v1, v2}, Landroid/widget/Button;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {v7, v10}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+==========================
+==========================
+grep -Ri DownloadHandler$1 ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i run
+PERMISSION: Permission:android.permission.WRITE_EXTERNAL_STORAGE
+
+SEARCHED: DownloadHandler$1 & run
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/flashlight/misc/i.smali:    invoke-virtual {v1, v2}, Landroid/widget/Button;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {v7, v10}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+==========================
+==========================
+grep -Ri FetchUrlMimeType ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i run
+PERMISSION: Permission:android.permission.WRITE_EXTERNAL_STORAGE
+
+SEARCHED: FetchUrlMimeType & run
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/flashlight/misc/i.smali:    invoke-virtual {v1, v2}, Landroid/widget/Button;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {v7, v10}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+==========================
+==========================
+grep -Ri DownloadHandler ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i onDownloadStartNoStream
+PERMISSION: Permission:android.permission.WRITE_EXTERNAL_STORAGE
+
+SEARCHED: DownloadHandler & onDownloadStartNoStream
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/flashlight/misc/i.smali:    invoke-virtual {v1, v2}, Landroid/widget/Button;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {v7, v10}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+==========================
+==========================
+grep -Ri DownloadHandler ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i onDownloadStart
+PERMISSION: Permission:android.permission.WRITE_EXTERNAL_STORAGE
+
+SEARCHED: DownloadHandler & onDownloadStart
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/flashlight/misc/i.smali:    invoke-virtual {v1, v2}, Landroid/widget/Button;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {v7, v10}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+==========================
+==========================
+grep -Ri Controller ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i onDownloadStart
+PERMISSION: Permission:android.permission.WRITE_EXTERNAL_STORAGE
+
+SEARCHED: Controller & onDownloadStart
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/flashlight/misc/i.smali:    invoke-virtual {v1, v2}, Landroid/widget/Button;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {v7, v10}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+==========================
+==========================
+grep -Ri WebViewController ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i onDownloadStart
+PERMISSION: Permission:android.permission.WRITE_EXTERNAL_STORAGE
+
+SEARCHED: WebViewController & onDownloadStart
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/flashlight/misc/i.smali:    invoke-virtual {v1, v2}, Landroid/widget/Button;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {v7, v10}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+==========================
+==========================
+grep -Ri Tab$4 ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i onDownloadStart
+PERMISSION: Permission:android.permission.WRITE_EXTERNAL_STORAGE
+
+SEARCHED: Tab$4 & onDownloadStart
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/flashlight/misc/i.smali:    invoke-virtual {v1, v2}, Landroid/widget/Button;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {v7, v10}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+==========================
+==========================
+grep -Ri Tab$7 ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i onDownloadStart
+PERMISSION: Permission:android.permission.WRITE_EXTERNAL_STORAGE
+
+SEARCHED: Tab$7 & onDownloadStart
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/flashlight/misc/i.smali:    invoke-virtual {v1, v2}, Landroid/widget/Button;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {v7, v10}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+==========================
+==========================
+grep -Ri Downloads ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i removeAllDownloadsByPackage
+PERMISSION: Permission:android.permission.WRITE_EXTERNAL_STORAGE
+
+SEARCHED: Downloads & removeAllDownloadsByPackage
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/flashlight/misc/i.smali:    invoke-virtual {v1, v2}, Landroid/widget/Button;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {v7, v10}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+==========================
+==========================
+grep -Ri BootReceiver ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i removeOldUpdatePackages
+PERMISSION: Permission:android.permission.WRITE_EXTERNAL_STORAGE
+
+SEARCHED: BootReceiver & removeOldUpdatePackages
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/flashlight/misc/i.smali:    invoke-virtual {v1, v2}, Landroid/widget/Button;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {v7, v10}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+==========================
+==========================
+grep -Ri BootReceiver ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i access$100
+PERMISSION: Permission:android.permission.WRITE_EXTERNAL_STORAGE
+
+SEARCHED: BootReceiver & access$100
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/flashlight/misc/i.smali:    invoke-virtual {v1, v2}, Landroid/widget/Button;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {v7, v10}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+==========================
+==========================
+grep -Ri BootReceiver$1 ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i run
+PERMISSION: Permission:android.permission.WRITE_EXTERNAL_STORAGE
+
+SEARCHED: BootReceiver$1 & run
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/flashlight/misc/i.smali:    invoke-virtual {v1, v2}, Landroid/widget/Button;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {v7, v10}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+==========================
+==========================
+grep -Ri BootReceiver ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i onReceive
+PERMISSION: Permission:android.permission.WRITE_EXTERNAL_STORAGE
+
+SEARCHED: BootReceiver & onReceive
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/flashlight/misc/i.smali:    invoke-virtual {v1, v2}, Landroid/widget/Button;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {v7, v10}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+==========================
+==========================
+grep -Ri DownloadInfo ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i getAllDownloadsUri
+PERMISSION: Permission:android.permission.WRITE_EXTERNAL_STORAGE
+
+SEARCHED: DownloadInfo & getAllDownloadsUri
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/flashlight/misc/i.smali:    invoke-virtual {v1, v2}, Landroid/widget/Button;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {v7, v10}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+==========================
+==========================
+grep -Ri DownloadInfo$Reader ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i readRequestHeaders
+PERMISSION: Permission:android.permission.WRITE_EXTERNAL_STORAGE
+
+SEARCHED: DownloadInfo$Reader & readRequestHeaders
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/flashlight/misc/i.smali:    invoke-virtual {v1, v2}, Landroid/widget/Button;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {v7, v10}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+==========================
+==========================
+grep -Ri DownloadInfo ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i notifyPauseDueToSize
+PERMISSION: Permission:android.permission.WRITE_EXTERNAL_STORAGE
+
+SEARCHED: DownloadInfo & notifyPauseDueToSize
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/flashlight/misc/i.smali:    invoke-virtual {v1, v2}, Landroid/widget/Button;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {v7, v10}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+==========================
+==========================
+grep -Ri DownloadInfo ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i startIfReady
+PERMISSION: Permission:android.permission.WRITE_EXTERNAL_STORAGE
+
+SEARCHED: DownloadInfo & startIfReady
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/flashlight/misc/i.smali:    invoke-virtual {v1, v2}, Landroid/widget/Button;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {v7, v10}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+==========================
+==========================
+grep -Ri DownloadService ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i scanFile
+PERMISSION: Permission:android.permission.WRITE_EXTERNAL_STORAGE
+
+SEARCHED: DownloadService & scanFile
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/flashlight/misc/i.smali:    invoke-virtual {v1, v2}, Landroid/widget/Button;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {v7, v10}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+==========================
+==========================
+grep -Ri DownloadThread ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i readFromResponse
+PERMISSION: Permission:android.permission.WRITE_EXTERNAL_STORAGE
+
+SEARCHED: DownloadThread & readFromResponse
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/flashlight/misc/i.smali:    invoke-virtual {v1, v2}, Landroid/widget/Button;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {v7, v10}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+==========================
+==========================
+grep -Ri DownloadThread ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i handleEndOfStream
+PERMISSION: Permission:android.permission.WRITE_EXTERNAL_STORAGE
+
+SEARCHED: DownloadThread & handleEndOfStream
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/flashlight/misc/i.smali:    invoke-virtual {v1, v2}, Landroid/widget/Button;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {v7, v10}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+==========================
+==========================
+grep -Ri DownloadThread ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i notifyThroughDatabase
+PERMISSION: Permission:android.permission.WRITE_EXTERNAL_STORAGE
+
+SEARCHED: DownloadThread & notifyThroughDatabase
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/flashlight/misc/i.smali:    invoke-virtual {v1, v2}, Landroid/widget/Button;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {v7, v10}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+==========================
+==========================
+grep -Ri DownloadThread ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i reportProgress
+PERMISSION: Permission:android.permission.WRITE_EXTERNAL_STORAGE
+
+SEARCHED: DownloadThread & reportProgress
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/flashlight/misc/i.smali:    invoke-virtual {v1, v2}, Landroid/widget/Button;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {v7, v10}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+==========================
+==========================
+grep -Ri DownloadThread ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i updateDatabaseFromHeaders
+PERMISSION: Permission:android.permission.WRITE_EXTERNAL_STORAGE
+
+SEARCHED: DownloadThread & updateDatabaseFromHeaders
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/flashlight/misc/i.smali:    invoke-virtual {v1, v2}, Landroid/widget/Button;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {v7, v10}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+==========================
+==========================
+grep -Ri DownloadInfo$Reader ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i newDownloadInfo
+PERMISSION: Permission:android.permission.WRITE_EXTERNAL_STORAGE
+
+SEARCHED: DownloadInfo$Reader & newDownloadInfo
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/flashlight/misc/i.smali:    invoke-virtual {v1, v2}, Landroid/widget/Button;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {v7, v10}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+==========================
+==========================
+grep -Ri DownloadThread ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i checkConnectivity
+PERMISSION: Permission:android.permission.WRITE_EXTERNAL_STORAGE
+
+SEARCHED: DownloadThread & checkConnectivity
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/flashlight/misc/i.smali:    invoke-virtual {v1, v2}, Landroid/widget/Button;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {v7, v10}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+==========================
+==========================
+grep -Ri DownloadService ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i insertDownloadLocked
+PERMISSION: Permission:android.permission.WRITE_EXTERNAL_STORAGE
+
+SEARCHED: DownloadService & insertDownloadLocked
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/flashlight/misc/i.smali:    invoke-virtual {v1, v2}, Landroid/widget/Button;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {v7, v10}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+==========================
+==========================
+grep -Ri DownloadService ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i updateDownload
+PERMISSION: Permission:android.permission.WRITE_EXTERNAL_STORAGE
+
+SEARCHED: DownloadService & updateDownload
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/flashlight/misc/i.smali:    invoke-virtual {v1, v2}, Landroid/widget/Button;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {v7, v10}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+==========================
+==========================
+grep -Ri DownloadService ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i access$700
+PERMISSION: Permission:android.permission.WRITE_EXTERNAL_STORAGE
+
+SEARCHED: DownloadService & access$700
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/flashlight/misc/i.smali:    invoke-virtual {v1, v2}, Landroid/widget/Button;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {v7, v10}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+==========================
+==========================
+grep -Ri DownloadService ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i deleteDownloadLocked
+PERMISSION: Permission:android.permission.WRITE_EXTERNAL_STORAGE
+
+SEARCHED: DownloadService & deleteDownloadLocked
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/flashlight/misc/i.smali:    invoke-virtual {v1, v2}, Landroid/widget/Button;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {v7, v10}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+==========================
+==========================
+grep -Ri DownloadThread ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i checkPausedOrCanceled
+PERMISSION: Permission:android.permission.WRITE_EXTERNAL_STORAGE
+
+SEARCHED: DownloadThread & checkPausedOrCanceled
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/flashlight/misc/i.smali:    invoke-virtual {v1, v2}, Landroid/widget/Button;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {v7, v10}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+==========================
+==========================
+grep -Ri DownloadService ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i access$600
+PERMISSION: Permission:android.permission.WRITE_EXTERNAL_STORAGE
+
+SEARCHED: DownloadService & access$600
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/flashlight/misc/i.smali:    invoke-virtual {v1, v2}, Landroid/widget/Button;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {v7, v10}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+==========================
+==========================
+grep -Ri DownloadService ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i access$500
+PERMISSION: Permission:android.permission.WRITE_EXTERNAL_STORAGE
+
+SEARCHED: DownloadService & access$500
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/flashlight/misc/i.smali:    invoke-virtual {v1, v2}, Landroid/widget/Button;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {v7, v10}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+==========================
+==========================
+grep -Ri DownloadService ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i access$800
+PERMISSION: Permission:android.permission.WRITE_EXTERNAL_STORAGE
+
+SEARCHED: DownloadService & access$800
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/flashlight/misc/i.smali:    invoke-virtual {v1, v2}, Landroid/widget/Button;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {v7, v10}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+==========================
+==========================
+grep -Ri LocationManager ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i getLastKnownLocation
+PERMISSION: Permission:android.permission.ACCESS_FINE_LOCATION
+
+SEARCHED: LocationManager & getLastKnownLocation
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/dz.smali:    invoke-virtual {v0, p1}, Landroid/location/LocationManager;->getLastKnownLocation(Ljava/lang/String;)Landroid/location/Location;
+==========================
+==========================
+grep -Ri LocationManager ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i requestLocationUpdates
+PERMISSION: Permission:android.permission.ACCESS_FINE_LOCATION
+
+SEARCHED: LocationManager & requestLocationUpdates
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/dz.smali:    invoke-virtual/range {v0 .. v6}, Landroid/location/LocationManager;->requestLocationUpdates(Ljava/lang/String;JFLandroid/location/LocationListener;Landroid/os/Looper;)V
+==========================
+==========================
+grep -Ri LocationManager ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i requestLocationUpdates
+PERMISSION: Permission:android.permission.ACCESS_FINE_LOCATION
+
+SEARCHED: LocationManager & requestLocationUpdates
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/dz.smali:    invoke-virtual/range {v0 .. v6}, Landroid/location/LocationManager;->requestLocationUpdates(Ljava/lang/String;JFLandroid/location/LocationListener;Landroid/os/Looper;)V
+==========================
+==========================
+grep -Ri LocationManager ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i requestLocationUpdates
+PERMISSION: Permission:android.permission.ACCESS_FINE_LOCATION
+
+SEARCHED: LocationManager & requestLocationUpdates
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/dz.smali:    invoke-virtual/range {v0 .. v6}, Landroid/location/LocationManager;->requestLocationUpdates(Ljava/lang/String;JFLandroid/location/LocationListener;Landroid/os/Looper;)V
+==========================
+==========================
+grep -Ri LocationManager ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i getBestProvider
+PERMISSION: Permission:android.permission.ACCESS_FINE_LOCATION
+
+SEARCHED: LocationManager & getBestProvider
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/dz.smali:    invoke-virtual {v1, v0, v2}, Landroid/location/LocationManager;->getBestProvider(Landroid/location/Criteria;Z)Ljava/lang/String;
+==========================
+==========================
+grep -Ri Am ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i main
+PERMISSION: Permission:android.permission.KILL_BACKGROUND_PROCESSES
+
+SEARCHED: Am & main
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/nw.smali:    const-string v0, "getAdFrame must be called on the main UI thread."
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/nw.smali:    const-string v0, "setPlayStorePurchaseParams must be called on the main UI thread."
+==========================
+==========================
+grep -Ri TelephonyManager ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i getDeviceId
+PERMISSION: Permission:android.permission.READ_PHONE_STATE
+
+SEARCHED: TelephonyManager & getDeviceId
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/dy.smali:    invoke-virtual {v0}, Landroid/telephony/TelephonyManager;->getDeviceId()Ljava/lang/String;
+==========================
+==========================
+grep -Ri Device ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i getDeviceId
+PERMISSION: Permission:android.permission.READ_PHONE_STATE
+
+SEARCHED: Device & getDeviceId
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/dy.smali:    invoke-virtual {v0}, Landroid/telephony/TelephonyManager;->getDeviceId()Ljava/lang/String;
+==========================
+==========================
+grep -Ri SpecialCharSequenceMgr ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i handleChars
+PERMISSION: Permission:android.permission.READ_PHONE_STATE
+
+SEARCHED: SpecialCharSequenceMgr & handleChars
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/dy.smali:    invoke-virtual {v0}, Landroid/telephony/TelephonyManager;->getDeviceId()Ljava/lang/String;
+==========================
+==========================
+grep -Ri SpecialCharSequenceMgr ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i handleChars
+PERMISSION: Permission:android.permission.READ_PHONE_STATE
+
+SEARCHED: SpecialCharSequenceMgr & handleChars
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/dy.smali:    invoke-virtual {v0}, Landroid/telephony/TelephonyManager;->getDeviceId()Ljava/lang/String;
+==========================
+==========================
+grep -Ri Session ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i add
+PERMISSION: Permission:android.permission.SYSTEM_ALERT_WINDOW
+
+SEARCHED: Session & add
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/dk.smali:    const-string v8, "Session report added: "
+==========================
+==========================
+grep -Ri Settings$Bookmarks ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i add
+PERMISSION: Permission:android.permission.WRITE_SETTINGS
+
+SEARCHED: Settings$Bookmarks & add
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {p0, v0}, Lcom/devuni/misc/settings/c;->addView(Landroid/view/View;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/misc/settings/c.smali:    invoke-virtual {p0, v7}, Lcom/devuni/misc/settings/c;->addView(Landroid/view/View;)V
+==========================
+==========================
+grep -Ri MediaScanner$MyMediaScannerClient ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i scanFile
+PERMISSION: Permission:android.permission.WRITE_SETTINGS
+
+SEARCHED: MediaScanner$MyMediaScannerClient & scanFile
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/millennialmedia/android/au.smali:    invoke-virtual {v0, v1, v2}, Landroid/media/MediaScannerConnection;->scanFile(Ljava/lang/String;Ljava/lang/String;)V
+==========================
+==========================
+grep -Ri ConnectivityManager ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i getActiveNetworkInfo
+PERMISSION: Permission:android.permission.ACCESS_NETWORK_STATE
+
+SEARCHED: ConnectivityManager & getActiveNetworkInfo
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/moreapps/c.smali:    invoke-virtual {v0}, Landroid/net/ConnectivityManager;->getActiveNetworkInfo()Landroid/net/NetworkInfo;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/ev.smali:    invoke-virtual {v0}, Landroid/net/ConnectivityManager;->getActiveNetworkInfo()Landroid/net/NetworkInfo;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/flurry/sdk/ev.smali:    invoke-virtual {v0}, Landroid/net/ConnectivityManager;->getActiveNetworkInfo()Landroid/net/NetworkInfo;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/js.smali:    invoke-virtual {v1}, Landroid/net/ConnectivityManager;->getActiveNetworkInfo()Landroid/net/NetworkInfo;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/js.smali:    invoke-virtual {v1}, Landroid/net/ConnectivityManager;->getActiveNetworkInfo()Landroid/net/NetworkInfo;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/js.smali:    invoke-virtual {v1}, Landroid/net/ConnectivityManager;->getActiveNetworkInfo()Landroid/net/NetworkInfo;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/millennialmedia/android/dt.smali:    invoke-virtual {v0}, Landroid/net/ConnectivityManager;->getActiveNetworkInfo()Landroid/net/NetworkInfo;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/millennialmedia/android/dt.smali:    invoke-virtual {v0}, Landroid/net/ConnectivityManager;->getActiveNetworkInfo()Landroid/net/NetworkInfo;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/millennialmedia/android/dt.smali:    invoke-virtual {v0}, Landroid/net/ConnectivityManager;->getActiveNetworkInfo()Landroid/net/NetworkInfo;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/millennialmedia/android/dt.smali:    invoke-virtual {v0}, Landroid/net/ConnectivityManager;->getActiveNetworkInfo()Landroid/net/NetworkInfo;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/millennialmedia/android/dt.smali:    invoke-virtual {v0}, Landroid/net/ConnectivityManager;->getActiveNetworkInfo()Landroid/net/NetworkInfo;
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/millennialmedia/android/dt.smali:    invoke-virtual {v0}, Landroid/net/ConnectivityManager;->getActiveNetworkInfo()Landroid/net/NetworkInfo;
+==========================
+==========================
+grep -Ri ConnectivityManager ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i isActiveNetworkMetered
+PERMISSION: Permission:android.permission.ACCESS_NETWORK_STATE
+
+SEARCHED: ConnectivityManager & isActiveNetworkMetered
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/js.smali:    invoke-virtual {v1}, Landroid/net/ConnectivityManager;->isActiveNetworkMetered()Z
+==========================
+==========================
+grep -Ri PowerManager$WakeLock ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i acquire
+PERMISSION: Permission:android.permission.WAKE_LOCK
+
+SEARCHED: PowerManager$WakeLock & acquire
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/light/b.smali:    invoke-virtual {v0}, Landroid/os/PowerManager$WakeLock;->acquire()V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/light/b.smali:    invoke-virtual {v1}, Landroid/os/PowerManager$WakeLock;->acquire()V
+==========================
+==========================
+grep -Ri PowerManager$WakeLock ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i acquire
+PERMISSION: Permission:android.permission.WAKE_LOCK
+
+SEARCHED: PowerManager$WakeLock & acquire
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/light/b.smali:    invoke-virtual {v0}, Landroid/os/PowerManager$WakeLock;->acquire()V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/light/b.smali:    invoke-virtual {v1}, Landroid/os/PowerManager$WakeLock;->acquire()V
+==========================
+==========================
+grep -Ri Svc$Command ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i run
+PERMISSION: Permission:android.permission.WAKE_LOCK
+
+SEARCHED: Svc$Command & run
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/light/b.smali:    invoke-virtual {v0}, Landroid/os/PowerManager$WakeLock;->acquire()V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/light/b.smali:    invoke-virtual {v1}, Landroid/os/PowerManager$WakeLock;->acquire()V
+==========================
+==========================
+grep -Ri MediaPlayer ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i release
+PERMISSION: Permission:android.permission.WAKE_LOCK
+
+SEARCHED: MediaPlayer & release
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/millennialmedia/android/av.smali:    invoke-virtual {v0}, Landroid/media/MediaPlayer;->release()V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/millennialmedia/android/av.smali:    invoke-virtual {v0}, Landroid/media/MediaPlayer;->release()V
+==========================
+==========================
+grep -Ri MediaPlayer ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i start
+PERMISSION: Permission:android.permission.WAKE_LOCK
+
+SEARCHED: MediaPlayer & start
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/millennialmedia/android/av.smali:    invoke-virtual {v0}, Landroid/media/MediaPlayer;->start()V
+==========================
+==========================
+grep -Ri VideoView ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i pause
+PERMISSION: Permission:android.permission.WAKE_LOCK
+
+SEARCHED: VideoView & pause
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/fm.smali:    invoke-virtual {v0}, Landroid/widget/VideoView;->pause()V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/millennialmedia/android/fu.smali:    invoke-virtual {v0}, Landroid/widget/VideoView;->pause()V
+==========================
+==========================
+grep -Ri VideoView ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i stopPlayback
+PERMISSION: Permission:android.permission.WAKE_LOCK
+
+SEARCHED: VideoView & stopPlayback
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/fm.smali:    invoke-virtual {v0}, Landroid/widget/VideoView;->stopPlayback()V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/millennialmedia/android/fu.smali:    invoke-virtual {v0}, Landroid/widget/VideoView;->stopPlayback()V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/millennialmedia/android/fu.smali:    invoke-virtual {v0}, Landroid/widget/VideoView;->stopPlayback()V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/millennialmedia/android/bz.smali:    invoke-super {p0}, Landroid/widget/VideoView;->stopPlayback()V
+==========================
+==========================
+grep -Ri VideoView ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i start
+PERMISSION: Permission:android.permission.WAKE_LOCK
+
+SEARCHED: VideoView & start
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/fm.smali:    invoke-virtual {v0}, Landroid/widget/VideoView;->start()V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/millennialmedia/android/fu.smali:    invoke-virtual {v0}, Landroid/widget/VideoView;->start()V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/millennialmedia/android/bz.smali:    invoke-super {p0}, Landroid/widget/VideoView;->start()V
+==========================
+==========================
+grep -Ri VideoView$2 ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i onPrepared
+PERMISSION: Permission:android.permission.WAKE_LOCK
+
+SEARCHED: VideoView$2 & onPrepared
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/fm.smali:    invoke-virtual {v0, p0}, Landroid/widget/VideoView;->setOnPreparedListener(Landroid/media/MediaPlayer$OnPreparedListener;)V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/millennialmedia/android/fu.smali:    invoke-virtual {v3, p0}, Landroid/widget/VideoView;->setOnPreparedListener(Landroid/media/MediaPlayer$OnPreparedListener;)V
+==========================
+==========================
+grep -Ri VideoView ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i setVideoURI
+PERMISSION: Permission:android.permission.WAKE_LOCK
+
+SEARCHED: VideoView & setVideoURI
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/millennialmedia/android/fu.smali:    invoke-virtual {v1, v0}, Landroid/widget/VideoView;->setVideoURI(Landroid/net/Uri;)V
+==========================
+==========================
+grep -Ri VideoView ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i setVideoPath
+PERMISSION: Permission:android.permission.WAKE_LOCK
+
+SEARCHED: VideoView & setVideoPath
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/google/android/gms/internal/fm.smali:    invoke-virtual {v0, v1}, Landroid/widget/VideoView;->setVideoPath(Ljava/lang/String;)V
+==========================
+==========================
+grep -Ri PowerManager$WakeLock ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i release
+PERMISSION: Permission:android.permission.WAKE_LOCK
+
+SEARCHED: PowerManager$WakeLock & release
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/light/b.smali:    invoke-virtual {v0}, Landroid/os/PowerManager$WakeLock;->release()V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/light/b.smali:    invoke-virtual {v0}, Landroid/os/PowerManager$WakeLock;->release()V
+==========================
+==========================
+grep -Ri PowerManager$WakeLock ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/* | grep -i release
+PERMISSION: Permission:android.permission.WAKE_LOCK
+
+SEARCHED: PowerManager$WakeLock & release
+FOUND: ./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/light/b.smali:    invoke-virtual {v0}, Landroid/os/PowerManager$WakeLock;->release()V
+./com.devuni.flashlight-5.2.4-APK4Fun.com/smali/com/devuni/light/b.smali:    invoke-virtual {v0}, Landroid/os/PowerManager$WakeLock;->release()V
+==========================
